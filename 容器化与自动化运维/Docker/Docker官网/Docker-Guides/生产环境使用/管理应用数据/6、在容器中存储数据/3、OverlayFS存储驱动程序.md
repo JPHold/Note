@@ -21,6 +21,16 @@ xfs文件系统上，设置d_type=true(**通过设置ftype为1**)，才会采用
 6. docker info查看是否修改成功
 只要关注`Storage Driver`和 `Backing filesystem`这两个属性即可
 
+
 # overlay2工作原理
+* 先看下目录结构
+1. l目录是存放每一层的简短标识，对应到每层目录的软连接
+2. 最低层目录有这些子目录/文件：diff/、link
+diff是当前层的内容；
+link是文本，存放着l目录里的简短表标识
+3. 每个上层，除了diff、link，还有这些子目录/文件：lower/、merged/、work/
+lower是父层的内容
+merged是合并lower和diff后的内容
+work是内部使用的目录
 
 # overlay工作原理
