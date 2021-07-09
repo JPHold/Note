@@ -85,7 +85,7 @@ PID=1的进程，责任在docker stop型信号后，可以转发关闭信号给�
 ## 垃圾回收
 涉及两个东西
 1. manifest
-2. 层应用
+2. 层引用
 
 manifest应该是描述镜像的具体信息，包括层信息和层的存储目录位置
 
@@ -94,9 +94,64 @@ manifest应该是描述镜像的具体信息，包括层信息和层的存储目
 2. 删掉了manifest，如果没有其他manifest引用该层，则该层也会被删除
 
 
-垃圾回收流程(跟jvm回收相似)
-    1.标记
-扫描注册表中的manifest清单，标记依然还在使用的层地址。将这些地址存放在集合中
-    2.扫描和删除
-扫描所有blob集，不在上面的集合在则删除
-要注意执行回收时，要保证注册表只读或不可用，避免这时上传一个新的镜像，导致该镜像损坏，基于这个特性，取名为stop-the-world
+### 垃圾回收流程(跟jvm回收相似)
+1. 标记 ^83163d
+扫描注册表中的manifest清单，标记依然还在使用的层地址。将这些地址存放在集合中 
+2. 扫描和删除
+扫描所有blob集，不在[[#^83163d]]第一步标记的集合，则删除
+**要注意执行回收时，要保证注册表只读或不可用，避免这时上传一个新的镜像，导致该镜像损坏，基于这个特性，这样的回收取名为stop-the-world**
+
+# 安全
+## 使用自定义网络，将不同组的应用隔离开
+同组应用使用同个网络，将访问权限局限在一小块，非开放
+```
+$ docker network create --driver bridge isolated_nw
+$ docker run --network=isolated_nw --name=container busybox
+```
+
+## 不要轻易信任未知的镜像
+1. 对于官方没有接入docker镜像的，自己下载官方的二进制包，然后创建新镜像并放入其中
+2. 如果没有提供二进制包，最好自己编译。而不是从别人那下载
+[alexellis/docker-arm](https://github.com/alexellis/docker-arm)
+ [5 things about Docker on Raspberry Pi](http://blog.alexellis.io/5-things-docker-rpi/)
+ 
+## 禁止访问文件系统
+两种方式
+1. 全都只读--read-only
+```
+$ docker run --read-only ...
+```
+2. 限定某些volume只读
+```
+$ docker run -v /my/data:/data:ro ...
+```
+
+## 限制资源
+**这个非常重要，因为没有限制的话，所有容器共用主机的资源，假如某个容器把线程耗尽，cpu飙满，那么其他容器直接歇菜了**
+
+内存：-m、-memory-swap等
+cpu：-cpu等
+具体docker run --help查看参数清单
+
+## 漏洞扫描
+这是收费功能，docker scan
+ [Docker Security Scanning](https://docs.docker.com/docker-cloud/builds/image-scan/)
+ [Clair](https://github.com/coreos/clair).
+ 
+## 避免root用户
+无需很多权限，就不要使用root用户，正确做法：
+在Dockerfile中创建普通用户，并指定用户环境：USER xxxuser
+```
+RUN groupadd -r myapp && useradd -r -g myapp myapp
+USER myapp
+```
+    
+## 移除没用的功能命令(capabilities)
+将一些比较危险的功能禁掉，保证容器被干掉啥的，比如kill。下面列出一些功能
+`chown`, `dac_override`, `fowner`, `fsetid`, `kill`, `setgid`, `setuid`, `setpcap`, `net_bind_service`, `net_raw`, `sys_chroot`, `mknod`, `audit_write`, `setfcap`
+[Secure Your Containers (rhelblog)](http://rhelblog.redhat.com/2016/10/17/secure-your-containers-with-this-one-weird-trick/).
+
+## 凭证和密码
+很多时候，我们的做法是，将凭证和密码放在环境变量，这就有问题：
+1. 镜像存在这些信息，通过docker image inspect xxxImage可查看到
+2. 尽管最终的镜像会移除掉z'p
