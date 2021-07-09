@@ -154,4 +154,5 @@ USER myapp
 ## 凭证和密码
 很多时候，我们的做法是，将凭证和密码放在环境变量，这就有问题：
 1. 镜像存在这些信息，通过docker image inspect xxxImage可查看到
-2. 尽管最终的镜像会移除掉z'p
+2. 尽管最终的镜像会移除掉中间层，但依然可以从构建缓存中查看到
+[container best practices](http://docs.projectatomic.io/container-best-practices/#_passing_credentials_and_secrets).
