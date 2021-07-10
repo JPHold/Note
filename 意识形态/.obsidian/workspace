@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0f47dfc4f49ed2aa",
+        "id": "40742512700c1701",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "该如何标准开发应用/13、管理进程.md",
+            "file": "该如何标准开发应用/2、基准代码.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "该如何标准开发应用/13、管理进程.md",
+                "file": "该如何标准开发应用/2、基准代码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "该如何标准开发应用/13、管理进程.md"
+                "file": "该如何标准开发应用/2、基准代码.md"
               }
             }
           }
@@ -104,10 +104,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0f47dfc4f49ed2aa",
+  "active": "40742512700c1701",
   "lastOpenFiles": [
-    "该如何标准开发应用/未命名.md",
+    "该如何标准开发应用/2、基准代码.md",
     "该如何标准开发应用/1、总则.md",
+    "该如何标准开发应用/未命名.md",
     "软件工程/未命名.md"
   ]
 }
