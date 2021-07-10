@@ -7,8 +7,11 @@
         "id": "0f47dfc4f49ed2aa",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "该如何标准开发应用/13、管理进程.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "该如何标准开发应用/13、管理进程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +92,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "该如何标准开发应用/13、管理进程.md"
+              }
             }
           }
         ]
@@ -99,5 +105,9 @@
     "collapsed": true
   },
   "active": "0f47dfc4f49ed2aa",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "该如何标准开发应用/未命名.md",
+    "该如何标准开发应用/1、总则.md",
+    "软件工程/未命名.md"
+  ]
 }
