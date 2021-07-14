@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/最佳实践/Docker最佳实践.md",
-            "mode": "preview"
+            "file": "Docker/最佳实践/容器最佳实践.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/最佳实践/Docker最佳实践.md",
+                "file": "Docker/最佳实践/容器最佳实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/最佳实践/Docker最佳实践.md"
+                "file": "Docker/最佳实践/容器最佳实践.md"
               }
             }
           }
@@ -106,8 +106,8 @@
   },
   "active": "9f16397b8359b3a1",
   "lastOpenFiles": [
-    "Docker/最佳实践/Docker最佳实践.md",
     "Docker/最佳实践/未命名.md",
+    "Docker/最佳实践/Docker最佳实践.md",
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/3、OverlayFS存储驱动程序.md",
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/2、选择驱动程序.md",
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/1、关于存储驱动程序.md",
