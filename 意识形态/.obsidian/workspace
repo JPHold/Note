@@ -52,7 +52,7 @@
             "id": "65770f8ee2940b98",
             "type": "leaf",
             "state": {
-              "type": "starred",
+              "type": "empty",
               "state": {}
             }
           }
@@ -91,10 +91,8 @@
             "id": "ec3da2d76fc5b34f",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "该如何标准开发应用/12、日志.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
