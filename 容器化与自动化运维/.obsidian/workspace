@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9f16397b8359b3a1",
+        "id": "6e856fb08f0abbb2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Docker/最佳实践/容器最佳实践.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -52,7 +49,7 @@
             "id": "7f602666783b45e2",
             "type": "leaf",
             "state": {
-              "type": "starred",
+              "type": "empty",
               "state": {}
             }
           }
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/最佳实践/容器最佳实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,10 +87,8 @@
             "id": "d7379534a7e0913e",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Docker/最佳实践/容器最佳实践.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -104,8 +98,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9f16397b8359b3a1",
+  "active": "6e856fb08f0abbb2",
   "lastOpenFiles": [
+    "Docker/最佳实践/容器最佳实践.md",
     "Docker/最佳实践/未命名.md",
     "Docker/最佳实践/Docker最佳实践.md",
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/3、OverlayFS存储驱动程序.md",
@@ -114,7 +109,6 @@
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/图片/未命名.md",
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/在容器中存储数据/Untitled.md",
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/在容器中存储数据/1、关于存储驱动程序.md",
-    "Pasted image 20210627220601.png",
-    "Pasted image 20210627220559.png"
+    "Pasted image 20210627220601.png"
   ]
 }
