@@ -55,6 +55,14 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "5563b364f2d90f1b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
@@ -93,6 +101,16 @@
             "state": {
               "type": "empty",
               "state": {}
+            }
+          },
+          {
+            "id": "4fcd9f3d63d16198",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "该如何标准开发应用/12、日志.md"
+              }
             }
           }
         ]
