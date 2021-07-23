@@ -12,7 +12,7 @@
     "format": "yyyy-MM(ww)",
     "template": "",
     "folder": "/待学习-周",
-    "enabled": false
+    "enabled": true
   },
   "monthly": {
     "format": "yyyy-MM",
