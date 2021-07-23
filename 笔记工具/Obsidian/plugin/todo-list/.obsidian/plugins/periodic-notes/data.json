@@ -1,0 +1,23 @@
+{
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "",
+    "template": "",
+    "folder": "",
+    "enabled": false
+  },
+  "weekly": {
+    "format": "yyyy-MM(ww)",
+    "template": "",
+    "folder": "/待学习-周",
+    "enabled": false
+  },
+  "monthly": {
+    "format": "yyyy-MM",
+    "template": "",
+    "folder": "待学习-月",
+    "enabled": true
+  }
+}

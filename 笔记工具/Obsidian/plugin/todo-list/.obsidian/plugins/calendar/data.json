@@ -1,8 +1,8 @@
 {
-  "shouldConfirmBeforeCreate": false,
+  "shouldConfirmBeforeCreate": true,
   "localeOverride": "system-default",
   "weekStart": "locale",
-  "showWeeklyNote": false,
+  "showWeeklyNote": true,
   "sourceSettings": {
     "wordCount": {
       "color": "#ebcb8b",
