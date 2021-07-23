@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "13e5287df4bb47d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "a64edf9e5ce3c93e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "解决方案.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b04370bf6ec238d",
+    "type": "split",
+    "children": [
+      {
+        "id": "748c13a197250d77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8c77fceb3c8463a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b0d67816ae9882c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line:([[2021-07-22)",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "115044364812e164",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1293a9db796d211",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "692723e97dcd8c85",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "解决方案.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "8dbed2621a9ff092",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "a64edf9e5ce3c93e",
+  "lastOpenFiles": [
+    "解决方案.md",
+    "某篇技术文档.md",
+    "待学习/2021-07-22.md",
+    "待学习.md",
+    "待学习/2021-07-23.md",
+    "待学习/2021-07-16.md",
+    "待学习/2021-07-17.md",
+    "待学习/2021-07-18.md",
+    "待学习/2021-07-19.md",
+    "待学习/2021-07-20.md"
+  ]
+}
