@@ -10,16 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "Docker/最佳实践/【附属】容器最佳实践.md",
-            "mode": "preview"
+            "mode": "source"
           }
-        }
-      },
-      {
-        "id": "0689f8d575b238bb",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
