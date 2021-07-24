@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "1bb94991e3cf2bc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a4e971d5eee25d8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Obsidian/plugin/todo-list/解决方案.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "94726017c7a11ec9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a2e344dd0ccf141",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "909ad36291e20d74",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "800df2222269df4d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0e8c8347b0012f95",
+    "type": "split",
+    "children": [
+      {
+        "id": "d236971ad06f3616",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50e0f3e11658ce7c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Obsidian/plugin/todo-list/解决方案.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9a4e971d5eee25d8",
+  "lastOpenFiles": [
+    "Obsidian/plugin/todo-list/解决方案.md"
+  ]
+}
