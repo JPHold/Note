@@ -96,17 +96,26 @@
                 "file": "Docker/最佳实践/【附属】容器最佳实践.md"
               }
             }
+          },
+          {
+            "id": "a7efba994e1f7d60",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "8efbdd978d22ae7a",
   "lastOpenFiles": [
     "Docker/最佳实践/【附属】容器最佳实践.md",
+    "待学习/周/2021-07(29).md",
     "Docker/最佳实践/Docker最佳实践.md",
     "conflict-files-obsidian-git.md",
     "Docker/最佳实践/容器最佳实践.md",
@@ -114,7 +123,6 @@
     "Docker/最佳实践/未命名.md",
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/3、OverlayFS存储驱动程序.md",
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/2、选择驱动程序.md",
-    "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/1、关于存储驱动程序.md",
-    "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/图片/未命名.md"
+    "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/1、关于存储驱动程序.md"
   ]
 }
