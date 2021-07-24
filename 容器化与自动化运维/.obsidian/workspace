@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270,
-    "collapsed": true
+    "width": 270
   },
   "right": {
     "id": "0861b8cb3ef26819",
@@ -106,8 +105,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -116,9 +114,9 @@
   "active": "8efbdd978d22ae7a",
   "lastOpenFiles": [
     "Docker/最佳实践/【附属】容器最佳实践.md",
-    "未命名.md",
     "待学习/周/2021-07(29).md",
     "Docker/最佳实践/Docker最佳实践.md",
+    "未命名.md",
     "conflict-files-obsidian-git.md",
     "Docker/最佳实践/容器最佳实践.md",
     "Docker/最佳实践/未命名.md",
