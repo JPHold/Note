@@ -6,6 +6,7 @@
       {
         "id": "8efbdd978d22ae7a",
         "type": "leaf",
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -52,7 +53,7 @@
             "id": "7f602666783b45e2",
             "type": "leaf",
             "state": {
-              "type": "starred",
+              "type": "empty",
               "state": {}
             }
           }
@@ -80,8 +81,6 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -91,10 +90,8 @@
             "id": "d7379534a7e0913e",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Docker/最佳实践/【附属】容器最佳实践.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -102,6 +99,14 @@
             "type": "leaf",
             "state": {
               "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "38b4037fcb8f0f86",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -112,7 +117,6 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "8efbdd978d22ae7a",
   "lastOpenFiles": [
     "Docker/最佳实践/【附属】容器最佳实践.md",
     "Docker/最佳实践/Docker最佳实践.md",

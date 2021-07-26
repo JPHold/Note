@@ -1,12 +1,1 @@
-{
-  "commitMessage": "obsidian-git自动提交: {{date}}，{{numFiles}}",
-  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 30,
-  "autoPullInterval": 60,
-  "autoPullOnBoot": true,
-  "disablePush": false,
-  "pullBeforePush": true,
-  "disablePopups": false,
-  "listChangedFilesInMessageBody": false,
-  "showStatusBar": true
-}
+{"commitMessage":"obsidian-git自动提交: {{date}}，{{numFiles}}","commitDateFormat":"YYYY-MM-DD HH:mm:ss","autoSaveInterval":30,"autoPullInterval":60,"autoPullOnBoot":true,"disablePush":false,"pullBeforePush":true,"disablePopups":false,"listChangedFilesInMessageBody":false,"showStatusBar":true}
