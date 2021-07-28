@@ -104,6 +104,14 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "4567f7cf11a1bc38",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
