@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8efbdd978d22ae7a",
+        "id": "578399615fca8520",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/最佳实践/【附属】容器最佳实践.md",
+            "file": "Docker/最佳实践/4.8、Dockerfile校验.md",
             "mode": "source"
           }
         }
@@ -40,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:20210727164008",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,6 +53,14 @@
             "type": "leaf",
             "state": {
               "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "65cfc78ecb98b120",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
               "state": {}
             }
           }
@@ -77,10 +84,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/最佳实践/【附属】容器最佳实践.md",
+                "file": "Docker/最佳实践/4.8、Dockerfile校验.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,8 +115,18 @@
             "id": "ed8d02621fcca92b",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "empty",
               "state": {}
+            }
+          },
+          {
+            "id": "c9472881ab12c80a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Docker/最佳实践/4.8、Dockerfile校验.md"
+              }
             }
           }
         ],
@@ -118,16 +137,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "578399615fca8520",
   "lastOpenFiles": [
+    "Docker/最佳实践/4.8、Dockerfile校验.md",
+    "Docker/最佳实践/Untitled.md",
+    "Docker/最佳实践/4.5、启动应用程序.md",
+    "Docker/最佳实践/4.4、label.md",
     "Docker/最佳实践/【附属】容器最佳实践.md",
+    "Docker/最佳实践/4、创建镜像.md",
+    "Docker/附件/Pasted image 20210727164008.png",
+    "Docker/最佳实践/5、创建系统镜像.md",
     "Docker/最佳实践/Docker最佳实践.md",
-    "conflict-files-obsidian-git.md",
-    "待学习/周/2021-07(29).md",
-    "未命名.md",
-    "Docker/最佳实践/容器最佳实践.md",
-    "Docker/最佳实践/未命名.md",
-    "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/3、OverlayFS存储驱动程序.md",
-    "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/2、选择驱动程序.md",
-    "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/1、关于存储驱动程序.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
