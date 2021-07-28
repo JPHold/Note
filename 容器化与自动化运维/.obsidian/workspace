@@ -7,10 +7,9 @@
         "id": "578399615fca8520",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Docker/最佳实践/4.8、Dockerfile校验.md",
-            "mode": "source"
+            "file": "Docker/附件/Pasted image 20210728144646.png"
           }
         }
       }
@@ -84,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/最佳实践/4.8、Dockerfile校验.md",
+                "file": "Docker/附件/Pasted image 20210728144646.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/最佳实践/4.8、Dockerfile校验.md"
+                "file": "Docker/附件/Pasted image 20210728144646.png"
               }
             }
           },
@@ -147,6 +146,7 @@
   },
   "active": "578399615fca8520",
   "lastOpenFiles": [
+    "Pasted image 20210728144646.png",
     "Docker/最佳实践/4.8、Dockerfile校验.md",
     "Docker/最佳实践/Untitled.md",
     "Docker/最佳实践/4.5、启动应用程序.md",
@@ -155,7 +155,6 @@
     "Docker/最佳实践/4、创建镜像.md",
     "Docker/附件/Pasted image 20210727164008.png",
     "Docker/最佳实践/5、创建系统镜像.md",
-    "Docker/最佳实践/Docker最佳实践.md",
-    "conflict-files-obsidian-git.md"
+    "Docker/最佳实践/Docker最佳实践.md"
   ]
 }
