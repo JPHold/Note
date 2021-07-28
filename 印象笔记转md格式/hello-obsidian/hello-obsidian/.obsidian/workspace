@@ -1,0 +1,89 @@
+{
+  "main": {
+    "id": "8e716459e6c878dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d73d7be33382cb4",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ce589a74b5755e6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc641119e8576e07",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4ec2f6dffcafc6b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a791a75fee2e3f80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4cf33f7059531e03",
+    "type": "split",
+    "children": [
+      {
+        "id": "87b3c698fd198a11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1a1584d59fd1ea7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "test-1/x、正则避雷指南 - 副本.md",
+    "test-1/x、正则避雷指南.md",
+    "test-1/Pasted image 20210402180646.png",
+    "test-1/x、正则避雷指南 1.md"
+  ]
+}
