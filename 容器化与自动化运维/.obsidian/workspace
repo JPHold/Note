@@ -6,11 +6,10 @@
       {
         "id": "25bdcb0a21383c12",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/最佳实践/4.4、label.md",
+            "file": "Docker/最佳实践/【附属】容器最佳实践.md",
             "mode": "source"
           }
         }
@@ -56,6 +55,14 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "e8161c92bf202eca",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
@@ -77,10 +84,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/最佳实践/4.4、label.md",
+                "file": "Docker/最佳实践/【附属】容器最佳实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/最佳实践/4.4、label.md"
+                "file": "Docker/最佳实践/【附属】容器最佳实践.md"
               }
             }
           }
@@ -128,12 +137,13 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "25bdcb0a21383c12",
   "lastOpenFiles": [
+    "Docker/最佳实践/【附属】容器最佳实践.md",
     "Docker/最佳实践/4.4、label.md",
     "Docker/附件/Pasted image 20210729172111.png",
     "Docker/附件/Pasted image 20210729174443.png",
     "Docker/最佳实践/4、创建镜像.md",
-    "Docker/最佳实践/【附属】容器最佳实践.md",
     "未命名.md",
     "Docker/最佳实践/Docker最佳实践.md",
     "conflict-files-obsidian-git.md",
