@@ -9,18 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/最佳实践/【附属】容器最佳实践.md",
+            "file": "Docker/最佳实践/4.4、label.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "5d3fb94e27d1a410",
+        "id": "bdaa11faaf4069af",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/最佳实践/【附属】容器最佳实践.md",
+            "file": "Docker/最佳实践/4.4、label.md",
             "mode": "preview"
           }
         }
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:20210731181939",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/最佳实践/【附属】容器最佳实践.md",
+                "file": "Docker/最佳实践/4.4、label.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/最佳实践/【附属】容器最佳实践.md"
+                "file": "Docker/最佳实践/4.4、label.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "25bdcb0a21383c12",
   "lastOpenFiles": [
-    "Docker/最佳实践/【附属】容器最佳实践.md",
     "Docker/最佳实践/4.4、label.md",
+    "Docker/最佳实践/【附属】容器最佳实践.md",
     "Docker/附件/Pasted image 20210729172111.png",
     "Docker/附件/Pasted image 20210729174443.png",
     "Docker/最佳实践/4、创建镜像.md",
