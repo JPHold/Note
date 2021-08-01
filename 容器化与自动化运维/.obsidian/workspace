@@ -64,8 +64,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -97,22 +96,6 @@
             }
           },
           {
-            "id": "d7379534a7e0913e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a7efba994e1f7d60",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "4567f7cf11a1bc38",
             "type": "leaf",
             "state": {
@@ -131,16 +114,16 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "25bdcb0a21383c12",
   "lastOpenFiles": [
     "Docker/最佳实践/4.4、label.md",
+    "待学习/周/2021-07(30).md",
     "Docker/最佳实践/4、创建镜像.md",
     "Docker/最佳实践/【附属】容器最佳实践.md",
     "Docker/附件/Pasted image 20210729172111.png",
@@ -148,7 +131,6 @@
     "未命名.md",
     "Docker/最佳实践/Docker最佳实践.md",
     "conflict-files-obsidian-git.md",
-    "待学习/周/2021-07(29).md",
-    "Docker/最佳实践/容器最佳实践.md"
+    "待学习/周/2021-07(29).md"
   ]
 }
