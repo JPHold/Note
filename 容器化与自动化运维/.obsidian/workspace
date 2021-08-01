@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:20210731181939",
+                "query": "file:20210801122213",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
