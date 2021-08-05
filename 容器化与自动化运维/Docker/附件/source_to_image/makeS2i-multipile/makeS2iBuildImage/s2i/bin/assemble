@@ -1,0 +1,49 @@
+#!/bin/bash -e
+#
+# S2I assemble script for the 'hello-make-s2i' image.
+# The 'assemble' script builds your application source so that it is ready to run.
+#
+# For more information refer to the documentation:
+#	https://github.com/openshift/source-to-image/blob/master/docs/builder_image.md
+#
+
+# If the 'hello-make-s2i' assemble script is executed with the '-h' flag, print the usage.
+if [[ "$1" == "-h" ]]; then
+	exec /usr/libexec/s2i/usage
+fi
+
+# Restore artifacts from the previous build (if they exist).
+#
+if [ "$(ls /tmp/artifacts/ 2>/dev/null)" ]; then
+  echo "---> Restoring build artifacts..."
+  shopt -s dotglob
+  mv /tmp/artifacts/* ./
+  shopt -u dotglob
+fi
+
+# TODO: Add build steps for your application, eg npm install, bundle install, pip install, etc.
+
+# maven打包
+cd /tmp/src/
+echo "---> Building application from source..."
+MAVEN_BUILD_CMD=${MAVEN_BUILD_CMD:-"install"}
+echo "--> # MAVEN_BUILD_CMD = $MAVEN_ARGS"
+if [ -f "mvnw" ]; then
+  echo "---> Building application with maven wrapper..."
+  ./mvnw $MAVEN_BUILD_CMD
+else
+  echo "---> Building application with installed maven..."
+  mvn $MAVEN_BUILD_CMD -DskipTest
+fi
+
+# 在target目录找到打好的jar包，并改名为app.jar
+ARTIFACT_DIR=${ARTIFACT_DIR:-target}
+echo "--> # ARTIFACT_DIR = $ARTIFACT_DIR"
+echo "---> Rename artifact $(find $ARTIFACT_DIR -name *.jar)"
+result_file=$(find $ARTIFACT_DIR -name *.jar)
+if [ -z "$result_file" ]; then
+  echo "---> Build file could not be found"
+  exit 1
+fi
+mv $result_file app.jar
+
