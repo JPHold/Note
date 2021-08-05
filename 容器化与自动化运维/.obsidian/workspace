@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/最佳实践/4.5、启动应用程序.md",
+            "file": "重点/Docker重点.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/最佳实践/4.5、启动应用程序.md",
+                "file": "重点/Docker重点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,12 +109,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/最佳实践/4.5、启动应用程序.md"
+                "file": "重点/Docker重点.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -122,6 +121,7 @@
   },
   "active": "25bdcb0a21383c12",
   "lastOpenFiles": [
+    "重点/Docker重点.md",
     "Docker/最佳实践/4.5、启动应用程序.md",
     "Docker/附件/Pasted image 20210703164633.png",
     "Docker/最佳实践/4.4、label.md",
@@ -130,7 +130,6 @@
     "Docker/附件/source_to_image/makeS2i-multipile/未命名.md",
     "Docker/附件/Pasted image 20210805111727.png",
     "Docker/附件/Pasted image 20210805111139.png",
-    "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
-    "Docker/附件/Pasted image 20210804220454.png"
+    "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md"
   ]
 }
