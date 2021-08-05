@@ -64,8 +64,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -124,6 +123,7 @@
   "active": "25bdcb0a21383c12",
   "lastOpenFiles": [
     "Docker/最佳实践/4.5、启动应用程序.md",
+    "Docker/最佳实践/4.4、label.md",
     "Docker/附件/Pasted image 20210805111727.png",
     "Docker/附件/Pasted image 20210805111139.png",
     "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
@@ -131,7 +131,6 @@
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/3、OverlayFS存储驱动程序.md",
     "1、Java环境轻量级镜像.md",
     "Docker/最佳实践/4、创建镜像.md",
-    "未命名.md",
-    "工具/未命名.md"
+    "未命名.md"
   ]
 }
