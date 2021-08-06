@@ -64,8 +64,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -124,14 +123,14 @@
   "active": "25bdcb0a21383c12",
   "lastOpenFiles": [
     "Docker/最佳实践/4.5、启动应用程序.md",
+    "Docker/附件/source_to_image/s2iTheory/README.md",
+    "Docker/附件/source_to_image/makeS2i/README.md",
     "Docker/附件/Pasted image 20210806224933.png",
     "Docker/附件/Pasted image 20210806222253.png",
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/3、OverlayFS存储驱动程序.md",
     "重点/Docker重点.md",
     "Docker/附件/Pasted image 20210703164633.png",
     "Docker/最佳实践/4.4、label.md",
-    "Docker/附件/source_to_image/makeS2i/README.md",
-    "Docker/附件/source_to_image/makeS2i-multipile/README.md",
-    "Docker/附件/source_to_image/makeS2i-multipile/未命名.md"
+    "Docker/附件/source_to_image/makeS2i-multipile/README.md"
   ]
 }
