@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2021-07",
+                "query": "dangling=true",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
