@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dangling=true",
+                "query": "1.10",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,6 +124,7 @@
   "active": "25bdcb0a21383c12",
   "lastOpenFiles": [
     "Docker/最佳实践/4.5、启动应用程序.md",
+    "Docker/最佳实践/【附属】容器最佳实践.md",
     "Docker/最佳实践/4.4、label.md",
     "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
     "1、Java环境轻量级镜像.md",
@@ -131,7 +132,6 @@
     "待学习/周/2021-07(29).md",
     "待学习/周/2021-07(30).md",
     "待学习/周/2021-08(31).md",
-    "Docker/最佳实践/【附属】容器最佳实践.md",
     "待学习/周/2021-07(28).md"
   ]
 }
