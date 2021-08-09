@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "25bdcb0a21383c12",
+        "id": "ae6652915c76e658",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/最佳实践/4.5、启动应用程序.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "213290baf6b47612",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
+            "file": "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
             "mode": "source"
           }
         }
@@ -95,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md"
               }
             }
           }
@@ -131,17 +120,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "213290baf6b47612",
+  "active": "ae6652915c76e658",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Docker/最佳实践/4.5、启动应用程序.md",
+    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
+    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
+    "Docker/最佳实践/【附属】container-best-practices/4.6、创建帮助文档.md",
+    "Docker/最佳实践/【附属】container-best-practices/4.5、启动应用程序.md",
+    "Docker/最佳实践/【附属】container-best-practices/4.4、label.md",
     "Docker/最佳实践/【附属】容器最佳实践.md",
-    "Docker/最佳实践/4.4、label.md",
-    "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
-    "1、Java环境轻量级镜像.md",
     "Docker/最佳实践/4、创建镜像.md",
-    "待学习/周/2021-07(29).md",
-    "待学习/周/2021-07(30).md",
-    "待学习/周/2021-08(31).md"
+    "Docker/最佳实践/4.5、启动应用程序.md",
+    "Docker/最佳实践/4.7、Dockerfile模板.md",
+    "Docker/最佳实践/4.6、创建帮助文档.md"
   ]
 }
