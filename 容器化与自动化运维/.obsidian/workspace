@@ -7,11 +7,8 @@
         "id": "b72fd6bdfbcc3102",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -84,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,9 +104,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -122,6 +116,7 @@
   },
   "active": "b72fd6bdfbcc3102",
   "lastOpenFiles": [
+    "Docker/制作轻量级镜像/java/Docker.md",
     "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
     "Docker/最佳实践/【附属】container-best-practices/未命名.md",
     "Docker/最佳实践/【附属】container-best-practices/6、测试.md",
@@ -130,7 +125,6 @@
     "Docker/最佳实践/【附属】container-best-practices/4.4、label.md",
     "Docker/最佳实践/【附属】container-best-practices/5、构建镜像.md",
     "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
-    "Docker/最佳实践/【附属】container-best-practices/4.8、Dockerfile校验.md",
-    "Docker/最佳实践/【附属】container-best-practices/4.7、Dockerfile模板.md"
+    "Docker/最佳实践/【附属】container-best-practices/4.8、Dockerfile校验.md"
   ]
 }
