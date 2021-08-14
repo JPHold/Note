@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/3、Docker-Compose/4、Compose编写.md",
+            "file": "Docker/Docker官网/2、Docker-Engine/4、安装后可选后续步骤.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/3、Docker-Compose/4、Compose编写.md",
+                "file": "Docker/Docker官网/2、Docker-Engine/4、安装后可选后续步骤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/3、Docker-Compose/4、Compose编写.md"
+                "file": "Docker/Docker官网/2、Docker-Engine/4、安装后可选后续步骤.md"
               }
             }
           }
@@ -122,6 +122,7 @@
   },
   "active": "b72fd6bdfbcc3102",
   "lastOpenFiles": [
+    "Docker/Docker官网/2、Docker-Engine/未命名.md",
     "Docker/Docker官网/Docker-Engine/未命名.md",
     "Docker/Docker官网/Docker-Engine/3、.md",
     "Docker/Docker官网/Docker-Engine/2、安装.md",
@@ -130,7 +131,6 @@
     "待学习/周/2021-08(31).md",
     "待学习/周/2021-07(30).md",
     "待学习/周/2021-08(32).md",
-    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
-    "Docker/制作轻量级镜像/java/Docker.md"
+    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md"
   ]
 }
