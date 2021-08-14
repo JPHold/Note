@@ -122,6 +122,8 @@
   },
   "active": "b72fd6bdfbcc3102",
   "lastOpenFiles": [
+    "Docker/Docker官网/Docker-Engine/1、概述.md",
+    "Docker/Docker官网/Docker-Engine/2、安装.md",
     "Docker/Docker官网/Docker-Engine/未命名.md",
     "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
     "Docker/制作轻量级镜像/java/Docker.md",
@@ -129,8 +131,6 @@
     "Docker/最佳实践/【附属】container-best-practices/6、测试.md",
     "Docker/最佳实践/【附属】container-best-practices/5、镜像的构建环境.md",
     "conflict-files-obsidian-git.md",
-    "Docker/最佳实践/【附属】container-best-practices/4.4、label.md",
-    "Docker/最佳实践/【附属】container-best-practices/5、构建镜像.md",
-    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md"
+    "Docker/最佳实践/【附属】container-best-practices/4.4、label.md"
   ]
 }
