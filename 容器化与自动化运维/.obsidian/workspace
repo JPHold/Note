@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/Docker-Engine/2、安装.md",
+            "file": "Docker/Docker官网/Docker-Engine/未命名.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/Docker-Engine/2、安装.md",
+                "file": "Docker/Docker官网/Docker-Engine/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/Docker-Engine/2、安装.md"
+                "file": "Docker/Docker官网/Docker-Engine/未命名.md"
               }
             }
           }
@@ -122,15 +122,15 @@
   },
   "active": "b72fd6bdfbcc3102",
   "lastOpenFiles": [
+    "Docker/Docker官网/Docker-Engine/未命名.md",
+    "Docker/Docker官网/Docker-Engine/3、.md",
     "Docker/Docker官网/Docker-Engine/2、安装.md",
     "Docker/Docker官网/Docker-Engine/1、概述.md",
-    "Docker/Docker官网/Docker-Engine/未命名.md",
+    "待学习/周/2021-07(29).md",
+    "待学习/周/2021-08(31).md",
+    "待学习/周/2021-07(30).md",
+    "待学习/周/2021-08(32).md",
     "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
-    "Docker/制作轻量级镜像/java/Docker.md",
-    "Docker/最佳实践/【附属】container-best-practices/未命名.md",
-    "Docker/最佳实践/【附属】container-best-practices/6、测试.md",
-    "Docker/最佳实践/【附属】container-best-practices/5、镜像的构建环境.md",
-    "conflict-files-obsidian-git.md",
-    "Docker/最佳实践/【附属】container-best-practices/4.4、label.md"
+    "Docker/制作轻量级镜像/java/Docker.md"
   ]
 }
