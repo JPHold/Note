@@ -3,7 +3,7 @@
 [Docker buildx](https://docs.docker.com/buildx/working-with-buildx/)
 
 参考这个文章[如何构建多架构 Docker 镜像？(部分概念和例子讲解)](https://www.infoq.cn/article/V9Qj0fJj6HsGYQ0LpHxg)
-[[Docker特性]]
+（替换build命令）[[Docker特性]]
 
 # 文档
 
@@ -45,6 +45,7 @@
    Docker container内自动启动BuildKit
    
 不同驱动的用户体验是非常相似的，然而有些特性，docker驱动是无法支持的：**因为绑定在docker daemon的BuildKit库使用了不同的存储组件**。**通过docker驱动程序构建的所有镜像都自动添加到docker image中；其它驱动程序需要指定镜像的输出位置：--output**
+（没有讲明白）[[2021-08(32)]]
 
 ## 构建器实例的运行
 如果支持docker驱动，Buildx默认使用docker驱动。注意的是：**必须使用本地共享守护进程来构建应用程序**。
@@ -57,7 +58,7 @@ Buildx允许创建独立构建器的新实例，通过CLI build命令集，**可
 
 在创建实例后，可使用inspect,、stop 、rm进行管理。使用ls列举出构建器实例的清单。**在创建实例后，也可以绑定新节点在这个实例上**
 
-通过docker buildx use <name>切换构建器实例，切换后，build命令就自动使用这个实例
+通过`docker buildx use <name>`切换构建器实例，切换后，build命令就自动使用这个实例
 
 **Docker19.03有个新特性：docker context命令，为远程API endpoints提供名称**，**Buildx结合docker context，保证所有context都能自动获得默认构建器实例**。也可以在创建新构建器实例或添加节点到这个构建器实例时，设置context名称
 
@@ -107,23 +108,22 @@ docker buildx install将docker build设置为docker buildx的别名(也就是设
 # 疑惑点攻破
 
 ## 两种驱动
-1. docker和docker-container应用场景
+### docker和docker-container应用场景
 
-* docker-container
+#### docker-container
 翻阅buildx命令的官方文档
 指定--output，将镜像保存到本地
 `docker buildx build --platform linux/arm,linux/arm64,linux/amd64 -t orangebudd/hello-buildx-container-driver -o "type=local,dest=/home/docker/buildx/build-images/hello" . `
-![de3a7a27a2fd2b8ed1ffeff657036ab9.png](en-resource://database/1279:1)
-![602d440a30416c7ff94d54fc4d8eded4.png](en-resource://database/1280:1)
-![cc7f4794199a7fcb2b03e238f29eadb0.png](en-resource://database/1281:1)
-
+![[Pasted image 20210815190714.png]]
+![[Pasted image 20210815190718.png]]
+![[Pasted image 20210815190722.png]]
 
 [「Docker Buildx」- 构建“跨平台”镜像（学习笔记）](https://k4nz.com/Kubernetes_and_Docker/01.Docker_-_OS-level_virtualization/Docker_Image/0.Building_Docker_Images/buildx.html)
 **试了这个命令，通过docker images都没找到**
 docker buildx build --progress plain --output "type=image,push=false" --file "/home/docker/buildx/hello/Dockerfile" --tag orangebudd/hello-buildx-container-driver-image --platform linux/arm64,linux/amd64 /home/docker/buildx/hello
 
-2. 怎么查询构建器实例用哪个驱动
-3. docker-container没有指定--output，但也可以构建，究竟存在哪里
+### 怎么查询构建器实例用哪个驱动
+### docker-container没有指定--output，但也可以构建，究竟存在哪里
 
 ## 创建作用域构建器实例
 是context吗
@@ -172,7 +172,7 @@ docker驱动就不行吗
 
 * 构建多体系架构的镜像并推送到hub
 `docker buildx build --platform linux/arm,linux/arm64,linux/amd64 -t orangebudd/hello-buildx . --push`
-![db9f4596c660cf5d8d4f9e443cf011fd.png](en-resource://database/1273:1)
+![[Pasted image 20210815191041.png]]
 
 ```shell
 [root@basic hello]# docker buildx build --platform linux/arm,linux/arm64,linux/amd64 -t orangebudd/hello-buildx . --push
@@ -211,27 +211,27 @@ docker驱动就不行吗
 
 * 查看镜像清单
 `docker buildx imagetools inspect orangebudd/hello-buildx`
-![42ebf92f93cfa449087bf568578e7aff.png](en-resource://database/1274:1)
+![[Pasted image 20210815191056.png]]
 
 或者
 `docker manifest inspect orangebudd/hello-buildx`
-![b81f62993066ad95b05a471eb07cc353.png](en-resource://database/1275:1)
+![[Pasted image 20210815191103.png]]
 
 * 配置binfmt_misc
 [参考-通过qemu binfmt_misc在Docker LCOW上运行linux / arm容器](https://dockerquestions.com/2019/03/28/run-linux-arm-container-via-qemu-binfmt_misc-on-docker-lcow/)
 **添加规则到binfmt_msc：/proc/sys/fs/binfmt_misc**
 docker run --rm --privileged multiarch/qemu-user-static:register --reset
-![6f5f45e89ed820e413a9808283f72d8f.png](en-resource://database/1276:1)
+![[Pasted image 20210815191119.png]]
 
 但运行非本地架构，依然提示找不到解释器
 
 想手动添加规则到/proc/sys/fs/binfmt_misc/register文件
 **虽然register显示是可写，但vim后却提示readonly**
-![aa7656a38872da64943813fa618db84c.png](en-resource://database/1277:1)
+![[Pasted image 20210815191139.png]]
 
 **cat register提示Invalid argument**
 翻阅[qemu-user-static-issue](https://github.com/multiarch/qemu-user-static/issues/38)，应该是linux内核过低导致，我的如下
-![e1e2912b71d123abef6dc298c64fee7f.png](en-resource://database/1278:1)
+![[Pasted image 20210815191150.png]]
 升级了，依然不行[linux系统内核版本升级](https://www.cnblogs.com/jinyuanliu/p/10368780.html)
 
 **添加规则到register**
@@ -240,9 +240,6 @@ docker run --rm --privileged multiarch/qemu-user-static:register --reset
  **重启虚拟机后，/proc/sys/fs/binfmt_misc下消失了**
  
  
- # 命令集清单
-
-
 # 命令集清单
 * **创建构建器实例**
 `docker buildx create --name mybuilder --driver docker-container`
