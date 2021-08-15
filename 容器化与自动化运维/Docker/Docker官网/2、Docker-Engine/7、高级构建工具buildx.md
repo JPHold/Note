@@ -12,29 +12,30 @@
 **从并发、缓存等维度提升docker构建的速度，与Dockerfile无关的构建工具[[Docker特性]]**
 
 * 是个CLI插件，扩展了Docker命令
-
-* 提供了跟`docker build`一样的用户体验
-
-* 另外还有许多新特性：创建作用域构建器实例和并发构建多个node
+ 
+### 优势
+* 支持docker build的功能
+* 创建作用域构建器实例
+* 并发构建多个node（不明白）[[2021-08(32)]]
+* 指定构建镜像后，保存的位置
+* 内联构建缓存
+* 支持构建多平台架构(如amd)的镜像
+* docker build不支持的功能：构建清单列表(manifest)、分布式缓存、导出OCI规范镜像tarballs(开放容器标准)（待学习）[[2021-08(32)]]
 
 ## 安装
-Docker19.03包含该插件。
-Docker桌面版也包含，但需要以下条件
+* Docker19.03包含该插件。
+* Docker桌面版也包含，但需要以下条件
+1. Docker Desktop Enterprise version 2.1.0
+2. Docker Desktop Edge version 2.0.4.0 or higher
 
-* Docker Desktop Enterprise version 2.1.0
-* Docker Desktop Edge version 2.0.4.0 or higher
-
-**必须开启`Experimental features`选项才可以使用**
-
-也可以手动安装：下载二进制文件[buildx](https://github.com/docker/buildx/)
+* 使用DEB或RPM的安装方式，默认就安装了buildx[[Docker重点]]
+* 可以手动安装
+下载二进制文件[buildx](https://github.com/docker/buildx/)
 
 ## 开始构建
 `docker buildx build .`
 **使用BuildKit引擎，而且不需要DOCKER_BUILDKIT=1环境变量的设置去开启构建功能**
-![2fee9e8c2b9cc8baedf5bc256df06ee8.png](en-resource://database/1272:1)
-
-----
-docker buildx build 命令不仅支持docker build的功能，还有高级功能(在19.03版本中)：**指定构建镜像后输出的位置、内联构建缓存、定义目标体系架构(如amd)。还有一些功能，docker build不支持的：构建清单列表(manifest)、分布式缓存、导出OCI规范镜像tarballs(开放容器标准)**
+![[Pasted image 20210815183926.png]]
 
 --- 
 可以在已公开的驱动概念的配置来执行Buildx，目前支持两种驱动
