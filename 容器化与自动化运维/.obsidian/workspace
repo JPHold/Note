@@ -85,13 +85,13 @@
               "type": "backlink",
               "state": {
                 "file": "Docker/Docker官网/2、Docker-Engine/8、高级特性：Context.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -113,8 +113,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -122,15 +121,15 @@
   },
   "active": "b72fd6bdfbcc3102",
   "lastOpenFiles": [
+    "Docker/Docker官网/2、Docker-Engine/8、高级特性：Context.md",
+    "重点/Docker重点.md",
+    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
+    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
+    "Docker/Docker官网/2、Docker-Engine/1、概述.md",
     "Docker/Docker官网/2、Docker-Engine/8、高级Context.md",
     "Docker/Docker官网/2、Docker-Engine/7、高级构建工具buildx.md",
     "Docker/Docker官网/2、Docker-Engine/未命名.md",
     "Docker/附件/Pasted image 20210815180315.png",
-    "Docker/附件/Pasted image 20210815180239.png",
-    "Docker/Docker官网/2、Docker-Engine/6、弃用说明.md",
-    "重点/Docker重点.md",
-    "Docker/Docker官网/2、Docker-Engine/1、概述.md",
-    "Docker/附件/Pasted image 20210815180040.png",
-    "Docker/Docker官网/2、Docker-Engine/2、安装前的了解.md"
+    "Docker/附件/Pasted image 20210815180239.png"
   ]
 }
