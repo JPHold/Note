@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/2、Docker-Engine/4、安装后可选后续步骤.md",
+            "file": "Docker/Docker官网/2、Docker-Engine/7、高级构建工具buildx.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "api",
+                "query": "file:20210815180040",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/2、Docker-Engine/4、安装后可选后续步骤.md",
+                "file": "Docker/Docker官网/2、Docker-Engine/7、高级构建工具buildx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,12 +109,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/2、Docker-Engine/4、安装后可选后续步骤.md"
+                "file": "Docker/Docker官网/2、Docker-Engine/7、高级构建工具buildx.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -122,15 +121,15 @@
   },
   "active": "b72fd6bdfbcc3102",
   "lastOpenFiles": [
+    "Docker/Docker官网/2、Docker-Engine/未命名.md",
+    "Docker/Docker官网/2、Docker-Engine/6、弃用说明.md",
+    "重点/Docker重点.md",
+    "Docker/Docker官网/2、Docker-Engine/1、概述.md",
+    "Docker/附件/Pasted image 20210815180040.png",
+    "Docker/Docker官网/2、Docker-Engine/2、安装前的了解.md",
     "Docker/Docker官网/2、Docker-Engine/4、安装后可选后续步骤.md",
     "重点/未命名.md",
     "Docker/Docker官网/Docker-Guides/生产环境使用/管理应用数据/6、在容器中存储数据/1、关于存储驱动程序.md",
-    "Docker/Docker官网/2、Docker-Engine/1、概述.md",
-    "Docker/Docker官网/2、Docker-Engine/未命名.md",
-    "Docker/Docker官网/Docker-Engine/未命名.md",
-    "Docker/Docker官网/Docker-Engine/3、.md",
-    "Docker/Docker官网/Docker-Engine/2、安装.md",
-    "Docker/Docker官网/Docker-Engine/1、概述.md",
-    "待学习/周/2021-07(29).md"
+    "Docker/Docker官网/Docker-Engine/未命名.md"
   ]
 }
