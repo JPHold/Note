@@ -119,7 +119,10 @@ Linux:
 
 
 ## 导出和导入纯context
-**因为kubertnetes还包含一个。会全部都导出**
+
+^ad71a7
+
+**因为kubertnetes还包含一个.kubeconfig文件，因此这里的命令只是导出基本配置，剩下具体的配置还需第二步[[#^7005fd]]**
 * **导出**
 ```
 $ docker context export docker-test
@@ -138,15 +141,50 @@ Successfully imported context "docker-test"
 ```
 
 ## 导出kubertnetes context
+^7005fd
+[[#^ad71a7]]第一步之后，还需进行第二步
 
-还有一个选项可以只导出contex中Kubernetes部分。这将在当前目录生成.kubeconfig文件，该文件需要在另一台安装了kubectl的服务器。导出上下文的Kubernetes部分，并不能使用docker上下文导入将其导入。**手动将其合并到现有的kubeconfig文件中(~/.kube/config文件)**。（待学习）[[2021-08(32)]]
+导出.kubeconfig文件，**然后在另一个主机，手动将其合并到现有的kubeconfig文件中(~/.kube/config文件)**。（待学习）[[2021-08(32)]]
 ```
 $ docker context export k8s-test --kubeconfig
 Written file "k8s-test.kubeconfig"
 ```
+.kubeconfig文件大概长这个样子
+```yaml
+$ cat k8s-test.kubeconfig
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data:
+    <Snip>
+    server: https://35.226.99.100
+  name: cluster
+contexts:
+- context:
+    cluster: cluster
+    namespace: default
+    user: authInfo
+  name: context
+current-context: context
+kind: Config
+preferences: {}
+users:
+- name: authInfo
+  user:
+    auth-provider:
+      config:
+        cmd-args: config config-helper --format=json
+        cmd-path: /snap/google-cloud-sdk/77/bin/gcloud
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp
+```
 
 # 更新context
-docker context update
+`docker context update`
+
+```
 $ docker context update k8s-test --description "Test Kubernetes cluster"
 k8s-test
 Successfully updated context "k8s-test"
+```
