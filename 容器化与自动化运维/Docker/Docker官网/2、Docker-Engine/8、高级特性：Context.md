@@ -101,39 +101,48 @@ Linux:
 ## 局部切换
 * 命令参数指定
 局部指定context，在每个命令加上--context
-$ docker --context docker-test container ls
-或者
+`docker --context docker-test container ls`
 
+或者
+`docker --host tcp://192.168.10.103:2375 container ls`
+采用了daemon的远程访问：[[4、安装后可选后续步骤#开启端口访问]]
 
 # 导入导出context
 * 导出到文件
-docker context export [OPTIONS] CONTEXT [FILE|-]
+`docker context export [OPTIONS] CONTEXT [FILE|-]`
 默认导出到当前目录
-1
+
 * 导入文件
-docker context import CONTEXT FILE|-
+`docker context import CONTEXT FILE|-`
 
-**默认情况下，导出的只是纯context，但如果该context包含Kubernetes endpoint，那么也会被导出来**
+**默认情况下，导出的只是纯context；但如果是Kubernetes endpoint的context，那么也会被导出来，但其.kubeconfig文件不会导出**[[Docker重点]]
 
-
-**注意的是**
-还有一个选项可以只导出contexr中Kubernetes部分。这将生成本机kubeconfig文件，该文件需要在另一台安装了kubectl的服务器。导出上下文的Kubernetes部分，并不能使用docker上下文导入将其导入。**手动将其合并到现有的kubeconfig文件中(~/.kube/config文件)**。
 
 ## 导出和导入纯context
-docker context export docker-test
+* **导出**
+```
+$ docker context export docker-test
 Written file "docker-test.dockercontext
+```
 **内容如下**
 ```linux
 meta.json0000644000000000000000000000027300000000000011030 0ustar0000000000000000{"Name":"docker-test","Metadata":{"Description":"Test Kubernetes cluster","StackOrchestrator":"swarm"},"Endpoints":{"docker":{"Host":"unix:///var/run/docker.sock","SkipTLSVerify":false}}}tls0000700000000000000000000000000000000000000007716 5ustar0000000000000000
 ```
 
+* **导入**
+```
 $ docker context import docker-test docker-test.dockercontext
 docker-test
 Successfully imported context "docker-test"
+```
 
 ## 导出kubertnetes context
-docker context export k8s-test --kubeconfig
+**注意的是**
+还有一个选项可以只导出contex中Kubernetes部分。这将在当前目录生成.kubeconfig文件，该文件需要在另一台安装了kubectl的服务器。导出上下文的Kubernetes部分，并不能使用docker上下文导入将其导入。**手动将其合并到现有的kubeconfig文件中(~/.kube/config文件)**。（待学习）[[2021-08(32)]]
+```
+$ docker context export k8s-test --kubeconfig
 Written file "k8s-test.kubeconfig"
+```
 
 # 更新context
 docker context update
