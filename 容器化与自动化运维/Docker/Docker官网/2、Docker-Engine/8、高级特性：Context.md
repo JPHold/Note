@@ -119,6 +119,7 @@ Linux:
 
 
 ## 导出和导入纯context
+**因为kubertnetes还包含一个。会全部都导出**
 * **导出**
 ```
 $ docker context export docker-test
@@ -137,7 +138,7 @@ Successfully imported context "docker-test"
 ```
 
 ## 导出kubertnetes context
-**注意的是**
+
 还有一个选项可以只导出contex中Kubernetes部分。这将在当前目录生成.kubeconfig文件，该文件需要在另一台安装了kubectl的服务器。导出上下文的Kubernetes部分，并不能使用docker上下文导入将其导入。**手动将其合并到现有的kubeconfig文件中(~/.kube/config文件)**。（待学习）[[2021-08(32)]]
 ```
 $ docker context export k8s-test --kubeconfig
