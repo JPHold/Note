@@ -13,14 +13,6 @@
             "mode": "source"
           }
         }
-      },
-      {
-        "id": "91ee9daa05d331cd",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
       }
     ],
     "direction": "vertical"
@@ -121,16 +113,17 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 303.3130798339844,
-    "collapsed": true
+    "width": 303.3130798339844
   },
   "active": "b72fd6bdfbcc3102",
   "lastOpenFiles": [
     "Docker/Docker官网/2、Docker-Engine/9、高级特性：scan.md",
+    "Docker/Docker官网/2、Docker-Engine/3、每个发行版的安装.md",
     "conflict-files-obsidian-git.md",
     "Docker/Docker官网/2、Docker-Engine/8、高级特性：Context.md",
     "Docker/Docker官网/2、Docker-Engine/未命名.md",
@@ -138,7 +131,6 @@
     "重点/Docker重点.md",
     "Docker/Docker官网/2、Docker-Engine/1、概述.md",
     "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
-    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
-    "Docker/Docker官网/2、Docker-Engine/8、高级Context.md"
+    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md"
   ]
 }

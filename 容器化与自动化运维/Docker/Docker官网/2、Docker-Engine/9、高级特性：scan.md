@@ -3,6 +3,7 @@
 漏洞扫描，是收费功能，从pro开始
 提供
 > 可在docker pro、docker team的Docker桌面端或Hub的仪表盘查看snyk漏洞扫描结果
+![[Pasted image 20210817000537.png]]
 
 # 介绍
 在Snyk引擎上运行本地镜像的漏洞扫描(dockerfile和镜像)，使用CLI来漏洞扫描和查看结果。扫描结果包括常见漏洞和暴露(CVE)的列表，并为CVE提供修复建议
