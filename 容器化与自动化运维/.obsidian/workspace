@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "待",
+                "query": "file:20210817095934",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -114,18 +115,17 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 303.3130798339844,
-    "collapsed": true
+    "width": 303.3130798339844
   },
   "active": "b72fd6bdfbcc3102",
   "lastOpenFiles": [
     "Docker/Docker官网/2、Docker-Engine/9、高级特性：scan.md",
-    "待学习/周/2021-08(33).md",
     "Docker/Docker官网/2、Docker-Engine/3、每个发行版的安装.md",
+    "Docker/Docker官网/2、Docker-Engine/2、安装前的了解.md",
     "conflict-files-obsidian-git.md",
     "Docker/Docker官网/2、Docker-Engine/8、高级特性：Context.md",
     "Docker/Docker官网/2、Docker-Engine/未命名.md",

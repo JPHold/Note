@@ -65,6 +65,7 @@ scan默认安装synk。如果不可用时，可自己安装，最低版本必须
 ![[Pasted image 20210817095934.png]]
 ## 扫描已存在的镜像，支持镜像id或镜像名称
 `docker scan redis`
+**info属性记录着漏洞的详细说明：浏览器访问，查看如何修复**
 ```shell
 [root@localhost ~]# docker scan redis
 
