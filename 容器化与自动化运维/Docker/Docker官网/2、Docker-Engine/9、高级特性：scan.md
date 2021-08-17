@@ -6,7 +6,7 @@
 
 # 介绍
 二次开发Snyk，Snyk提供了界面操作，而Docker只有命令操作，估计是Docker跟Synk的商业合作，Synk提供了一些接口给Docker调用；两者区别如下：
-1. Snyk目前开放的方式，只支持从hub扫描，**意味着需要将镜像上传到hub，假如我们的镜像包含源代码等私密文件，那就很危险了！！！**
+1. Snyk目前开放的方式，只支持从hub扫描，**意味着需要将镜像上传到hub，假我们的镜像包含源代码等私密文件，那就很危险了！！！**
 2. docker提供扫描功能，**无须上传到hub，即可扫描漏洞**
 
 在Snyk引擎上运行本地镜像的漏洞扫描(dockerfile和镜像)，使用CLI来漏洞扫描和查看结果。扫描结果包括常见漏洞和暴露(CVE)的列表，并为CVE提供修复建议。
@@ -43,22 +43,6 @@
 
 **注意的是**
 scan默认安装synk。如果不可用时，可自己安装，最低版本必须是1.385.0
-
-
-# 支持的属性
-
-| 属性 | 描述 | 例子 |
-| --- | --- | --- |
-| --accept license |  |  |
-| --dependency-tree |  |  |
-| --exclude-base |  |  |
-| -f, --file string |  |  |
-| --json |  |  |
-| --login |  |  |
-| --reject-license |  |  |
-| --severity string |  |  |
-| --token string |  |  |
-| --version |  |  |
 
 # 怎么扫描
 
@@ -599,7 +583,8 @@ For more free scans that keep your images secure, sign up to Snyk at https://doc
 
 ## 扫描Dockerfile，获得详细结果
 `docker scan --file PATH_TO_DOCKERFILE DOCKER_IMAGE`
-docker scan --file Dockerfile docker-scan:e2e
+
+`docker scan --file Dockerfile docker-scan:e2e`
 
 
 ### --exclude-base不扫描某个镜像
@@ -783,6 +768,22 @@ For more free scans that keep your images secure, sign up to Snyk at https://doc
 * 限制查看漏洞的严重程度
 关心某个等级及以上的漏洞，通过--severity(low、medium、high)来限制
 docker scan --severity=medium docker-scan:e2e
+
+# 支持的属性
+
+| 属性 | 描述 | 例子 |
+| --- | --- | --- |
+| --accept license |  |  |
+| --dependency-tree |  |  |
+| --exclude-base |  |  |
+| -f, --file string |  |  |
+| --json |  |  |
+| --login |  |  |
+| --reject-license |  |  |
+| --severity string |  |  |
+| --token string |  |  |
+| --version |  |  |
+
 
 # 安全认证
 如果有snyk帐号，可以直接使用Snyk的[API token](https://app.snyk.io/account)
