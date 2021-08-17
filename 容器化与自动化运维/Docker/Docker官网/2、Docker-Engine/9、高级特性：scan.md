@@ -5,7 +5,9 @@
 ![[Pasted image 20210817000537.png]]
 
 # 介绍
-二次开发Snyk，Snyk提供了界面操作，而Docker只有命令操作，估计是Docker跟Synk的商业合作，Synk提供了一些接口
+二次开发Snyk，Snyk提供了界面操作，而Docker只有命令操作，估计是Docker跟Synk的商业合作，Synk提供了一些接口给Docker调用；两者区别如下：
+1. Snyk目前开放的方式，只支持从hub扫描，**意味着需要将镜像上传到hub，假如我们的镜像包含源代码等私密文件，那就很危险了！！！**
+2. docker提供扫描功能，**无须上传到hub，即可扫描漏洞**
 
 在Snyk引擎上运行本地镜像的漏洞扫描(dockerfile和镜像)，使用CLI来漏洞扫描和查看结果。扫描结果包括常见漏洞和暴露(CVE)的列表，并为CVE提供修复建议。
 
@@ -62,9 +64,537 @@ scan默认安装synk。如果不可用时，可自己安装，最低版本必须
 
 ![[Pasted image 20210817095934.png]]
 ## 扫描已存在的镜像，支持镜像id或镜像名称
-并没有详细结果
-`docker scan hello-world`
+`docker scan redis`
+```shell
+[root@localhost ~]# docker scan redis
 
+Testing redis...
+
+✗ Low severity vulnerability found in util-linux/libuuid1
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-UTILLINUX-1534833
+  Introduced through: util-linux/libuuid1@2.33.1-0.1, e2fsprogs@1.44.5-1+deb10u3, util-linux/mount@2.33.1-0.1, util-linux/fdisk@2.33.1-0.1, util-linux/libblkid1@2.33.1-0.1, util-linux@2.33.1-0.1, sysvinit/sysvinit-utils@2.93-8, util-linux/bsdutils@1:2.33.1-0.1, util-linux/libfdisk1@2.33.1-0.1, util-linux/libmount1@2.33.1-0.1, util-linux/libsmartcols1@2.33.1-0.1
+  From: util-linux/libuuid1@2.33.1-0.1
+  From: e2fsprogs@1.44.5-1+deb10u3 > util-linux/libuuid1@2.33.1-0.1
+  From: e2fsprogs@1.44.5-1+deb10u3 > util-linux/libblkid1@2.33.1-0.1 > util-linux/libuuid1@2.33.1-0.1
+  and 25 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in tar
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TAR-1063001
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > tar@1.30+dfsg-6
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in tar
+  Description: CVE-2005-2541
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TAR-312331
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > tar@1.30+dfsg-6
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in tar
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TAR-341203
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > tar@1.30+dfsg-6
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Authentication Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-1291056
+  Introduced through: systemd/libsystemd0@241-7~deb10u8, util-linux/bsdutils@1:2.33.1-0.1, apt@1.8.2.3, util-linux/mount@2.33.1-0.1, systemd/libudev1@241-7~deb10u8
+  From: systemd/libsystemd0@241-7~deb10u8
+  From: util-linux/bsdutils@1:2.33.1-0.1 > systemd/libsystemd0@241-7~deb10u8
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > systemd/libsystemd0@241-7~deb10u8
+  and 4 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Link Following
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-305144
+  Introduced through: systemd/libsystemd0@241-7~deb10u8, util-linux/bsdutils@1:2.33.1-0.1, apt@1.8.2.3, util-linux/mount@2.33.1-0.1, systemd/libudev1@241-7~deb10u8
+  From: systemd/libsystemd0@241-7~deb10u8
+  From: util-linux/bsdutils@1:2.33.1-0.1 > systemd/libsystemd0@241-7~deb10u8
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > systemd/libsystemd0@241-7~deb10u8
+  and 4 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-542807
+  Introduced through: systemd/libsystemd0@241-7~deb10u8, util-linux/bsdutils@1:2.33.1-0.1, apt@1.8.2.3, util-linux/mount@2.33.1-0.1, systemd/libudev1@241-7~deb10u8
+  From: systemd/libsystemd0@241-7~deb10u8
+  From: util-linux/bsdutils@1:2.33.1-0.1 > systemd/libsystemd0@241-7~deb10u8
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > systemd/libsystemd0@241-7~deb10u8
+  and 4 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-570991
+  Introduced through: systemd/libsystemd0@241-7~deb10u8, util-linux/bsdutils@1:2.33.1-0.1, apt@1.8.2.3, util-linux/mount@2.33.1-0.1, systemd/libudev1@241-7~deb10u8
+  From: systemd/libsystemd0@241-7~deb10u8
+  From: util-linux/bsdutils@1:2.33.1-0.1 > systemd/libsystemd0@241-7~deb10u8
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > systemd/libsystemd0@241-7~deb10u8
+  and 4 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Time-of-check Time-of-use (TOCTOU)
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SHADOW-306205
+  Introduced through: shadow/passwd@1:4.5-1.1, adduser@3.118, shadow/login@1:4.5-1.1, util-linux/mount@2.33.1-0.1
+  From: shadow/passwd@1:4.5-1.1
+  From: adduser@3.118 > shadow/passwd@1:4.5-1.1
+  From: shadow/login@1:4.5-1.1
+  and 1 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Incorrect Permission Assignment for Critical Resource
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SHADOW-306230
+  Introduced through: shadow/passwd@1:4.5-1.1, adduser@3.118, shadow/login@1:4.5-1.1, util-linux/mount@2.33.1-0.1
+  From: shadow/passwd@1:4.5-1.1
+  From: adduser@3.118 > shadow/passwd@1:4.5-1.1
+  From: shadow/login@1:4.5-1.1
+  and 1 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Access Restriction Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SHADOW-306250
+  Introduced through: shadow/passwd@1:4.5-1.1, adduser@3.118, shadow/login@1:4.5-1.1, util-linux/mount@2.33.1-0.1
+  From: shadow/passwd@1:4.5-1.1
+  From: adduser@3.118 > shadow/passwd@1:4.5-1.1
+  From: shadow/login@1:4.5-1.1
+  and 1 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Incorrect Permission Assignment for Critical Resource
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SHADOW-539852
+  Introduced through: shadow/passwd@1:4.5-1.1, adduser@3.118, shadow/login@1:4.5-1.1, util-linux/mount@2.33.1-0.1
+  From: shadow/passwd@1:4.5-1.1
+  From: adduser@3.118 > shadow/passwd@1:4.5-1.1
+  From: shadow/login@1:4.5-1.1
+  and 1 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in perl/perl-base
+  Description: Link Following
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PERL-327793
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > perl/perl-base@5.28.1-6+deb10u1
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-345321
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-345353
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-345502
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-345530
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-572368
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSL-374709
+  Introduced through: openssl/libssl1.1@1.1.1d-0+deb10u6
+  From: openssl/libssl1.1@1.1.1d-0+deb10u6
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSL-374996
+  Introduced through: openssl/libssl1.1@1.1.1d-0+deb10u6
+  From: openssl/libssl1.1@1.1.1d-0+deb10u6
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in lz4/liblz4-1
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LZ4-473072
+  Introduced through: lz4/liblz4-1@1.8.3-1+deb10u1, apt@1.8.2.3
+  From: lz4/liblz4-1@1.8.3-1+deb10u1
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > lz4/liblz4-1@1.8.3-1+deb10u1
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > systemd/libsystemd0@241-7~deb10u8 > lz4/liblz4-1@1.8.3-1+deb10u1
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in libtasn1-6
+  Description: Resource Management Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBTASN16-339585
+  Introduced through: libtasn1-6@4.13-3, apt@1.8.2.3
+  From: libtasn1-6@4.13-3
+  From: apt@1.8.2.3 > gnutls28/libgnutls30@3.6.7-4+deb10u7 > libtasn1-6@4.13-3
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSEPOL-1315628
+  Introduced through: libsepol/libsepol1@2.8-1, adduser@3.118
+  From: libsepol/libsepol1@2.8-1
+  From: adduser@3.118 > shadow/passwd@1:4.5-1.1 > libsemanage/libsemanage1@2.8-2 > libsepol/libsepol1@2.8-1
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSEPOL-1315630
+  Introduced through: libsepol/libsepol1@2.8-1, adduser@3.118
+  From: libsepol/libsepol1@2.8-1
+  From: adduser@3.118 > shadow/passwd@1:4.5-1.1 > libsemanage/libsemanage1@2.8-2 > libsepol/libsepol1@2.8-1
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSEPOL-1315636
+  Introduced through: libsepol/libsepol1@2.8-1, adduser@3.118
+  From: libsepol/libsepol1@2.8-1
+  From: adduser@3.118 > shadow/passwd@1:4.5-1.1 > libsemanage/libsemanage1@2.8-2 > libsepol/libsepol1@2.8-1
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSEPOL-1315642
+  Introduced through: libsepol/libsepol1@2.8-1, adduser@3.118
+  From: libsepol/libsepol1@2.8-1
+  From: adduser@3.118 > shadow/passwd@1:4.5-1.1 > libsemanage/libsemanage1@2.8-2 > libsepol/libsepol1@2.8-1
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in libseccomp/libseccomp2
+  Description: Access Restriction Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSECCOMP-341044
+  Introduced through: libseccomp/libseccomp2@2.3.3-4, apt@1.8.2.3
+  From: libseccomp/libseccomp2@2.3.3-4
+  From: apt@1.8.2.3 > libseccomp/libseccomp2@2.3.3-4
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Use of a Broken or Risky Cryptographic Algorithm
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBGCRYPT20-391902
+  Introduced through: libgcrypt20@1.8.4-5+deb10u1, apt@1.8.2.3
+  From: libgcrypt20@1.8.4-5+deb10u1
+  From: apt@1.8.2.3 > gnupg2/gpgv@2.2.12-1+deb10u1 > libgcrypt20@1.8.4-5+deb10u1
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > systemd/libsystemd0@241-7~deb10u8 > libgcrypt20@1.8.4-5+deb10u1
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GNUTLS28-340755
+  Introduced through: gnutls28/libgnutls30@3.6.7-4+deb10u7, apt@1.8.2.3
+  From: gnutls28/libgnutls30@3.6.7-4+deb10u7
+  From: apt@1.8.2.3 > gnutls28/libgnutls30@3.6.7-4+deb10u7
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in gnupg2/gpgv
+  Description: Use of a Broken or Risky Cryptographic Algorithm
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GNUPG2-535553
+  Introduced through: gnupg2/gpgv@2.2.12-1+deb10u1, apt@1.8.2.3
+  From: gnupg2/gpgv@2.2.12-1+deb10u1
+  From: apt@1.8.2.3 > gnupg2/gpgv@2.2.12-1+deb10u1
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Double Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1078993
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-338106
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-338163
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-356371
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Resource Management Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-356671
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Resource Management Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-356735
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: CVE-2010-4051
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-356875
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-452228
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Access Restriction Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-452267
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Use of Insufficiently Random Values
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-453375
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-453640
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-534995
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Integer Underflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-564233
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in coreutils
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-COREUTILS-317465
+  Introduced through: coreutils@8.30-3
+  From: coreutils@8.30-3
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in coreutils
+  Description: Race Condition
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-COREUTILS-317494
+  Introduced through: coreutils@8.30-3
+  From: coreutils@8.30-3
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in bash
+  Description: Improper Check for Dropped Privileges
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BASH-536280
+  Introduced through: bash@5.0-4
+  From: bash@5.0-4
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Low severity vulnerability found in apt/libapt-pkg5.0
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-APT-407502
+  Introduced through: apt/libapt-pkg5.0@1.8.2.3, apt@1.8.2.3
+  From: apt/libapt-pkg5.0@1.8.2.3
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3
+  From: apt@1.8.2.3
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Medium severity vulnerability found in pcre3/libpcre3
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-572367
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Medium severity vulnerability found in libgcrypt20
+  Description: Race Condition
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBGCRYPT20-460489
+  Introduced through: libgcrypt20@1.8.4-5+deb10u1, apt@1.8.2.3
+  From: libgcrypt20@1.8.4-5+deb10u1
+  From: apt@1.8.2.3 > gnupg2/gpgv@2.2.12-1+deb10u1 > libgcrypt20@1.8.4-5+deb10u1
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > systemd/libsystemd0@241-7~deb10u8 > libgcrypt20@1.8.4-5+deb10u1
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1035462
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1055403
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-559181
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ High severity vulnerability found in systemd/libsystemd0
+  Description: Privilege Chaining
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-345386
+  Introduced through: systemd/libsystemd0@241-7~deb10u8, util-linux/bsdutils@1:2.33.1-0.1, apt@1.8.2.3, util-linux/mount@2.33.1-0.1, systemd/libudev1@241-7~deb10u8
+  From: systemd/libsystemd0@241-7~deb10u8
+  From: util-linux/bsdutils@1:2.33.1-0.1 > systemd/libsystemd0@241-7~deb10u8
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > systemd/libsystemd0@241-7~deb10u8
+  and 4 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ High severity vulnerability found in systemd/libsystemd0
+  Description: Incorrect Privilege Assignment
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-345391
+  Introduced through: systemd/libsystemd0@241-7~deb10u8, util-linux/bsdutils@1:2.33.1-0.1, apt@1.8.2.3, util-linux/mount@2.33.1-0.1, systemd/libudev1@241-7~deb10u8
+  From: systemd/libsystemd0@241-7~deb10u8
+  From: util-linux/bsdutils@1:2.33.1-0.1 > systemd/libsystemd0@241-7~deb10u8
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > systemd/libsystemd0@241-7~deb10u8
+  and 4 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ High severity vulnerability found in libidn2/libidn2-0
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBIDN2-474100
+  Introduced through: libidn2/libidn2-0@2.0.5-1+deb10u1, apt@1.8.2.3
+  From: libidn2/libidn2-0@2.0.5-1+deb10u1
+  From: apt@1.8.2.3 > gnutls28/libgnutls30@3.6.7-4+deb10u7 > libidn2/libidn2-0@2.0.5-1+deb10u1
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ High severity vulnerability found in glibc/libc-bin
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1065768
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ High severity vulnerability found in glibc/libc-bin
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1296899
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ High severity vulnerability found in glibc/libc-bin
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1315333
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ High severity vulnerability found in glibc/libc-bin
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-559488
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ High severity vulnerability found in glibc/libc-bin
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-559493
+  Introduced through: glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: glibc/libc-bin@2.28-10
+  From: meta-common-packages@meta > glibc/libc6@2.28-10
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ High severity vulnerability found in gcc-8/libstdc++6
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GCC8-347558
+  Introduced through: gcc-8/libstdc++6@8.3.0-6, apt@1.8.2.3, meta-common-packages@meta
+  From: gcc-8/libstdc++6@8.3.0-6
+  From: apt@1.8.2.3 > gcc-8/libstdc++6@8.3.0-6
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > gcc-8/libstdc++6@8.3.0-6
+  and 2 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+✗ High severity vulnerability found in gcc-8/libstdc++6
+  Description: Insufficient Entropy
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GCC8-469413
+  Introduced through: gcc-8/libstdc++6@8.3.0-6, apt@1.8.2.3, meta-common-packages@meta
+  From: gcc-8/libstdc++6@8.3.0-6
+  From: apt@1.8.2.3 > gcc-8/libstdc++6@8.3.0-6
+  From: apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3 > gcc-8/libstdc++6@8.3.0-6
+  and 2 more...
+  Image layer: Introduced by your base image (redis:6.2.5-buster)
+
+
+
+Package manager:   deb
+Project name:      docker-image|redis
+Docker image:      redis
+Platform:          linux/amd64
+Base image:        redis:6.2.5-buster
+
+Tested 87 dependencies for known vulnerabilities, found 62 vulnerabilities.
+
+According to our scan, you are currently using the most secure version of the selected base image
+
+For more free scans that keep your images secure, sign up to Snyk at https://dockr.ly/3ePqVcp
+```
 
 ## 扫描Dockerfile，获得详细结果
 `docker scan --file PATH_TO_DOCKERFILE DOCKER_IMAGE`
