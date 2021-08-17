@@ -1,18 +1,28 @@
 [TOC]
 
 漏洞扫描，是收费功能，从pro开始
-提供
+
 > 可在docker pro、docker team的Docker桌面端或Hub的仪表盘查看snyk漏洞扫描结果
+
 ![[Pasted image 20210817000537.png]]
 
 # 介绍
 在Snyk引擎上运行本地镜像的漏洞扫描(dockerfile和镜像)，使用CLI来漏洞扫描和查看结果。扫描结果包括常见漏洞和暴露(CVE)的列表，并为CVE提供修复建议
 
 **注意的是**
-本地镜像的漏洞扫描时间beat功能，命令和标识在后期版本可能会改变
+本地镜像的漏洞扫描是beat功能，命令和标识在后期版本可能会改变
 
-# 前提条件
-* docker桌面2.3.6.0版本及以上
+# 安装
+## Linux
+1. 从Docker Engine20.10.6开始，才会作为docker-ce-li包的依赖项，自动安装
+2. 在此之前都需要手动安装
+[安装包下载](https://github.com/docker/scan-cli-plugin/releases)；
+[手动安装方式](https://github.com/docker/scan-cli-plugin/releases)
+![[Pasted image 20210817101723.png]]
+[[Docker重点]]
+
+## 桌面版
+* docker桌面2.3.6.0版本及以上，已经包含，无须另外安装
 * 登录[hub](https://hub.docker.com/)
 *（可选） 可以为扫描创建Snyk帐户，或者将Snyk提供的额外的每月免费扫描，与你的Docker Hub帐户一起使用。
 
@@ -40,6 +50,8 @@ scan默认安装synk。如果不可用时，可自己安装，最低版本必须
 | --version |  |  |
 
 # 怎么扫描
+
+![[Pasted image 20210817095934.png]]
 ## 扫描已存在的镜像，支持镜像id或镜像名称
 并没有详细结果
 `docker scan hello-world`
