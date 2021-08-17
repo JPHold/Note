@@ -584,8 +584,11 @@ For more free scans that keep your images secure, sign up to Snyk at https://doc
 ## 扫描Dockerfile，获得详细结果
 `docker scan --file PATH_TO_DOCKERFILE DOCKER_IMAGE`
 
-`docker scan --file Dockerfile docker-scan:e2e`
-
+**需要先按Dockerfile生成镜像。但给我感觉应该不用生成镜像才对[[2021-08(33)]]**
+```shell
+docker build -t dockerfile_scan .
+docker scan --file Dockerfile dockerfile_scan
+```
 
 ### --exclude-base不扫描某个镜像
 `docker scan --file Dockerfile --exclude-base docker-scan:e2e`
@@ -646,8 +649,8 @@ $ docker scan --json hello-world
  }
 ```
 
-如果只想输出一次漏洞结果，可使用--group-issues
-docker scan --json --group-issues docker-scan:e2e
+如果只想输出一次漏洞结果，可使用--group-issues[[Docker重点]]
+`docker scan --json --group-issues docker-scan:e2e`
 从结果中的from属性找到漏洞所属镜像
 ```shell
 $ docker scan --json --group-issues docker-scan:e2e
@@ -697,12 +700,12 @@ $ docker scan --json --group-issues docker-scan:e2e
 }
 ```
 
-* 获得镜像的依赖树
+### 获得镜像的依赖树
 在扫描漏洞前，先解析出依赖树
-docker scan --dependency-tree debian:buster
+`docker scan --dependency-tree xxxImage`
 ```shell
 
-$ docker scan --dependency-tree debian:buster
+docker scan --dependency-tree debian:buster
 
 $ docker-image|99138c65ebc7 @ latest
      ├─ ca-certificates @ 20200601~deb10u1
@@ -763,30 +766,30 @@ Tested 200 dependencies for known issues, found 157 issues.
 
 For more free scans that keep your images secure, sign up to Snyk at https://dockr.ly/3ePqVcp.
 ```
-更多关于漏洞数据的信息，[Docker Vulnerability Scanning CLI Cheat Sheet](https://goto.docker.com/rs/929-FJL-178/images/cheat-sheet-docker-desktop-vulnerability-scanning-CLI.pdf)
 
-* 限制查看漏洞的严重程度
-关心某个等级及以上的漏洞，通过--severity(low、medium、high)来限制
-docker scan --severity=medium docker-scan:e2e
+
+## 过滤漏洞的严重等级
+关心某个等级及以上的漏洞，通过`--severity(low、medium、high)`来限制
+`docker scan --severity=medium xxxImage`
 
 # 支持的属性
 
 | 属性 | 描述 | 例子 |
 | --- | --- | --- |
-| --accept license |  |  |
-| --dependency-tree |  |  |
-| --exclude-base |  |  |
-| -f, --file string |  |  |
-| --json |  |  |
-| --login |  |  |
-| --reject-license |  |  |
-| --severity string |  |  |
-| --token string |  |  |
-| --version |  |  |
-
+| --accept license | 接受第三方扫描提供商的许可协议 |  |
+| --dependency-tree | 显示图像的依赖树以及扫描结果 |  |
+| --exclude-base | **在扫描期间排除基本图像。此选项需要设置 --file 选项** |  |
+| -f, --file string | **指定与映像关联的 Dockerfile 的位置。此选项显示详细的扫描结果** |  |
+| --json | 以JSON格式显示扫描结果 |  |
+| --login | **使用可选令牌（使用标志 --token）或使用基于 Web 的令牌登录 Snyk** |  |
+| --reject-license | 拒绝第三方扫描提供商的许可协议 |  |
+| --severity string | 仅报告某个级别及以上（低、中、高）的漏洞 |  |
+| --token string | 使用身份验证令牌登录第三方扫描提供商 |  |
+| --version | 显示 Docker Scan 插件版本 |  |
 
 # 安全认证
 如果有snyk帐号，可以直接使用Snyk的[API token](https://app.snyk.io/account)
+`docker scan --login --token SNYK_AUTH_TOKEN`
 **如果只使用--login，会重定向到Synk网站进行登录**
 
 # issue
@@ -796,3 +799,7 @@ WSL2
 
 # 反馈
 可在[scan-cli-plugin的Github项目](https://github.com/docker/cli-scan-feedback/issues/new)中创建issue
+
+# 资料
+## 更多关于scan的使用方法
+[Docker Vulnerability Scanning CLI Cheat Sheet](https://goto.docker.com/rs/929-FJL-178/images/cheat-sheet-docker-desktop-vulnerability-scanning-CLI.pdf)
