@@ -114,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -124,6 +124,7 @@
   "active": "b72fd6bdfbcc3102",
   "lastOpenFiles": [
     "Docker/Docker官网/2、Docker-Engine/9、高级特性：scan.md",
+    "待学习/周/2021-08(33).md",
     "Docker/Docker官网/2、Docker-Engine/3、每个发行版的安装.md",
     "conflict-files-obsidian-git.md",
     "Docker/Docker官网/2、Docker-Engine/8、高级特性：Context.md",
@@ -131,7 +132,6 @@
     "Docker/Docker官网/2、Docker-Engine/4、安装后可选后续步骤.md",
     "重点/Docker重点.md",
     "Docker/Docker官网/2、Docker-Engine/1、概述.md",
-    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
-    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md"
+    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md"
   ]
 }

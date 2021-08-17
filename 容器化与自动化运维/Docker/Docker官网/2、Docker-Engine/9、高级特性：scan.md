@@ -1,34 +1,43 @@
 [TOC]
 
-漏洞扫描，是收费功能，从pro开始
-
 > 可在docker pro、docker team的Docker桌面端或Hub的仪表盘查看snyk漏洞扫描结果
 
 ![[Pasted image 20210817000537.png]]
 
 # 介绍
-在Snyk引擎上运行本地镜像的漏洞扫描(dockerfile和镜像)，使用CLI来漏洞扫描和查看结果。扫描结果包括常见漏洞和暴露(CVE)的列表，并为CVE提供修复建议
+在Synk
+
+在Snyk引擎上运行本地镜像的漏洞扫描(dockerfile和镜像)，使用CLI来漏洞扫描和查看结果。扫描结果包括常见漏洞和暴露(CVE)的列表，并为CVE提供修复建议。
 
 **注意的是**
-本地镜像的漏洞扫描是beat功能，命令和标识在后期版本可能会改变
+本地镜像的漏洞扫描是beat功能，命令和标识在后期版本可能会改变。
+
+* **需要登录hub才可以使用（因此内网无法使用scan功能）**[[Docker重点]]
 
 # 安装
 ## Linux
 1. 从Docker Engine20.10.6开始，才会作为docker-ce-li包的依赖项，自动安装
+
 2. 在此之前都需要手动安装
 [安装包下载](https://github.com/docker/scan-cli-plugin/releases)；
 [手动安装方式](https://github.com/docker/scan-cli-plugin/releases)
 ![[Pasted image 20210817101723.png]]
 [[Docker重点]]
 
+3. 登录hub 
+`docker login`
+![[Pasted image 20210817102548.png]]
+（需要注意login hub，会将未加密的密码记录到本地，危险！！！）[[2021-08(33)]]
+
 ## 桌面版
 * docker桌面2.3.6.0版本及以上，已经包含，无须另外安装
 * 登录[hub](https://hub.docker.com/)
 *（可选） 可以为扫描创建Snyk帐户，或者将Snyk提供的额外的每月免费扫描，与你的Docker Hub帐户一起使用。
 
-
-docker scan --version
+## 测试是否安装成功
+`docker scan --version`
 输出scan的版本和snyk的版本
+![[Pasted image 20210817102849.png]]
 
 **注意的是**
 scan默认安装synk。如果不可用时，可自己安装，最低版本必须是1.385.0
