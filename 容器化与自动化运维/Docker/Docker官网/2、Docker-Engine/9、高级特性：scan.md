@@ -5,7 +5,7 @@
 ![[Pasted image 20210817000537.png]]
 
 # 介绍
-在Synk
+二次开发Snyk，Snyk提供了界面操作，而Docker只有命令操作，估计是Docker跟Synk的商业合作，Synk提供了一些接口
 
 在Snyk引擎上运行本地镜像的漏洞扫描(dockerfile和镜像)，使用CLI来漏洞扫描和查看结果。扫描结果包括常见漏洞和暴露(CVE)的列表，并为CVE提供修复建议。
 
