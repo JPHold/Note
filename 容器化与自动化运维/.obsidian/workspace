@@ -122,6 +122,7 @@
   },
   "active": "b72fd6bdfbcc3102",
   "lastOpenFiles": [
+    "Docker/Docker官网/3、Docker-Compose/1、概述.md",
     "Docker/Docker官网/3、Docker-Compose/4、Compose编写.md",
     "Docker/Docker官网/2、Docker-Engine/9、高级特性：scan.md",
     "Docker/Docker官网/2、Docker-Engine/3、每个发行版的安装.md",
@@ -130,7 +131,6 @@
     "Docker/Docker官网/2、Docker-Engine/8、高级特性：Context.md",
     "Docker/Docker官网/2、Docker-Engine/未命名.md",
     "Docker/Docker官网/2、Docker-Engine/4、安装后可选后续步骤.md",
-    "重点/Docker重点.md",
-    "Docker/Docker官网/2、Docker-Engine/1、概述.md"
+    "重点/Docker重点.md"
   ]
 }
