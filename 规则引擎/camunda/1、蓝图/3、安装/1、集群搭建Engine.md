@@ -104,3 +104,6 @@ camunda.bpm.job-execution:
 * 分别访问1888和18889驾驶舱首页
     ![[Pasted image 20210822224418.png]]
 	![[Pasted image 20210822224346.png]]
+	
+# 外部任务启动
+同个任务部署到不同节点

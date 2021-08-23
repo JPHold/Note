@@ -13,14 +13,6 @@
             "mode": "source"
           }
         }
-      },
-      {
-        "id": "39d96fe5197ccc18",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
       }
     ],
     "direction": "vertical"
@@ -140,6 +132,7 @@
   "active": "fee4a6310f58dca4",
   "lastOpenFiles": [
     "camunda/1、蓝图/3、安装/1、集群搭建Engine.md",
+    "1、方案比对/未命名.md",
     "conflict-files-obsidian-git.md",
     "camunda/1、蓝图/3、安装/未命名.md",
     "camunda/1、蓝图/2、架构设计/1、架构图.md",
@@ -147,7 +140,6 @@
     "camunda/重点/未命名.md",
     "camunda/1、蓝图/2、架构设计/未命名.md",
     "camunda/流程设计/未命名.md",
-    "camunda/流程设计/1.md",
-    "camunda/重点/Camunda-特性.md"
+    "camunda/流程设计/1.md"
   ]
 }
