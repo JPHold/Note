@@ -1,0 +1,26 @@
+server.port: 1889
+#集成mysql数据库的配置
+spring.datasource:
+  url: jdbc:mysql://localhost:3306/camunda-db?useSSL=false&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+  #shareable h2 database: jdbc:h2:./camunda-db;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE
+  username: root
+  password: root
+
+camunda.bpm:
+  admin-user:
+    id: admin
+    password: admin
+    firstName: admin
+    lastName: admin
+  filter:
+    create: All Tasks
+  default-serialization-format: application/json
+
+spring.devtools:
+  restart:
+    enabled: false # Do not enable this with ObjectValues as variables!
+
+camunda.bpm.job-execution:
+  #   deployment-aware: true
+  wait-time-in-millis: 5000
+  max-wait: 10000
