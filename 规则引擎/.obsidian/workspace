@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "b72fd6bdfbcc3102",
+        "id": "fee4a6310f58dca4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "camunda/1、蓝图/3、安装/1、集群搭建Engine.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "39d96fe5197ccc18",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:20210817231757",
+                "query": "file:20210822164320",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "camunda/1、蓝图/3、安装/1、集群搭建Engine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,6 +119,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "camunda/1、蓝图/3、安装/1、集群搭建Engine.md"
+              }
+            }
+          },
+          {
+            "id": "ddb41c4ef8c2b5a1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -112,19 +137,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.3130798339844
+    "width": 303.3130798339844,
+    "collapsed": true
   },
-  "active": "b72fd6bdfbcc3102",
+  "active": "fee4a6310f58dca4",
   "lastOpenFiles": [
-    "Docker/Docker官网/3、Docker-Compose/1、概述.md",
-    "Docker/Docker官网/3、Docker-Compose/4、Compose编写.md",
-    "Docker/Docker官网/2、Docker-Engine/9、高级特性：scan.md",
-    "Docker/Docker官网/2、Docker-Engine/3、每个发行版的安装.md",
-    "Docker/Docker官网/2、Docker-Engine/2、安装前的了解.md",
+    "camunda/1、蓝图/3、安装/1、集群搭建Engine.md",
     "conflict-files-obsidian-git.md",
-    "Docker/Docker官网/2、Docker-Engine/8、高级特性：Context.md",
-    "Docker/Docker官网/2、Docker-Engine/未命名.md",
-    "Docker/Docker官网/2、Docker-Engine/4、安装后可选后续步骤.md",
-    "重点/Docker重点.md"
+    "camunda/1、蓝图/3、安装/未命名.md",
+    "camunda/1、蓝图/2、架构设计/1、架构图.md",
+    "待学习/周/2021-08(33).md",
+    "camunda/重点/未命名.md",
+    "camunda/1、蓝图/2、架构设计/未命名.md",
+    "camunda/流程设计/未命名.md",
+    "camunda/流程设计/1.md",
+    "camunda/重点/Camunda-特性.md"
   ]
 }
