@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "51fbea0a267bd32f",
+    "type": "split",
+    "children": [
+      {
+        "id": "fee4a6310f58dca4",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bfd9e5a587c031be",
+    "type": "split",
+    "children": [
+      {
+        "id": "96c922a3b90ca3a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b121a4f301c4697",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fea701f631a88030",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "file:20210822164320",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7f602666783b45e2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e8161c92bf202eca",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270
+  },
+  "right": {
+    "id": "0861b8cb3ef26819",
+    "type": "split",
+    "children": [
+      {
+        "id": "77078181c0e83c92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70afbc1178a94414",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "4567f7cf11a1bc38",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "c9eb632b5b45044a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ddb41c4ef8c2b5a1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.3130798339844,
+    "collapsed": true
+  },
+  "active": "fee4a6310f58dca4",
+  "lastOpenFiles": [
+    "1、方案比对/1、工作流对比.md",
+    "camunda/1、蓝图/3、安装/1、集群搭建Engine.md",
+    "1、方案比对/未命名.md",
+    "conflict-files-obsidian-git.md",
+    "camunda/1、蓝图/3、安装/未命名.md",
+    "camunda/1、蓝图/2、架构设计/1、架构图.md",
+    "待学习/周/2021-08(33).md",
+    "camunda/重点/未命名.md",
+    "camunda/1、蓝图/2、架构设计/未命名.md",
+    "camunda/流程设计/未命名.md"
+  ]
+}
