@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ETL/1、源码编译.md",
+            "file": "ETL/扩展/HiromuHota pentaho-kettle(web)/x、研究原理.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ETL/1、源码编译.md",
+                "file": "ETL/扩展/HiromuHota pentaho-kettle(web)/x、研究原理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ETL/1、源码编译.md"
+                "file": "ETL/扩展/HiromuHota pentaho-kettle(web)/x、研究原理.md"
               }
             }
           },
@@ -139,15 +139,15 @@
   },
   "active": "fee4a6310f58dca4",
   "lastOpenFiles": [
+    "ETL/扩展/HiromuHota pentaho-kettle(web)/x、研究原理.md",
+    "ETL/1、源码编译.md",
+    "ETL/扩展/HiromuHota pentaho-kettle(web)/1、概述.md",
+    "ETL/扩展/HiromuHota pentaho-kettle(web)/未命名.md",
+    "ETL/扩展/未命名.md",
     "ETL/未命名.md",
     "1、方案比对/1、工作流对比.md",
     "camunda/1、蓝图/3、安装/1、集群搭建Engine.md",
     "1、方案比对/未命名.md",
-    "conflict-files-obsidian-git.md",
-    "camunda/1、蓝图/3、安装/未命名.md",
-    "camunda/1、蓝图/2、架构设计/1、架构图.md",
-    "待学习/周/2021-08(33).md",
-    "camunda/重点/未命名.md",
-    "camunda/1、蓝图/2、架构设计/未命名.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
