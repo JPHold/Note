@@ -22,10 +22,18 @@
 
 git clone这个项目
 ![[Pasted image 20210824150815.png]]
-进入该项目，打开命令窗口执行`maven clean`
+进入该项目，打开命令窗口执行下面每个命令`maven clean install`
 ![[Pasted image 20210824150735.png]]
 
 
 * pentaho-vfs-browser:9.0.0.0-423-22
+ [apache-vfs-browser](https://github.com/HiromuHota/apache-vfs-browser)
+`maven clean install`
+
 * commons-xul-swt:9.0.0.0-423-22
+[Requires pentaho-xul-swt 7.1.0.0-12-10 but 7.1.0.0-12-9 still in HiromuHota/pentaho-commons-xul](https://github.com/HiromuHota/pentaho-kettle/issues/65)
+
+git clone 这个项目
+[pentaho-commons-xul](https://github.com/HiromuHota/pentaho-commons-xul)
+进入该项目，打开命令窗口执行`maven clean install`
 
