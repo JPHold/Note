@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:20210822164320",
+                "query": "file:20210825183433",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -139,15 +139,15 @@
   },
   "active": "fee4a6310f58dca4",
   "lastOpenFiles": [
+    "ETL/扩展/remote-manager-carte/2、指南.md",
+    "附件/remote-manager-carte/未命名.md",
+    "待学习/周/2021-08(34).md",
     "ETL/扩展/remote-manager-carte/未命名.md",
     "ETL/扩展/HiromuHota pentaho-kettle(web)/x、研究原理.md",
     "ETL/1、源码编译.md",
     "ETL/扩展/HiromuHota pentaho-kettle(web)/1、概述.md",
     "ETL/扩展/HiromuHota pentaho-kettle(web)/未命名.md",
     "ETL/扩展/未命名.md",
-    "ETL/未命名.md",
-    "1、方案比对/1、工作流对比.md",
-    "camunda/1、蓝图/3、安装/1、集群搭建Engine.md",
-    "1、方案比对/未命名.md"
+    "ETL/未命名.md"
   ]
 }
