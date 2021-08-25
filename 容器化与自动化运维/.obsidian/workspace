@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b72fd6bdfbcc3102",
+        "id": "a134222301bf1c8f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/3、Docker-Compose/2、CLI环境变量.md",
+            "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/3、Docker-Compose/2、CLI环境变量.md",
+                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/3、Docker-Compose/2、CLI环境变量.md"
+                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md"
               }
             }
           }
@@ -120,17 +120,17 @@
     "direction": "horizontal",
     "width": 303.3130798339844
   },
-  "active": "b72fd6bdfbcc3102",
+  "active": "a134222301bf1c8f",
   "lastOpenFiles": [
-    "Docker/Docker官网/3、Docker-Compose/2、CLI环境变量.md",
-    "Docker/Docker官网/3、Docker-Compose/1、概述.md",
+    "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
     "Docker/Docker官网/3、Docker-Compose/未命名.md",
+    "Docker/Docker官网/3、Docker-Compose/1、概述.md",
+    "Docker/Docker官网/3、Docker-Compose/2、CLI环境变量.md",
     "Docker/Docker官网/3、Docker-Compose/4、Compose编写.md",
     "Docker/Docker官网/2、Docker-Engine/9、高级特性：scan.md",
     "Docker/Docker官网/2、Docker-Engine/3、每个发行版的安装.md",
     "Docker/Docker官网/2、Docker-Engine/2、安装前的了解.md",
     "conflict-files-obsidian-git.md",
-    "Docker/Docker官网/2、Docker-Engine/8、高级特性：Context.md",
-    "Docker/Docker官网/2、Docker-Engine/未命名.md"
+    "Docker/Docker官网/2、Docker-Engine/8、高级特性：Context.md"
   ]
 }
