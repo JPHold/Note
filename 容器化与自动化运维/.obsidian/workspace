@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
+            "file": "容器化标准的发展/1、Docker与Kubernetes的厮杀.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
+                "file": "容器化标准的发展/1、Docker与Kubernetes的厮杀.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md"
+                "file": "容器化标准的发展/1、Docker与Kubernetes的厮杀.md"
               }
             }
           }
@@ -122,6 +122,7 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "容器化标准的发展/未命名.md",
     "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
     "Docker/Docker官网/3、Docker-Compose/未命名.md",
     "Docker/Docker官网/3、Docker-Compose/1、概述.md",
@@ -130,7 +131,6 @@
     "Docker/Docker官网/2、Docker-Engine/9、高级特性：scan.md",
     "Docker/Docker官网/2、Docker-Engine/3、每个发行版的安装.md",
     "Docker/Docker官网/2、Docker-Engine/2、安装前的了解.md",
-    "conflict-files-obsidian-git.md",
-    "Docker/Docker官网/2、Docker-Engine/8、高级特性：Context.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
