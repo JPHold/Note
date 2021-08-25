@@ -12,4 +12,4 @@ Docker包含docker-cli、dockered、containerd(包含run组件（shim、runc、d
 4. 前面说过，k8s诱骗docker将containerd开源，现在已经属于CNCF，实现了CRI标准，所以现在的平衡局面是这样
 ![[Pasted image 20210825100724.png]]
 5. 容器运行时有两个方式：containerd和CRI-O
-6. 弃用Docker，只是个文字游戏，放弃的只是dockershim组件；依然shi'yon
+6. 弃用Docker，只是个文字游戏，放弃的只是dockershim组件；依然使用containerd和docker构建容器[[重点]]
