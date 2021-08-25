@@ -9,17 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "容器化标准的发展/1、Docker与Kubernetes的厮杀.md",
+            "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2标准.md",
             "mode": "source"
           }
-        }
-      },
-      {
-        "id": "90ae864d71002284",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -92,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "容器化标准的发展/1、Docker与Kubernetes的厮杀.md",
+                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2标准.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "容器化标准的发展/1、Docker与Kubernetes的厮杀.md"
+                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2标准.md"
               }
             }
           }
@@ -126,13 +118,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.3130798339844,
-    "collapsed": true
+    "width": 303.3130798339844
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
-    "容器化标准的发展/1、Docker与Kubernetes的厮杀.md",
     "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
+    "容器化标准的发展/1、Docker与Kubernetes的厮杀.md",
     "conflict-files-obsidian-git.md",
     "Docker/Docker官网/3、Docker-Compose/未命名.md",
     "Docker/Docker官网/3、Docker-Compose/1、概述.md",
