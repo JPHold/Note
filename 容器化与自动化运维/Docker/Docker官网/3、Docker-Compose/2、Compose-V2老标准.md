@@ -2,7 +2,7 @@
 
 # 注意
 2021年8月25日 00:02:58
-v2新版本如果要用在正式环境，得充分测试后才能放入（不过建议还是不要用）[[Docker重点]]
+v2新版本如果要用在正式环境，得充分测试后才能放入[[Docker重点]]
 
 * v1版本依然还在维护和支持[[Docker重点]]
 
@@ -33,20 +33,3 @@ curl -SL https://github.com/docker/compose-cli/releases/download/v2.0.0-rc.1/doc
  
 chmod +x ~/.docker/cli-plugins/docker-compose
 ```
-
-# Compose与docker-compose的兼容性
-目前还有一些docker-compose的命令和参数，没有迁移到Compose，具体查看[Compose-CLI改造清单](https://github.com/docker/compose-cli/issues/1283) GitHub
-
-## 尚未实现的参数
-`compose build --memory`
-buildkit还没支持，但有这个参数说明，但没有任何效果，所以被隐藏了
-
-## 不会支持的参数或命令
-1. `compose ps --filter KEY-VALUE` 
-与service命令无关，且docker-compose没有该参数
-
-2. `compose rm --all`
-docker-compose已弃用
-
-3. `compose scale`
-docker-compose已弃用，使用`compose up --scale`替代
