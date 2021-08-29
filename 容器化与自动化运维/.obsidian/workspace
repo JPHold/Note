@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/3、Docker-Compose/5、环境变量.md",
+            "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:20210817231757",
+                "query": "profiles",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/3、Docker-Compose/5、环境变量.md",
+                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/3、Docker-Compose/5、环境变量.md"
+                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md"
               }
             }
           }
@@ -122,11 +122,11 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
     "Docker/Docker官网/3、Docker-Compose/5、环境变量.md",
     "重点/Docker重点.md",
     "Docker/Docker官网/3、Docker-Compose/未命名.md",
     "Docker/Docker官网/3、Docker-Compose/3、安装.md",
-    "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
     "Docker/Docker官网/3、Docker-Compose/2、CLI环境变量.md",
     "conflict-files-obsidian-git.md",
     "Docker/Docker官网/3、Docker-Compose/2、Compose-V2标准.md",
