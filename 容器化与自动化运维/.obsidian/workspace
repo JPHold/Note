@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
+            "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2新标准.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
+                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2新标准.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md"
+                "file": "Docker/Docker官网/3、Docker-Compose/2、Compose-V2新标准.md"
               }
             }
           }
