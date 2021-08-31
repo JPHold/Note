@@ -7,8 +7,11 @@
         "id": "fee4a6310f58dca4",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "ETL/扩展/remote-manager-carte/2、指南.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -81,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ETL/扩展/remote-manager-carte/2、指南.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +108,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ETL/扩展/remote-manager-carte/2、指南.md"
+              }
             }
           },
           {
@@ -149,11 +155,11 @@
   },
   "active": "fee4a6310f58dca4",
   "lastOpenFiles": [
-    "ETL/扩展/HiromuHota pentaho-kettle(web)/x、研究原理.md",
     "ETL/扩展/remote-manager-carte/2、指南.md",
+    "ETL/深入/1、源码编译.md",
+    "ETL/扩展/HiromuHota pentaho-kettle(web)/x、研究原理.md",
     "待学习/周/2021-08(34).md",
     "ETL/扩展/remote-manager-carte/1、介绍.md",
-    "ETL/深入/1、源码编译.md",
     "附件/remote-manager-carte/未命名.md",
     "ETL/扩展/remote-manager-carte/未命名.md",
     "ETL/1、源码编译.md",
