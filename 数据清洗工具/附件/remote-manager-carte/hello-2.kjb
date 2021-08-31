@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>hello-1</name>
+  <name>hello-2</name>
   <description/>
   <extended_description/>
   <job_version/>
   <directory>/</directory>
   <created_user>-</created_user>
-  <created_date>2021/08/24 16:05:33.488</created_date>
+  <created_date>2021/08/31 15:49:58.058</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2021/08/24 16:05:33.488</modified_date>
+  <modified_date>2021/08/31 15:49:58.058</modified_date>
   <parameters>
     </parameters>
   <slaveservers>
@@ -356,8 +356,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>176</xloc>
-      <yloc>256</yloc>
+      <xloc>386</xloc>
+      <yloc>316</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -388,14 +388,15 @@
       <create_parent_folder>N</create_parent_folder>
       <logging_remote_work>N</logging_remote_work>
       <run_configuration>obtain-carte-master</run_configuration>
+      <suppress_result_data>N</suppress_result_data>
       <parameters>
         <pass_all_parameters>Y</pass_all_parameters>
       </parameters>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>304</xloc>
-      <yloc>256</yloc>
+      <xloc>514</xloc>
+      <yloc>316</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -406,8 +407,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>464</xloc>
-      <yloc>256</yloc>
+      <xloc>674</xloc>
+      <yloc>316</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -433,20 +434,5 @@
   </hops>
   <notepads>
   </notepads>
-  <attributes>
-    <group>
-      <name>METASTORE.pentaho</name>
-      <attribute>
-        <key>Default Run Configuration</key>
-        <value>{"namespace":"pentaho","id":"Default Run Configuration","name":"Default Run Configuration","description":"Defines a default run configuration","metaStoreName":null}</value>
-      </attribute>
-    </group>
-    <group>
-      <name>{"_":"Embedded MetaStore Elements","namespace":"pentaho","type":"Default Run Configuration"}</name>
-      <attribute>
-        <key>obtain-carte-master</key>
-        <value>{"children":[{"children":[],"id":"server","value":"carte-master"},{"children":[],"id":"clustered","value":"N"},{"children":[],"id":"name","value":"obtain-carte-master"},{"children":[],"id":"description","value":"远程执行转换和作业（只是某个carte节点执行）"},{"children":[],"id":"pentaho","value":"N"},{"children":[],"id":"readOnly","value":"N"},{"children":[],"id":"sendResources","value":"N"},{"children":[],"id":"logRemoteExecutionLocally","value":"N"},{"children":[],"id":"remote","value":"Y"},{"children":[],"id":"local","value":"N"},{"children":[],"id":"showTransformations","value":"N"}],"id":"obtain-carte-master","value":null,"name":"obtain-carte-master","owner":null,"ownerPermissionsList":[]}</value>
-      </attribute>
-    </group>
-  </attributes>
+  <attributes/>
 </job>
