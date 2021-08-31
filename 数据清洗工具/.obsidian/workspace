@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "ETL/扩展/remote-manager-carte/2、指南.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -135,6 +135,14 @@
             "type": "leaf",
             "state": {
               "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "165ae935b1c963c0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
