@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "ETL/扩展/remote-manager-carte/2、指南.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270
+    "width": 270,
+    "collapsed": true
   },
   "right": {
     "id": "0861b8cb3ef26819",
@@ -133,21 +134,21 @@
             "id": "08f584cdd2d15827",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "empty",
               "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 303.3130798339844,
-    "collapsed": true
+    "width": 303.3130798339844
   },
   "active": "fee4a6310f58dca4",
   "lastOpenFiles": [
     "ETL/扩展/remote-manager-carte/2、指南.md",
+    "ETL/扩展/remote-manager-carte/1、介绍.md",
     "附件/remote-manager-carte/未命名.md",
     "待学习/周/2021-08(34).md",
     "ETL/扩展/remote-manager-carte/未命名.md",
@@ -155,7 +156,6 @@
     "ETL/1、源码编译.md",
     "ETL/扩展/HiromuHota pentaho-kettle(web)/1、概述.md",
     "ETL/扩展/HiromuHota pentaho-kettle(web)/未命名.md",
-    "ETL/扩展/未命名.md",
-    "ETL/未命名.md"
+    "ETL/扩展/未命名.md"
   ]
 }
