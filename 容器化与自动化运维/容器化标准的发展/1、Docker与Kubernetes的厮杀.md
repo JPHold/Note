@@ -13,3 +13,11 @@ Docker包含docker-cli、dockered、containerd(包含run组件（shim、runc、d
 ![[Pasted image 20210825100724.png]]
 5. 容器运行时有两个方式：containerd和CRI-O
 6. 弃用Docker，只是个文字游戏，放弃的只是dockershim组件；依然使用containerd和docker构建容器[[重点]]
+
+1. [Kubernetes为什么要弃用Docker？](https://mp.weixin.qq.com/s/BMVN3LZFrW7s5ca22_PZKg)
+* 虚线框是老方式
+![[Pasted image 20210825102119.png]]
+
+* k8s定义的接口
+![[Pasted image 20210825102124.png]]
+k8s的开源维护者，没有很多精力去维护dockershim，容器技术每增加一个功能，都需要在dockershim编写转换规则。前期使用docker，只是为了扩大市场，现在翅膀硬了，就不想这么麻烦了，直接定义自己的标准，交给下游的容器运行时组件自己维护，跟我的CRI标准对齐，k8s只需要喝茶即可。[[Docker重点]]

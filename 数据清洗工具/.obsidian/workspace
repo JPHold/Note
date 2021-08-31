@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ETL/扩展/remote-manager-carte/2、指南.md",
+            "file": "ETL/KETTLE/Pentaho Data Integration/1、使用指南/1、资源库.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ETL/扩展/remote-manager-carte/2、指南.md",
+                "file": "ETL/KETTLE/Pentaho Data Integration/1、使用指南/1、资源库.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ETL/扩展/remote-manager-carte/2、指南.md"
+                "file": "ETL/KETTLE/Pentaho Data Integration/1、使用指南/1、资源库.md"
               }
             }
           },
@@ -125,12 +125,28 @@
             "id": "48a551153577392d",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "08f584cdd2d15827",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "165ae935b1c963c0",
+            "type": "leaf",
+            "state": {
               "type": "calendar",
               "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -139,15 +155,15 @@
   },
   "active": "fee4a6310f58dca4",
   "lastOpenFiles": [
+    "ETL/KETTLE/Pentaho Data Integration/1、使用指南/未命名.md",
+    "ETL/KETTLE/Pentaho Data Integration/未命名.md",
     "ETL/扩展/remote-manager-carte/2、指南.md",
-    "附件/remote-manager-carte/未命名.md",
-    "待学习/周/2021-08(34).md",
-    "ETL/扩展/remote-manager-carte/未命名.md",
+    "ETL/深入/1、源码编译.md",
     "ETL/扩展/HiromuHota pentaho-kettle(web)/x、研究原理.md",
-    "ETL/1、源码编译.md",
-    "ETL/扩展/HiromuHota pentaho-kettle(web)/1、概述.md",
-    "ETL/扩展/HiromuHota pentaho-kettle(web)/未命名.md",
-    "ETL/扩展/未命名.md",
-    "ETL/未命名.md"
+    "待学习/周/2021-08(34).md",
+    "ETL/扩展/remote-manager-carte/1、介绍.md",
+    "附件/remote-manager-carte/未命名.md",
+    "ETL/扩展/remote-manager-carte/未命名.md",
+    "ETL/1、源码编译.md"
   ]
 }
