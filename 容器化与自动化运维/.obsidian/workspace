@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "a134222301bf1c8f",
+        "id": "15365f7db516d31a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "容器化标准的发展/1、Docker与Kubernetes的厮杀.md",
+            "file": "待学习/周/2021-08(34).md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "容器化标准的发展/1、Docker与Kubernetes的厮杀.md",
+                "file": "待学习/周/2021-08(34).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,28 +109,36 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "容器化标准的发展/1、Docker与Kubernetes的厮杀.md"
+                "file": "待学习/周/2021-08(34).md"
               }
+            }
+          },
+          {
+            "id": "abbeeaf160db7ce3",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 303.3130798339844
   },
-  "active": "a134222301bf1c8f",
+  "active": "15365f7db516d31a",
   "lastOpenFiles": [
+    "待学习/周/2021-08(34).md",
+    "待学习/周/2021-08(32).md",
+    "待学习/周/2021-08(33).md",
     "容器化标准的发展/1、Docker与Kubernetes的厮杀.md",
     "重点.md",
     "容器化标准的发展/未命名.md",
     "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
     "Docker/Docker官网/3、Docker-Compose/未命名.md",
     "Docker/Docker官网/3、Docker-Compose/1、概述.md",
-    "Docker/Docker官网/3、Docker-Compose/2、CLI环境变量.md",
-    "Docker/Docker官网/3、Docker-Compose/4、Compose编写.md",
-    "Docker/Docker官网/2、Docker-Engine/9、高级特性：scan.md",
-    "Docker/Docker官网/2、Docker-Engine/3、每个发行版的安装.md"
+    "Docker/Docker官网/3、Docker-Compose/2、CLI环境变量.md"
   ]
 }
