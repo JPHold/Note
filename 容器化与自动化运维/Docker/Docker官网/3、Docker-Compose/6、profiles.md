@@ -23,11 +23,12 @@
 
 # 隐式指定profile
 ## 运行带profile的服务，相当于默认指定profile，还会与depends_on产生联动[[重点]]
-depends_on的联动是有规则的：
-1. 依赖的服务没有profile或与
+记依赖的服务为a，被依赖的服务为b
+**depends_on的联动是有规则的：**
+1. b没有profile，或b与a同属相同profile
 
-db-migrations服务依赖db服务，所以会先启动db服务
-
+* db-migrations服务依赖db服务，加上db服务没有profile，所以会启动db服务
+`docker-compose run db-migrations`
 ```yaml
 version: "3.9"
 services:
@@ -46,5 +47,36 @@ services:
       - tools
 ```
 
-* 启动
-`docker-compose run db-migrations`
+
+* mock-backend服务和phpmyadmin服务都依赖db服务，只有mock-backend服务与之同个profile
+```yaml
+version: "3.9"
+services:
+  web:
+    image: web
+
+  mock-backend:
+    image: backend
+    profiles: ["dev"]
+    depends_on:
+      - db
+
+  db:
+    image: mysql
+    profiles: ["dev"]
+
+  phpmyadmin:
+    image: phpmyadmin
+    profiles: ["debug"]
+    depends_on:
+      - db
+```
+
+`docker-compose up -d`
+只会启动web服务
+
+`docker-compose up -d mock-backend`
+会先启动db服务，再启动mock-backend服务
+
+`docker-compose up phpmyadmin`
+启动报错，profile不同：一个是dev，一个是debug
