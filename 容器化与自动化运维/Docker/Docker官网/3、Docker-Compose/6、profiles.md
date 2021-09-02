@@ -80,3 +80,9 @@ services:
 
 `docker-compose up phpmyadmin`
 启动报错，profile不同：一个是dev，一个是debug
+
+**要解决这个问题，有两种方法**
+1. 将db服务也纳入到debug这个profile
+2. 利用隐式指定profile的特性，启动phpmyadmin服务，并手动指定另一个profile
+`docker-compose --profile dev up phpmyadmin`
+`COMPOSE_PROFILES=dev docker-compose up phpmyadmin`
