@@ -92,3 +92,156 @@ db:
 
 
 # 继承Compose
+* extends，在Compose2.1之前支持，但在3.x中不支持[[Docker重点]]
+* `volumes_from`和`depends_on`这两个属性不会被继承
+
+### 采用共同配置
+**common.yml **
+```
+services:
+  app:
+    build: .
+    environment:
+      CONFIG_FILE_PATH: /code/config
+      API_KEY: xxxyyy
+    cpu_shares: 5
+```
+
+**docker-compose.yml**
+```
+services:
+  webapp:
+    extends:
+      file: common.yml
+      service: app
+    command: /code/run_web_app
+    ports:
+      - 8080:8080
+    depends_on:
+      - queue
+      - db
+
+  queue_worker:
+    extends:
+      file: common.yml
+      service: app
+    command: /code/run_worker
+    depends_on:
+      - queue
+```
+
+# 添加or覆盖的规则
+## 单个值的属性，直接替换
+### `image`
+### `command`
+### `mem_limit`
+
+## 多个值的属性，合并交集
+原始服务：
+```
+services:
+  myservice:
+    # ...
+    expose:
+      - "3000"
+```
+
+本地服务：
+```
+services:
+  myservice:
+    # ...
+    expose:
+      - "4000"
+      - "5000"
+```
+
+结果：
+```
+services:
+  myservice:
+    # ...
+    expose:
+      - "3000"
+      - "4000"
+      - "5000"
+```
+
+### `ports`
+### `expose`
+### `external_links`
+### `dns`
+### `dns_search`
+### `tmpfs`
+
+## 内层key-value结构，本地定义优先，不替换
+
+* 以本地服务的配置优先
+原始服务：
+```
+services:
+  myservice:
+    # ...
+    environment:
+      - FOO=original
+      - BAR=original
+```
+
+本地服务：
+```
+services:
+  myservice:
+    # ...
+    environment:
+      - BAR=local
+      - BAZ=local
+```
+
+结果
+```
+services:
+  myservice:
+    # ...
+    environment:
+      - FOO=original
+      - BAR=local
+      - BAZ=local
+```
+
+* volume具备智能替换
+原服务的`./original:/bar`和本地服务的`./local:/bar`。容器内部挂载目录都是bar，优先本地服务
+原始服务：
+```
+services:
+  myservice:
+    # ...
+    volumes:
+      - ./original:/foo
+      - ./original:/bar
+```
+
+本地服务：
+```
+services:
+  myservice:
+    # ...
+    volumes:
+      - ./local:/bar
+      - ./local:/baz
+```
+
+结果：
+```
+services:
+  myservice:
+    # ...
+    volumes:
+      - ./original:/foo
+      - ./local:/bar
+      - ./local:/baz
+```
+
+### `environment`
+### `labels`
+### `volumes`
+### `devices`
