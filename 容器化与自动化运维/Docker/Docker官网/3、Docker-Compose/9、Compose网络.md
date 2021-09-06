@@ -58,8 +58,46 @@ networks:
     bar: "2"
 ```
 
+### 支持指定静态ip(v4和v6都可以)
+[ipv4_address 和ipv6_address](https://docs.docker.com/compose/compose-file/compose-file-v2/#ipv4_address-ipv6_address)
 # 配置
 ## 支持修改默认网络的配置
-    3.支持将默认网络改成外部创建的网络(已存在的网络，即不是compose文件创建的网络)
-    4.自定义网络支持指定静态ip(v4和v6都可以)
-    5.从compose文件的version3.5开始，支持自定义名
+default属性
+```yaml
+version: "3.9"
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+ db:
+   image: postgres
+
+networks:
+  default:
+    # Use a custom driver
+    driver: custom-driver-1
+```
+
+* 支持将默认网络改成外部创建的网络(已存在的网络，即不是compose文件创建的网络)
+```yaml
+services:
+  # ...
+networks:
+  default:
+    external: true
+    name: my-pre-existing-network
+```
+
+
+## 从compose文件的version3.5开始，支持自定义名
+[自定义名称](https://docs.docker.com/compose/compose-file/compose-file-v3/#network-configuration-reference)
+```yaml
+version: "3.9"
+services:
+  # ...
+networks:
+  frontend:
+    name: custom_frontend
+    driver: custom-driver-1
+```
