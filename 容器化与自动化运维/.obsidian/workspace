@@ -122,6 +122,7 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/Docker官网/3、Docker-Compose/9、Compose网络.md",
     "Docker/Docker官网/3、Docker-Compose/未命名.md",
     "Docker/Docker官网/3、Docker-Compose/8、共用Compose.md",
     "Docker/Docker官网/3、Docker-Compose/7、支持GPU特性.md",
@@ -130,7 +131,6 @@
     "Docker/Docker官网/3、Docker-Compose/6、.md",
     "Docker/Docker官网/3、Docker-Compose/2、Compose-V2新标准.md",
     "Docker/Docker官网/3、Docker-Compose/5、环境变量.md",
-    "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md",
-    "重点/Docker重点.md"
+    "Docker/Docker官网/3、Docker-Compose/2、Compose-V2老标准.md"
   ]
 }
