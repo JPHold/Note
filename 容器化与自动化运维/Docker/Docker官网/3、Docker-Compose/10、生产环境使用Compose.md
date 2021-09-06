@@ -9,3 +9,11 @@
 * 指定重启策略：restart:alway避免停机
 * 添加额外服务：日志聚合器(如ELK)
 * 使用另一个compose文件，比如production.yml，使用正式环境配置（如中间件）
+
+# 更新部署
+`docker-compose up`的流程：重建镜像、停止容器、销毁容器、重建web服务容器、启动
+
+`docker-compose up --no-deps web`不会重建任何web依赖的服务
+
+# 负载部署
+通过compose可将一个应用部署到其他docker主机上：需要这些配置`DOCKER_HOST`、`DOCKER_TLS_VERIFY`、 `DOCKER_CERT_PATH`
