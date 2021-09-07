@@ -7,8 +7,11 @@
         "id": "a134222301bf1c8f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "共同特性/1、远程调试.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -81,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "共同特性/1、远程调试.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,6 +108,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "共同特性/1、远程调试.md"
+              }
+            }
+          },
+          {
+            "id": "30e3621ed4195ac8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -112,10 +126,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.3130798339844
+    "width": 303.3130798339844,
+    "collapsed": true
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "共同特性/未命名.md",
     "Docker/Docker官网/6、开源项目/本地注册服务器Hub/未命名.md",
     "Docker/Docker官网/3、Docker-Compose/未命名.md",
     "Docker/Docker官网/3、Docker-Compose/10、生产环境使用Compose.md",
@@ -124,7 +140,6 @@
     "Docker/Docker官网/3、Docker-Compose/7、支持GPU特性.md",
     "Docker/Docker官网/3、Docker-Compose/2、CLI环境变量.md",
     "Docker/Docker官网/3、Docker-Compose/6、profiles.md",
-    "Docker/Docker官网/3、Docker-Compose/6、.md",
-    "Docker/Docker官网/3、Docker-Compose/2、Compose-V2新标准.md"
+    "Docker/Docker官网/3、Docker-Compose/6、.md"
   ]
 }
