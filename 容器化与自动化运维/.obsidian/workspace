@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/4、创建服务.md",
+            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、创建集群.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:20210909125333",
+                "query": "file:20210909155643",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/4、创建服务.md",
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、创建集群.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/4、创建服务.md"
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、创建集群.md"
               }
             }
           }
@@ -123,8 +124,8 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/4、创建服务.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、创建集群.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/4、创建服务.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/未命名.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/2、安装前的了解.md",
