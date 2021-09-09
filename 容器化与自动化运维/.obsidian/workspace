@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、创建集群.md",
+            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/4、创建服务.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "profiles",
+                "query": "file:20210909125333",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、创建集群.md",
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/4、创建服务.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、创建集群.md"
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/4、创建服务.md"
               }
             }
           }
@@ -123,15 +123,15 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/4、创建服务.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、创建集群.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/未命名.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/2、安装前的了解.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/未命名.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/4、安装后可选后续步骤.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、特性.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、关键理念.md",
     "Docker/Docker官网/6、开源项目/本地注册服务器Hub/未命名.md",
-    "Docker/Docker官网/3、Docker-Compose/未命名.md",
-    "Docker/Docker官网/3、Docker-Compose/10、生产环境使用Compose.md"
+    "Docker/Docker官网/3、Docker-Compose/未命名.md"
   ]
 }
