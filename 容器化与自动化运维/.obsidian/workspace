@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、关键理念.md",
+            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、特性.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、关键理念.md",
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、特性.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、关键理念.md"
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、特性.md"
               }
             }
           }
@@ -122,8 +122,8 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、关键理念.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、特性.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、关键理念.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/未命名.md",
     "Docker/Docker官网/6、开源项目/本地注册服务器Hub/未命名.md",
     "Docker/Docker官网/3、Docker-Compose/未命名.md",
