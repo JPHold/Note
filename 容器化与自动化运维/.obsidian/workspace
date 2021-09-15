@@ -123,6 +123,8 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/生态/harbo/2、使用.md",
+    "Docker/生态/harbo/1、安装.md",
     "Docker/生态/harbo/未命名.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/2、Compose-V2新标准.md",
     "Docker/排错/1、启动容器.md",
@@ -130,8 +132,6 @@
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/7、灰度发布(更新服务).md",
     "1、启动容器.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/1、概述.md",
-    "Docker/Docker官网/Product manuals/3、Docker-Compose/3、安装、更新、卸载.md",
-    "未命名.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/未命名.md"
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/3、安装、更新、卸载.md"
   ]
 }
