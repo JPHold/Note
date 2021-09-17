@@ -5,6 +5,10 @@
 记得新建用户，权限是developer
 
 # docker集成harbo
+**http方式，每次上传镜像，在打tag时，需要写上ip和port，很麻烦**
+**https方式，就不用**
+
+## http方式
 * 修改http方式的注册地址
 `vim /etc/docker/daemon.json`，增加
 "insecure-registries": ["192.168.86.148:5050"]
