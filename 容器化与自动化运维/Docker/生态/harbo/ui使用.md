@@ -57,3 +57,70 @@ xxxProject是在harbo管理界面上创建的项目名
 `docker pull swarm-publishport-helloworld`
 ![[Pasted image 20210916224000.png]]
 ![[Pasted image 20210916224028.png]]
+
+
+## https方式
+* 每次prepare后，登录的公钥和私钥都变了，必须docker-compose down先将容器卸载，再重新docker-compose up。不然docker login时会报错：401 Unauthorized
+[harbor中login提示401 Unauthorized解决](https://www.developerhome.net/archives/386)
+
+* 按照官方文档，生成https证书
+[配置 HTTPS 访问 Harbor](https://goharbor.io/docs/2.3.0/install-config/configure-https/)
+
+**将local-harbo改成你想要的域名名称，最好不要harbo.com，会冲突，跳转到其它网站**
+```shell
+
+--
+openssl genrsa -out ca.key 4096
+
+
+--
+openssl req -x509 -new -nodes -sha512 -days 3650 \
+ -subj "/C=CN/ST=Beijing/L=Beijing/O=example/OU=Personal/CN=local-harbo" \
+ -key ca.key \
+ -out ca.crt
+
+--
+openssl genrsa -out local-harbo.key 4096 
+
+--
+openssl req -sha512 -new \
+    -subj "/C=CN/ST=Beijing/L=Beijing/O=example/OU=Personal/CN=local-harbo" \
+    -key local-harbo.key \
+    -out local-harbo.csr
+
+
+--
+cat > v3.ext <<-EOF
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1=local-harbo
+DNS.2=harbo
+DNS.3=hostname
+EOF
+
+--
+openssl x509 -req -sha512 -days 3650 \
+    -extfile v3.ext \
+    -CA ca.crt -CAkey ca.key -CAcreateserial \
+    -in local-harbo.csr \
+    -out local-harbo.crt
+
+-- 
+ cp local-harbo.crt /data/cert/
+ cp local-harbo.key /data/cert/    
+
+
+--
+openssl x509 -inform PEM -in local-harbo.crt -out local-harbo.cert 
+
+
+--
+cp local-harbo.cert /etc/docker/certs.d/local-harbo/
+cp local-harbo.key /etc/docker/certs.d/local-harbo/
+cp ca.crt /etc/docker/certs.d/local-harbo/
+```
