@@ -142,3 +142,6 @@ docker-compose start
 **denied: requested access to the resource is denied**
 ![[Pasted image 20210919125301.png]]
 貌似域名不能是带-
+https://github.com/goharbor/harbor/issues/2383
+![[Pasted image 20210919132300.png]]
+如果指定的registry地址无法访问，则会默认推送到docker.io这个registry
