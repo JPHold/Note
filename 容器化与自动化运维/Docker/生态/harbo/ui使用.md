@@ -60,13 +60,14 @@ xxxProject是在harbo管理界面上创建的项目名
 
 
 ## https方式
+### harbo服务端
 * 每次prepare后，登录的公钥和私钥都变了，必须docker-compose down先将容器卸载，再重新docker-compose up -d。不然docker login时会报错：401 Unauthorized
 [harbor中login提示401 Unauthorized解决](https://www.developerhome.net/archives/386)
 
-### 关闭harbor
+#### 关闭harbor
 `docker-compose stop`
 
-### 按照官方文档，生成https证书
+#### 按照官方文档，生成https证书
 [配置 HTTPS 访问 Harbor](https://goharbor.io/docs/2.3.0/install-config/configure-https/)
 
 **调用脚本时，传入你想要的域名名称，最好不要harbo.com，会域名冲突，跳转到其它网站**
@@ -117,7 +118,7 @@ cp $1.key /etc/docker/certs.d/$1/
 cp ca.crt /etc/docker/certs.d/$1/
 ```
 
-### 修改harbor配置
+#### 修改harbor配置
 `vim harbor.yml`
 ![[Pasted image 20210919131515.png]]
 ```yml
@@ -143,28 +144,45 @@ https:
 **https.certificate**：上一步安装的证书路径
 **https.private_key**：上一步安装的私钥
 
-### 重新初始化harbor
-`./prepare`
+#### 配置hosts
+在/etc/hosts增加
+192.168.86.148 local.harbo.com
 
-### 重新安装和启动
+#### 重新初始化harbor
+`./prepare`
+`docker-compose down`
+
+#### 重新启动docker
+`systemctl restart docker`
+
+#### 重新安装和启动
 `./install.sh`
 
-```
-systemctl restart docker
---重新启动harbor
-docker-compose stop
-docker-compose start
-```
+### 客户端
+#### 创建证书目录
+`mkdir -p /etc/docker/certs.d/local.harbor.com/`
 
+#### 将证书复制到该目录
+同个目录/etc/docker/certs.d/local.harbor.com/，
+将`ca.crt` 、`local.harbor.com.cert`、`local.harbor.com.key`
+这三个文件从服务端的机器复制过来。
 
+#### 配置hosts
+在/etc/hosts增加
+192.168.86.148 local.harbo.com
 
+### 推送和拉取
+#### 推送
+``
+
+#### 拉取
 
 ## 注意
-* 每次重启docker后，harbor也要重新启动后，不然访问不了
+* **每次重启docker后，harbor也要重新启动后，不然访问不了**
 
 * **docker login xxx域名，提示报错：denied: requested access to the resource is denied**
 ![[Pasted image 20210919125301.png]]
 域名不能是带-
-https://github.com/goharbor/harbor/issues/2383
+[Cannot push tagged image to private registry!](https://github.com/goharbor/harbor/issues/2383)
 ![[Pasted image 20210919132300.png]]
-如果指定的registry地址无法访问，则会默认推送到docker.io这个registry
+资源库地址是这么选择的：**如果指定的registry地址无法访问，则会默认推送到docker.io这个registry**
