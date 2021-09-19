@@ -119,8 +119,13 @@ openssl x509 -req -sha512 -days 3650 \
 openssl x509 -inform PEM -in local-harbo.crt -out local-harbo.cert 
 
 
+这一步是为了docker登录到远程资源库的https证书凭证
 --
+mkdir -p /etc/docker/certs.d/local-harbo/
+
 cp local-harbo.cert /etc/docker/certs.d/local-harbo/
 cp local-harbo.key /etc/docker/certs.d/local-harbo/
 cp ca.crt /etc/docker/certs.d/local-harbo/
 ```
+
+**
