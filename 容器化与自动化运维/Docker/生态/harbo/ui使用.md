@@ -60,7 +60,7 @@ xxxProject是在harbo管理界面上创建的项目名
 
 
 ## https方式
-* 每次prepare后，登录的公钥和私钥都变了，必须docker-compose down先将容器卸载，再重新docker-compose up。不然docker login时会报错：401 Unauthorized
+* 每次prepare后，登录的公钥和私钥都变了，必须docker-compose down先将容器卸载，再重新docker-compose up -d。不然docker login时会报错：401 Unauthorized
 [harbor中login提示401 Unauthorized解决](https://www.developerhome.net/archives/386)
 
 * 按照官方文档，生成https证书
@@ -128,4 +128,17 @@ cp local-harbo.key /etc/docker/certs.d/local-harbo/
 cp ca.crt /etc/docker/certs.d/local-harbo/
 ```
 
-**
+```
+systemctl restart docker
+--重新启动harbor
+docker-compose stop
+docker-compose start
+```
+* 修改harbor.yml
+![[Pasted image 20210919131515.png]]
+
+每次重启docker后，harbor也要重新启动后，不然访问不了
+
+**denied: requested access to the resource is denied**
+![[Pasted image 20210919125301.png]]
+貌似域名不能是带-
