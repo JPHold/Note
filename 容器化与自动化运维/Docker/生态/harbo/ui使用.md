@@ -63,33 +63,29 @@ xxxProject是在harbo管理界面上创建的项目名
 * 每次prepare后，登录的公钥和私钥都变了，必须docker-compose down先将容器卸载，再重新docker-compose up -d。不然docker login时会报错：401 Unauthorized
 [harbor中login提示401 Unauthorized解决](https://www.developerhome.net/archives/386)
 
-* 按照官方文档，生成https证书
+### 关闭harbor
+`docker-compose stop`
+
+### 按照官方文档，生成https证书
 [配置 HTTPS 访问 Harbor](https://goharbor.io/docs/2.3.0/install-config/configure-https/)
 
-**将local-harbo改成你想要的域名名称，最好不要harbo.com，会冲突，跳转到其它网站**
+**调用脚本时，传入你想要的域名名称，最好不要harbo.com，会域名冲突，跳转到其它网站**
+我自定义的域名是local.harbor.com
+`vim makeCert.sh`
+./makeCert.sh local.harbor.com
 ```shell
 
---
 openssl genrsa -out ca.key 4096
 
+openssl req -x509 -new -nodes -sha512 -days 3650 -subj "/C=CN/ST=Beijing/L=Beijing/O=example/OU=Personal/CN=$1" -key ca.key -out ca.crt
 
---
-openssl req -x509 -new -nodes -sha512 -days 3650 \
- -subj "/C=CN/ST=Beijing/L=Beijing/O=example/OU=Personal/CN=local-harbo" \
- -key ca.key \
- -out ca.crt
-
---
-openssl genrsa -out local-harbo.key 4096 
-
---
-openssl req -sha512 -new \
-    -subj "/C=CN/ST=Beijing/L=Beijing/O=example/OU=Personal/CN=local-harbo" \
-    -key local-harbo.key \
-    -out local-harbo.csr
+openssl genrsa -out $1.key 4096 
 
 
---
+openssl req -sha512 -new -subj "/C=CN/ST=Beijing/L=Beijing/O=example/OU=Personal/CN=$1" -key $1.key -out $1.csr
+
+
+
 cat > v3.ext <<-EOF
 authorityKeyIdentifier=keyid,issuer
 basicConstraints=CA:FALSE
@@ -98,35 +94,60 @@ extendedKeyUsage = serverAuth
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1=local-harbo
+DNS.1=$1
 DNS.2=harbo
 DNS.3=hostname
 EOF
 
---
-openssl x509 -req -sha512 -days 3650 \
-    -extfile v3.ext \
-    -CA ca.crt -CAkey ca.key -CAcreateserial \
-    -in local-harbo.csr \
-    -out local-harbo.crt
 
--- 
- cp local-harbo.crt /data/cert/
- cp local-harbo.key /data/cert/    
+openssl x509 -req -sha512 -days 3650 -extfile v3.ext -CA ca.crt -CAkey ca.key -CAcreateserial -in $1.csr -out $1.crt
 
 
---
-openssl x509 -inform PEM -in local-harbo.crt -out local-harbo.cert 
+mkdir -p /data/cert/
+cp $1.crt /data/cert/
+cp $1.key /data/cert/    
 
 
-这一步是为了docker登录到远程资源库的https证书凭证
---
-mkdir -p /etc/docker/certs.d/local-harbo/
+openssl x509 -inform PEM -in $1.crt -out $1.cert 
 
-cp local-harbo.cert /etc/docker/certs.d/local-harbo/
-cp local-harbo.key /etc/docker/certs.d/local-harbo/
-cp ca.crt /etc/docker/certs.d/local-harbo/
+
+mkdir -p /etc/docker/certs.d/$1/
+cp $1.cert /etc/docker/certs.d/$1/
+cp $1.key /etc/docker/certs.d/$1/
+cp ca.crt /etc/docker/certs.d/$1/
 ```
+
+### 修改harbor配置
+`vim harbor.yml`
+![[Pasted image 20210919131515.png]]
+```yml
+# The IP address or hostname to access admin UI and registry service.
+# DO NOT use localhost or 127.0.0.1, because Harbor needs to be accessed by external clients.
+hostname: local.harbor.com
+
+# http related config
+http:
+  # port for http, default is 80. If https enabled, this port will redirect to https port
+  port: 80
+
+# https related config
+https:
+  # https port for harbor, default is 443
+  port: 443
+  # The path of cert and key files for nginx
+  certificate:  /data/cert/local.harbor.com.crt
+  private_key: /data/cert/local.harbor.com.key
+```
+**hostname**：改成上一步定义的域名
+**http.port**：https方式时，访问该端口会重定向到https方式的端口
+**https.certificate**：上一步安装的证书路径
+**https.private_key**：上一步安装的私钥
+
+### 重新初始化harbor
+`./prepare`
+
+### 重新安装和启动
+`./install.sh`
 
 ```
 systemctl restart docker
@@ -134,14 +155,16 @@ systemctl restart docker
 docker-compose stop
 docker-compose start
 ```
-* 修改harbor.yml
-![[Pasted image 20210919131515.png]]
 
-每次重启docker后，harbor也要重新启动后，不然访问不了
 
-**denied: requested access to the resource is denied**
+
+
+## 注意
+* 每次重启docker后，harbor也要重新启动后，不然访问不了
+
+* **docker login xxx域名，提示报错：denied: requested access to the resource is denied**
 ![[Pasted image 20210919125301.png]]
-貌似域名不能是带-
+域名不能是带-
 https://github.com/goharbor/harbor/issues/2383
 ![[Pasted image 20210919132300.png]]
 如果指定的registry地址无法访问，则会默认推送到docker.io这个registry
