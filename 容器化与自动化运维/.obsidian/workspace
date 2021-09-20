@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/2、服务工作.md",
+            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/x、问题.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/2、服务工作.md",
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/x、问题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/2、服务工作.md"
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/x、问题.md"
               }
             }
           }
@@ -123,6 +123,7 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/未命名.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/未命名.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/1、节点工作.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/8、操控节点的负载能力.md",
@@ -131,7 +132,6 @@
     "待学习/周/2021-09(38).md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/7、灰度发布(更新服务).md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/8、操控节点的负载能力.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/4、创建服务.md",
-    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md"
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/4、创建服务.md"
   ]
 }
