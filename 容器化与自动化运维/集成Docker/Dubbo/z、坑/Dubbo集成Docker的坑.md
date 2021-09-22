@@ -22,8 +22,12 @@
 [Docker 容器内运行 Dubbo 服务](https://blog.csdn.net/my___dream/article/details/90489984)
 这个篇文章描述，当有多个虚拟网卡时，会有提供者注册不上，消费者无法知道提供者（待核查）[[Docker重点]]
 [Dubbo多虚拟网卡情况下 怎么配置消费者指定真实ip](https://github.com/apache/dubbo/issues/6588)
-提供了jie'j
+提供了解决方案，手动指定网卡：`-Ddubbo.network.interface.preferred=${your-network-interface-name}`
 
 * 使用主机网络+写死host，成功访问
 `docker run -d --name hjp-files-p --network=host hjp-files-p`
 ![[Pasted image 20210922175920.png]]
+
+* 使用主机网络，性能会提升，同时也导致端口很容器冲突
+比如使用同一个tomcat镜像来启动应用，那么就会端口冲突，所以需要将配置作为环境变量配置：
+[Tomcat Server.xml引环境变量、指定webapps下的项目启动、访问加前缀](https://blog.csdn.net/u014203449/article/details/110850774)
