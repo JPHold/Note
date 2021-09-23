@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
+            "file": "Docker/附件/Docker.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "filter",
+                "query": "环境变量",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
+                "file": "Docker/附件/Docker.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md"
+                "file": "Docker/附件/Docker.md"
               }
             }
           }
@@ -124,15 +124,15 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/附件/Docker.md",
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/6、profiles.md",
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/5、环境变量.md",
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/2、CLI环境变量.md",
+    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
     "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
     "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
-    "Docker/附件/Docker.md",
     "Docker/最佳实践/Docker最佳实践.md",
     "集成Docker/Dubbo/z、坑/Dubbo集成Docker的坑.md",
-    "集成Docker/Dubbo/z、坑/未命名.md",
-    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
-    "Docker/Docker官网/Product manuals/3、Docker-Compose/4、入门demo.md",
-    "Docker/Docker官网/Product manuals/3、Docker-Compose/9、Compose网络.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/3、创建集群.md"
+    "集成Docker/Dubbo/z、坑/未命名.md"
   ]
 }
