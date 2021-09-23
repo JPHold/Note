@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "load",
+                "query": "filter",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
