@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
-            "mode": "preview"
+            "file": "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java",
+                "query": "load",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
+                "file": "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md"
+                "file": "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md"
               }
             }
           }
@@ -123,10 +124,10 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
     "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
     "Docker/附件/Docker.md",
     "Docker/最佳实践/Docker最佳实践.md",
-    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
     "集成Docker/Dubbo/z、坑/Dubbo集成Docker的坑.md",
     "集成Docker/Dubbo/z、坑/未命名.md",
     "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
