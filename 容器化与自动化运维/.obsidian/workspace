@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/附件/Docker.md",
+            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/3、.md",
             "mode": "source"
           }
         }
@@ -64,8 +64,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/附件/Docker.md",
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/3、.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/附件/Docker.md"
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/3、.md"
               }
             }
           }
@@ -124,6 +123,8 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/未命名.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/2、服务工作.md",
     "Docker/附件/Docker.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/6、profiles.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/5、环境变量.md",
@@ -131,8 +132,6 @@
     "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
     "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
     "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
-    "Docker/最佳实践/Docker最佳实践.md",
-    "集成Docker/Dubbo/z、坑/Dubbo集成Docker的坑.md",
-    "集成Docker/Dubbo/z、坑/未命名.md"
+    "Docker/最佳实践/Docker最佳实践.md"
   ]
 }
