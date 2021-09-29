@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/4、Swarm任务状态.md",
-            "mode": "source"
+            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/3、创建集群.md",
+            "mode": "preview"
           }
         }
       }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/4、Swarm任务状态.md",
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/3、创建集群.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/4、Swarm任务状态.md"
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/3、创建集群.md"
               }
             }
           }
@@ -123,6 +123,7 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/3、创建集群.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/4、Swarm任务状态.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/未命名.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/3、.md",
@@ -131,7 +132,6 @@
     "Docker/Docker官网/Product manuals/3、Docker-Compose/6、profiles.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/5、环境变量.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/2、CLI环境变量.md",
-    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
-    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md"
+    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md"
   ]
 }
