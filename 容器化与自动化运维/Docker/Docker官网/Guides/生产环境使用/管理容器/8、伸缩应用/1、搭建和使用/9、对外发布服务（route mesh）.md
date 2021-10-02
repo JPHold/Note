@@ -7,7 +7,7 @@ The routing mesh enables each node in the swarm to accept connections on publish
 The routing mesh routes all incoming requests to published ports on available nodes to an active container.
 routing mesh将访问publish port的请求，路由到可用节点上活着的容器
 
-[[服务部署到集群#发布端口]]完整讲解
+[[2、服务部署到集群#发布端口]]完整讲解
 
 # 特性
 * 默认对外发布的协议是tcp
