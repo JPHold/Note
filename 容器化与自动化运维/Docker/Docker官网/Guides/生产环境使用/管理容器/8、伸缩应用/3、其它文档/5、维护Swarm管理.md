@@ -105,7 +105,17 @@ docker swarm init --force-new-cluster
 docker swarm init --force-new-cluster --advertise-addr node01:2377
 ```
 
-## 
+## 绝对负载均衡
+当一个新节点加入到集群中或恢复后加入到集群中，swarm采取的策略：即使当前节点很空闲，也不会重新平均分配，因为这会中断客户端的访问。
+
+* 如果想平均分配
+`docker service update --force`，会滚动更新
+
+* 也可以再次修改任务实例数，达到平均分配
+`docker service scale`
+
+* 通过如下命令，查看服务的配置比例
+`docker service inspect --pretty <servicename>`
 
 # 注意
 ## 管理节点必须指定静态ip
