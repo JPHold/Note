@@ -18,6 +18,46 @@ https://docs.docker.com/engine/swarm/admin_guide/
 ### 管理节点在服务器该如何分布
 ![[Pasted image 20211009235212.png]]
 
+### 仅作为管理节点，不充当工作节点
+默认管理节点，也能从当工作节点，接收任务执行；但因为raft共识，需要一些资源，所以一般需要与阻止swarm操作（心跳检测和leader选举）的线程隔离开来。
+所以需要限制一下，只充当管理节点
+```
+docker node update --availability drain <NODE>
+```
+
+# 在swarm管理工作节点
+## 添加工作节点以负载均衡
+直接添加即可
+
+# 监控集群的健康
+## 查看健康状况
+* 获知管理状态（管理节点，是否可用）
+```
+docker node inspect <NODE> --format "{{ .ManagerStatus.Reachability }}"
+```
+`unreachable`代表不可用
+**如果解决不可用**
+1. 重启docker daemon
+2. 重启服务器
+3. 如果还不行就需要将新服务器加入，充当管理节点；并且需要将之前不可用的管理节点降级和删除
+`docker node demote <NODE>`
+`docker node rm <NODE>`	
+
+* 获知工作状态（工作节点才有）
+```
+docker node inspect <NODE> --format "{{ .Status.State }}"
+```
+`ready`代表可用
+
+* 获知集群中各个节点的健康概览
+`docker node ls`
+
+## 对管理节点的故障排除
+不要通过raft从另一个节点复制数据目录到出问题的管理节点，然后重新启动。
+为何这样，原理如下：
+1. shu'j
+
+
 # 注意
 ## 管理节点必须指定静态ip
 `--advertise-addr`
