@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/5、对集群加锁.md",
+            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/5、对集群加锁.md",
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/5、对集群加锁.md"
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md"
               }
             }
           }
@@ -118,20 +118,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.3130798339844,
-    "collapsed": true
+    "width": 303.3130798339844
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、对集群加锁.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/5、维护Swarm管理.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/x、问题.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/5、对集群加锁.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/Swarm管理.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/未命名.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/3、创建集群.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/2、服务部署到集群.md",
-    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
-    "Docker/附件/Docker.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/9、对外发布服务（route mesh）.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/Swarm管理.md"
+    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md"
   ]
 }
