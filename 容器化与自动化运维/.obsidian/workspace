@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/生态/harbo/1、安装.md",
-            "mode": "source"
+            "file": "Docker/生态/harbo/2、配置和启动.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270
+    "width": 270,
+    "collapsed": true
   },
   "right": {
     "id": "0861b8cb3ef26819",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/生态/harbo/1、安装.md",
+                "file": "Docker/生态/harbo/2、配置和启动.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/生态/harbo/1、安装.md"
+                "file": "Docker/生态/harbo/2、配置和启动.md"
               }
             }
           }
@@ -118,11 +119,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.3130798339844,
-    "collapsed": true
+    "width": 303.3130798339844
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/生态/harbo/2、配置和启动.md",
     "Docker/生态/harbo/1、安装.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、对集群加锁.md",
@@ -131,7 +132,6 @@
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/5、对集群加锁.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/Swarm管理.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/未命名.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/3、创建集群.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/2、服务部署到集群.md"
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/3、创建集群.md"
   ]
 }
