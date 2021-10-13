@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/生态/harbo/3、harbor控制台使用.md",
-            "mode": "preview"
+            "file": "Docker/生态/harbo/2、配置和启动.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270
+    "width": 270,
+    "collapsed": true
   },
   "right": {
     "id": "0861b8cb3ef26819",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/生态/harbo/3、harbor控制台使用.md",
+                "file": "Docker/生态/harbo/2、配置和启动.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/生态/harbo/3、harbor控制台使用.md"
+                "file": "Docker/生态/harbo/2、配置和启动.md"
               }
             }
           }
@@ -122,9 +123,9 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
-    "Docker/生态/harbo/3、harbor控制台使用.md",
-    "Docker/生态/harbo/1、安装.md",
     "Docker/生态/harbo/2、配置和启动.md",
+    "Docker/生态/harbo/1、安装.md",
+    "Docker/生态/harbo/3、harbor控制台使用.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/1、概述.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/3、安装、更新、卸载.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/13、release说明.md",
