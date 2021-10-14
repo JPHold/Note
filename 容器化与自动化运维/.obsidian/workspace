@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/生态/harbo/2、配置和启动.md",
+            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/生态/harbo/2、配置和启动.md",
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/生态/harbo/2、配置和启动.md"
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md"
               }
             }
           }
@@ -118,10 +118,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.3130798339844
+    "width": 303.3130798339844,
+    "collapsed": true
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/9、对外发布服务（route mesh）.md",
     "Docker/生态/harbo/2、配置和启动.md",
     "Docker/生态/harbo/1、安装.md",
     "Docker/生态/harbo/3、harbor控制台使用.md",
@@ -129,8 +132,6 @@
     "Docker/Docker官网/Product manuals/3、Docker-Compose/3、安装、更新、卸载.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/13、release说明.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/10、生产环境使用Compose.md",
-    "Docker/Docker官网/Product manuals/3、Docker-Compose/2、Compose-V2新标准.md",
-    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md"
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/2、Compose-V2新标准.md"
   ]
 }
