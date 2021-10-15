@@ -8,4 +8,11 @@
 2. 需要在每个worker节点，清理空tag镜像
 
 # 经验
-1、service默认保留5个容器副本，超过了
+## service默认保留5个容器副本，超过了，会将最早的容器删除，但没有删除镜像
+![[Pasted image 20211015160928.png]]
+![[Pasted image 20211015160949.png]]
+![[Pasted image 20211015161105.png]]
+
+## 回滚
+`docker service update --rollback uat-cdr-c`
+![[Pasted image 20211015162450.png]]
