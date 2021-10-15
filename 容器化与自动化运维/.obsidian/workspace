@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/9、对外发布服务（route mesh）.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -114,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -124,6 +124,7 @@
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/9、对外发布服务（route mesh）.md",
+    "待学习/周/2021-10(41).md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/8、操控节点的负载能力.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/5、伸缩服务.md",
@@ -131,7 +132,6 @@
     "场景落地/1、docker+harbor+swarm正式环境部署.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/2、服务部署到集群.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
-    "场景落地/未命名.md",
-    "Docker/生态/harbo/2、配置和启动.md"
+    "场景落地/未命名.md"
   ]
 }

@@ -1,6 +1,8 @@
 [TOC]
 [Use swarm mode routing mesh](https://docs.docker.com/engine/swarm/ingress/)
 
+（真实使用时，并没有如文章所说：随意访问集群节点ip:某个服务对外暴露端口，即可访问到真实的容器，只能通过容器所在worker节点ip访问）[[2021-10(41)]]
+
 # 概念
 The routing mesh enables each node in the swarm to accept connections on published ports for any service running in the swarm, even if there’s no task running on the node.
 这一句跟前一句不一致
