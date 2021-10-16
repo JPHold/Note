@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/生态/harbo/2、配置和启动.md",
+            "file": "监控/promethues.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/生态/harbo/2、配置和启动.md",
+                "file": "监控/promethues.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/生态/harbo/2、配置和启动.md"
+                "file": "监控/promethues.md"
               }
             }
           }
@@ -118,10 +118,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.3130798339844
+    "width": 303.3130798339844,
+    "collapsed": true
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "监控/未命名.md",
     "Docker/生态/harbo/2、配置和启动.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/2、关键理念.md",
@@ -130,7 +132,6 @@
     "待学习/周/2021-10(41).md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/8、操控节点的负载能力.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/5、伸缩服务.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md"
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/5、伸缩服务.md"
   ]
 }
