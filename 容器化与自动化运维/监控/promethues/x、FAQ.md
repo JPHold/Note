@@ -24,5 +24,12 @@ rule_files:
 
 ![[Pasted image 20211025221109.png]]
 
-# 官方配置demo
+# 官方哪里有配置demo
 https://github.com/prometheus/prometheus/blob/release-2.30/config/testdata/conf.good.yml
+
+# 规则文件该如何校验
+用到promtool命令
+```
+promtool check rules /path/to/example.rules.yml
+```
+
