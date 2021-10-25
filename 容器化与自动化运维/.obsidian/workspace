@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "监控/promethues/4、使用.md",
+            "file": "监控/promethues/x、FAQ.md",
             "mode": "source"
           }
         }
@@ -49,14 +49,6 @@
             }
           },
           {
-            "id": "7f602666783b45e2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "e8161c92bf202eca",
             "type": "leaf",
             "state": {
@@ -84,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "监控/promethues/4、使用.md",
+                "file": "监控/promethues/x、FAQ.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "监控/promethues/4、使用.md"
+                "file": "监控/promethues/x、FAQ.md"
               }
             }
           }
@@ -123,10 +115,10 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
+    "监控/promethues/x、FAQ.md",
     "监控/promethues/4、使用.md",
     "监控/promethues/2、安装.md",
     "监控/promethues/3、配置.md",
-    "监控/promethues/x、FAQ.md",
     "监控/promethues/未命名.md",
     "监控/promethues/1、基础.md",
     "重点/未命名.md",
