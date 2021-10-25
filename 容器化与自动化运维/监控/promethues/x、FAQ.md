@@ -33,3 +33,33 @@ https://github.com/prometheus/prometheus/blob/release-2.30/config/testdata/conf.
 promtool check rules /path/to/example.rules.yml
 ```
 
+# 警报规则的动态参数有哪些
+应该是取自${labels}
+比如第一个alert的警报提示：标题为实例掉线，描述信息为实例掉线超过5分钟
+第二个alert的警报提示：标题为实例存在高延迟，描述信息为延迟的中位线大于1秒
+```
+groups:
+- name: example
+  rules:
+
+  # Alert for any instance that is unreachable for >5 minutes.
+  - alert: InstanceDown
+    expr: up == 0
+    for: 5m
+    labels:
+      severity: page
+    annotations:
+      summary: "Instance {{ $labels.instance }} down"
+      description: "{{ $labels.instance }} of job {{ $labels.job }} has been down for more than 5 minutes."
+
+  # Alert for any instance that has a median request latency >1s.
+  - alert: APIHighRequestLatency
+    expr: api_http_request_latencies_second{quantile="0.5"} > 1
+    for: 10m
+    annotations:
+      summary: "High request latency on {{ $labels.instance }}"
+      description: "{{ $labels.instance }} has a median request latency above 1s (current value: {{ $value }}s)"
+```
+
+# 警报存在，但出于待定（没发出），可以去哪看
+在prometheus界面上的Alerts选项卡，可以看到待定或已触发的警报
