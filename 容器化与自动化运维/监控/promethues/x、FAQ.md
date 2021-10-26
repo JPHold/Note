@@ -63,3 +63,6 @@ groups:
 
 # 警报存在，但出于待定（没发出），可以去哪看
 在prometheus界面上的Alerts选项卡，可以看到待定或已触发的警报
+
+# 模板化的技术来源
+[Go模板](https://golang.org/pkg/text/template/)
