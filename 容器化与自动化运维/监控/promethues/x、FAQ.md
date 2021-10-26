@@ -69,3 +69,8 @@ groups:
 
 # 想测试写的规则是否能正确运行
 [使用promtool test rules命令](https://prometheus.io/docs/prometheus/latest/configuration/unit_testing_rules/)
+
+# PromQL如何查找某个时间的时间序列值
+使用offset位移量，回到过去某个时间，以process_resident_memory_bytes为例
+查看1分钟前的数据
+`process_resident_memory_bytes offset 1m`
