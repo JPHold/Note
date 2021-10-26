@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "监控/promethues/x、FAQ.md",
+            "file": "监控/promethues/2、安装.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "监控/promethues/x、FAQ.md",
+                "file": "监控/promethues/2、安装.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "监控/promethues/x、FAQ.md"
+                "file": "监控/promethues/2、安装.md"
               }
             }
           }
@@ -115,12 +115,12 @@
   },
   "active": "a134222301bf1c8f",
   "lastOpenFiles": [
-    "监控/promethues/x、FAQ.md",
-    "监控/promethues/3、配置.md",
-    "监控/promethues/4、使用.md",
     "监控/promethues/2、安装.md",
-    "监控/promethues/未命名.md",
+    "监控/promethues/3、配置.md",
     "监控/promethues/1、基础.md",
+    "监控/promethues/x、FAQ.md",
+    "监控/promethues/4、使用.md",
+    "监控/promethues/未命名.md",
     "重点/未命名.md",
     "监控/未命名.md",
     "Docker/生态/harbo/2、配置和启动.md",
