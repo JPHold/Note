@@ -66,3 +66,6 @@ groups:
 
 # 模板化的技术来源
 [Go模板](https://golang.org/pkg/text/template/)
+
+# 想测试写的规则是否能正确运行
+[使用promtool test rules命令](https://prometheus.io/docs/prometheus/latest/configuration/unit_testing_rules/)
