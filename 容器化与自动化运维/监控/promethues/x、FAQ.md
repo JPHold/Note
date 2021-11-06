@@ -83,12 +83,14 @@ https://prometheus.io/docs/prometheus/latest/querying/operators/
 
 # [时序数据如何存储](https://prometheus.io/docs/prometheus/latest/storage/)
 [容器监控实践—Prometheus存储机制](https://www.jianshu.com/p/ef9879dfb9ef)
-## 数据文件构成
+
+## [数据文件构成](https://github.com/prometheus/prometheus/blob/release-2.30/tsdb/docs/format/README.md)
 ![[Pasted image 20211028231419.png]]
 * 每两个小时建立一个数据块
 * 数据块包含chunks目录
 * chunks目录包含时序数据、一个元文件、索引文件（存储时序数据的标签和名称的，快速 查找）
 * 时序数据分成多个段文件，每个段文件最大为512MB
+
 
 ## 保存数据
 1. 不会立马保存到数据块中，而是保存到内存
@@ -167,3 +169,8 @@ https://prometheus.io/docs/prometheus/latest/querying/operators/
 以健康检查为例
 http://192.168.31.178:9090/-/healthy
 ![[Pasted image 20211031125816.png]]
+
+# 每个内置指标的含义
+
+# 扩展和联合prometheus
+https://www.robustperception.io/scaling-and-federating-prometheus
