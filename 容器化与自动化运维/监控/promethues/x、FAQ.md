@@ -81,6 +81,9 @@ https://prometheus.io/docs/prometheus/latest/querying/operators/
 # PromQL支持调用方法吗
 [内置了一些方法](https://prometheus.io/docs/prometheus/latest/querying/functions/)
 
+# PromQL的方法讲解
+https://www.jianshu.com/p/851cae0c2c02
+
 # [时序数据如何存储](https://prometheus.io/docs/prometheus/latest/storage/)
 [容器监控实践—Prometheus存储机制](https://www.jianshu.com/p/ef9879dfb9ef)
 
