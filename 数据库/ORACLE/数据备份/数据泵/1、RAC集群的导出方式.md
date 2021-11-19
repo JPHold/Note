@@ -1,0 +1,41 @@
+[TOC]
+**因为是rac集群，会有个节点，如果使用service_name，那么导出时会随机保存到某个节点上：/oracle/app/19.3.0/grid/bin/expdp xxxUser/xxPassword@xxxServiceName，而这个serviceName对应的是scan_ip，配置的映射在：/oracle/app/19.3.0/grid/network/admin/tnsnames.ora**
+![[Pasted image 20211119104029.png]]
+
+** 如果要固定保存到某个节点，则使用ip：/oracle/app/19.3.0/grid/bin/expdp xxxUser/xxPassword@192.168.5.85/cdrdb**[[注意点]]
+```
+#!/bin/sh
+#set -e
+
+# 两天前的日期
+firstBackUpFileName=`date -d "2 day ago" +%Y-%m-%d`
+# 当天的日期
+currBackUpFileName=`date +%Y-%m-%d`
+# 需要导出的命名空间列表
+#namespaces=(RHIN_CDR CDR_EMPI CDR_ACCESS RHIN_CDR_INDEX)
+namespaces=(RHIN_CDR_INDEX)
+# 导出的目录
+dumpDir=/home/oracle-backup
+
+echo "开始备份oracle"
+export ORACLE_HOME=/oracle/app/19.3.0/grid
+export ORACLE_SID=cdrdb
+# 解决控制台打印日志，中文乱码
+export NLS_LANG=AMERICAN_AMERICA.UTF8
+
+cd ${dumpDir}
+
+for ns in ${namespaces[*]}
+do
+ echo "---开始删除${ns}命名空间两天前的备份文件"
+ rm -f ${ns}-${firstBackUpFileName}.*
+ echo -e "---结束删除${ns}命名空间两天前的备份文件\n"
+
+ echo "---开始备份${ns}命名空间,日期：${currBackUpFileName}"
+ /oracle/app/19.3.0/grid/bin/expdp ${ns}/qazCdr90#@cdrdb directory=dump_dir owner=${ns}  dumpfile=${ns}-${currBackUpFileName}.dmp    logfile=${ns}-${currBackUpFileName}.log  content=ALL
+ echo -e "---结束备份${ns}命名空间\n"
+
+done
+
+echo "结束备份oracle"
+```
