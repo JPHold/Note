@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "42ae216869ea15e0",
+    "id": "7224b6586a25b786",
     "type": "split",
     "children": [
       {
-        "id": "29dd65337b966626",
+        "id": "1cc8eda01ac739ed",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "KONG/场景/1、docker+kong+日志自动切割和清除.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "KONG/场景/1、docker+kong+日志自动切割和清除.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +94,8 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "29dd65337b966626",
-  "lastOpenFiles": []
+  "active": "1cc8eda01ac739ed",
+  "lastOpenFiles": [
+    "KONG/场景/1、docker+kong+日志自动切割和清除.md"
+  ]
 }
