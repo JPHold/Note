@@ -1,9 +1,36 @@
 [TOC]
 
-# 配置kong，记录日志
+# 部署kong，并记录日志
+* Dockerfile
+```docker
+FROM kong:2.0.4
+
+ENV TZ=Asia/Shanghai
+ENV KONG_PG_PASSWORD=kongpw
+ENV KONG_DATABASE=postgres
+ENV KONG_PG_HOST=kong-database
+ENV KONG_CASSANDRA_CONTACT_POINTS=kong-database
+ENV KONG_PROXY_ACCESS_LOG=/dev/stdout
+ENV KONG_ADMIN_ACCESS_LOG=/dev/stdout
+ENV KONG_PROXY_ERROR_LOG=/dev/stderr
+ENV KONG_ADMIN_ERROR_LOG=/dev/stderr
+ENV KONG_ADMIN_LISTEN="0.0.0.0:8001, 0.0.0.0:8444 ssl"
+````
+
+* 构建镜像：build.sh
+`docker build -t local.harbor.com/library/kong-custom:2.0.4 .`
+
+* 启动：start.sh
+>需要挂载nginx_kong配置和日志目录
 ```shell
-docker run -d --name kong --restart=always  --link postgres:kong-database -e TZ="Asia/Shanghai" -e "KONG_PG_PASSWORD=kongpw"  -e "KONG_DATABASE=postgres"  -e "KONG_PG_HOST=kong-database"  -e "KONG_CASSANDRA_CONTACT_POINTS=kong-database"  -e "KONG_PROXY_ACCESS_LOG=/dev/stdout"  -e "KONG_ADMIN_ACCESS_LOG=/dev/stdout"  -e "KONG_PROXY_ERROR_LOG=/dev/stderr"  -e "KONG_ADMIN_ERROR_LOG=/dev/stderr"  -e "KONG_ADMIN_LISTEN=0.0.0.0:8001, 0.0.0.0:8444 ssl"   -p 8000:8000 -p 8443:8443   -p 8001:8001  -p 8444:8444 --volume="/home/software/kong/config/nginx_kong.lua:/usr/local/share/lua/5.1/kong/templates/nginx_kong.lua" 
-kong:2.0.4
+docker run -d --name kong --restart=always  --link postgres:kong-database  -p 8000:8000 -p 8443:8443   -p 8001:8001  -p 8444:8444 --volume="/home/software/kong/config/nginx_kong.lua:/usr/local/sha
+re/lua/5.1/kong/templates/nginx_kong.lua" --volume="/home/kong-log/:/home/kong-log/"  local.harbor.com/library/kong-custom:2.0.4
+```
+
+* 关闭：shutdown.sh
+```shell
+docker stop kong
+docker rm kong
 ```
 
 # 配置Logrotate
