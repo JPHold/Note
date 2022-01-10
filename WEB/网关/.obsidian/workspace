@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "KONG/场景/1、docker+kong+日志自动切割和清除.md",
+            "file": "KONG/场景/hbse.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KONG/场景/1、docker+kong+日志自动切割和清除.md",
+                "file": "KONG/场景/hbse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,6 +96,7 @@
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
+    "KONG/场景/hbse.md",
     "KONG/场景/1、docker+kong+日志自动切割和清除.md"
   ]
 }
