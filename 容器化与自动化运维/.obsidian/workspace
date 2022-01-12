@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/生态/harbo/2、配置和启动.md",
-            "mode": "source"
+            "file": "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/生态/harbo/2、配置和启动.md",
+                "file": "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/生态/harbo/2、配置和启动.md"
+                "file": "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md"
               }
             }
           }
@@ -115,6 +115,7 @@
   },
   "active": "7c3f89368a8e134e",
   "lastOpenFiles": [
+    "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
     "Docker/生态/harbo/2、配置和启动.md",
     "Docker/生态/harbo/3、harbor控制台使用.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
@@ -123,7 +124,6 @@
     "Docker/生态/harbo/1、总体流程.md",
     "工具/完整DevOps.md",
     "监控/promethues/2、安装.md",
-    "conflict-files-obsidian-git.md",
-    "Pasted image 20211106194549.png"
+    "conflict-files-obsidian-git.md"
   ]
 }
