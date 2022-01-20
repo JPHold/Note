@@ -91,7 +91,7 @@ docker rm kong
 }
 ```
 
-### 非docker部署的nginx
+### 非docker部署的nginx，执行**重新打开日志的读操作**是不一样的
 ```shell
 /home/kong-log/webservice.*.log {
     daily

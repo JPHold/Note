@@ -1,5 +1,6 @@
 {
   "showLineNumber": true,
   "foldIndent": true,
-  "foldHeading": true
+  "foldHeading": true,
+  "alwaysUpdateLinks": true
 }
