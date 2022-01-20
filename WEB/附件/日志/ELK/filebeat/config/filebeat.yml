@@ -1,0 +1,15 @@
+logging.level: warning
+
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /usr/share/filebeat/file-log/webservice.access.log 
+  # 这个文件记录日志读取的位置，如果容器重启，可以从记录的位置开始取日志
+  registry_file: /usr/share/filebeat/data/registry
+
+output.logstash:
+  hosts: ["0.0.0.0:5044"]
+
+#output.console:
+#  pretty: true
