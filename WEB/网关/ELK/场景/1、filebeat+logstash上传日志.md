@@ -5,8 +5,11 @@
 
 # 部署logstash
 * **拉取镜像，并重新打标签（用于上传到本地harbor，如果没有则忽略）**
-`docker pull docker.elastic.co/beats/filebeat:6.7.0`
-`docker tag docker.elastic.co/beats/filebeat:6.7.0 local.harbor.com/library/filebeat:6.7.0`
+```shell
+docker pull docker.elastic.co/logstash/logstash:6.7.0
+docker tag docker.elastic.co/logstash/logstash:6.7.0 local.harbor.com/library/logstash:6.7.0
+```
+
 ---
 
 * **安装插件，并制作新镜像（以后要安装新插件，都修改这个Dockerfile）**
@@ -60,7 +63,7 @@ ENV TZ=Asia/Shanghai
 
 
 logstash处理程序配置文件在：[[README]]目录/config/logstash.conf
-**通过临时变量：`add_field => { "[@metadata][type]" => "allMessages" }`或日志的特征信息，分别用不同代码去处理**
+**通过临时字段：`add_field => { "[@metadata][type]" => "allMessages" }`或日志的特征信息，分别用不同代码去处理**
 ```shell
 input {
    beats {
@@ -208,6 +211,8 @@ output {
 }
 
 ```
+配置说明：
+output步骤要取当前内容的数据：使用`%{}`
 
 logstash本身配置文件在：[[README]]目录/config/logstash.yml
 ```shell
@@ -252,6 +257,8 @@ rootLogger.appenderRef.console.ref = ${sys:ls.log.format}_console
 docker build -t local.harbor.com/library/logstash-custom:6.7.0 .
 docker run -d --network host --name logstash-6.7.0 local.harbor.com/library/logstash-custom:6.7.0
 ```
+使用主机网络的原因：
+进入logstash容器内部，虽然能ping通es的ip，但还是无法访问，只能采用主机网络
 
 * 关闭脚本
 脚本文件在：[[README]]目录/shutdown.sh
@@ -261,3 +268,18 @@ docker rm logstash-6.7.0
 ```
 
 # 部署filebeat
+
+
+# 报错处理
+1.  **filebeat报错： write tcp 127.0.0.1:37020->127.0.0.1:5044**
+```
+2022-01-06T02:25:03.578Z        ERROR   pipeline/output.go:121  Failed to publish events: write tcp 127.0.0.1:37020->127.0.0.1:5044: write: connection reset by peer
+```
+
+**原因**：filebeat.xml配置的output是192.168.0.34:5044，而logstash的beat这个input插件只配置了port，ip默认为0.0.0.0
+
+**解决：**
+filebeat.xml配置的output改成0.0.0.0:5044
+
+2. **logstash.conf中beat组件的filter步骤，[添加临时字段](https://my.oschina.net/iwinder/blog/4907912)，取名为type，无法生效**
+**原因**：估计是type为关键词导致的，改成operation即可
