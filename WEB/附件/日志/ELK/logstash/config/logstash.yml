@@ -3,5 +3,4 @@ xpack.monitoring.enabled: true
 xpack.monitoring.elasticsearch.hosts: ["http://192.168.0.34:9200"]
 xpack.monitoring.elasticsearch.username: "hiphip"
 xpack.monitoring.elasticsearch.password: "888888"
-#
 

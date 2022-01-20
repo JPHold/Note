@@ -25,7 +25,7 @@ RUN ./bin/logstash-plugin install logstash-output-jdbc
 
 ---
 
-* 编写Dockerfile，自定义logstash配置、将所需依赖打包进去
+* 编写Dockerfile，将所需配置文件、依赖打包进去
 
 Dockerfile文件在：[[README]]目录/Dockerfile
 ```shell
@@ -60,6 +60,7 @@ ENV TZ=Asia/Shanghai
 
 
 logstash处理程序配置文件在：[[README]]目录/config/logstash.conf
+**通过临时变量：`add_field => { "[@metadata][type]" => "allMessages" }`或日志的特征信息，分别用不同代码去处理**
 ```shell
 input {
    beats {
@@ -208,7 +209,7 @@ output {
 
 ```
 
-Dockerfile文件在：[[README]]目录/config/logstash.yml
+logstash本身配置文件在：[[README]]目录/config/logstash.yml
 ```shell
 http.host: 0.0.0.0
 xpack.monitoring.enabled: true
@@ -217,9 +218,46 @@ xpack.monitoring.elasticsearch.username: "hiphip"
 xpack.monitoring.elasticsearch.password: "888888"
 ```
 配置说明：
-1. xpack的监控功能，上传吧da监控logstash的性能
+1. xpack的监控功能，上传到es，在kibana查看logstash的性能
 ![[Pasted image 20220120154631.png]]
 
+logstash的日志配置文件在：[[README]]目录/config/log4j2.properties
+```shell
+status = error
+name = LogstashPropertiesConfig
+
+appender.console.type = Console
+appender.console.name = plain_console
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = [%d{ISO8601}][%-5p][%-25c] %m%n
+
+appender.json_console.type = Console
+appender.json_console.name = json_console
+appender.json_console.layout.type = JSONLayout
+appender.json_console.layout.compact = true
+appender.json_console.layout.eventEol = true
+
+rootLogger.level = error
+rootLogger.appenderRef.console.ref = ${sys:ls.log.format}_console
+
+#ElasticSearch打印了一堆警告，，先屏蔽掉
+#logger.elasticsearchoutput.level = error
+```
+
 ---
+
+* 构建最终镜像，并启动
+脚本文件在：[[README]]目录/start.sh
+```shell
+docker build -t local.harbor.com/library/logstash-custom:6.7.0 .
+docker run -d --network host --name logstash-6.7.0 local.harbor.com/library/logstash-custom:6.7.0
+```
+
+* 关闭脚本
+脚本文件在：[[README]]目录/shutdown.sh
+```shell
+docker stop logstash-6.7.0
+docker rm logstash-6.7.0
+```
 
 # 部署filebeat
