@@ -268,7 +268,13 @@ docker rm logstash-6.7.0
 ```
 
 # 部署filebeat
+* **拉取镜像，并重新打标签（用于上传到本地harbor，如果没有则忽略）**
+```shell
+docker pull docker.elastic.co/beats/filebeat:6.7.0
+docker tag docker.elastic.co/beats/filebeat:6.7.0 local.harbor.com/library/filebeat:6.7.0
+```
 
+* ****
 
 # 报错处理
 1.  **filebeat报错： write tcp 127.0.0.1:37020->127.0.0.1:5044**
