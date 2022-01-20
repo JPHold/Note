@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md",
-            "mode": "preview"
+            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md",
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md"
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md"
               }
             }
           }
@@ -115,6 +115,8 @@
   },
   "active": "7c3f89368a8e134e",
   "lastOpenFiles": [
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md",
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/1、概述.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/9、对外发布服务（route mesh）.md",
     "Docker/生态/harbo/3、harbor控制台使用.md",
@@ -122,8 +124,6 @@
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/3、创建集群.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/5、伸缩服务.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/8、操控节点的负载能力.md",
-    "Docker/生态/harbo/2、配置和启动.md",
-    "Docker/制作轻量级镜像/java/1、Java环境轻量级镜像.md",
-    "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md"
+    "Docker/生态/harbo/2、配置和启动.md"
   ]
 }
