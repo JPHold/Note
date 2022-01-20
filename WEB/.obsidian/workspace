@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "网关/KONG/场景/hbse.md",
+            "file": "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
             "mode": "source"
           }
         }
@@ -68,8 +68,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网关/KONG/场景/hbse.md",
-                "collapseAll": false,
+                "file": "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -96,7 +96,9 @@
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "网关/KONG/场景/hbse.md",
+    "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
+    "对象存储/Hbase/场景入口.md",
+    "对象存储/Hbase/场景/开启RESTful的api，推送内容.md",
     "KONG/场景/hbse.md",
     "KONG/场景/1、docker+kong+日志自动切割和清除.md"
   ]
