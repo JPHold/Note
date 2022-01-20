@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "网关/场景/1、filebeat+logstash上传日志.md",
+            "file": "网关/ELK/场景/1、filebeat+logstash上传日志.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网关/场景/1、filebeat+logstash上传日志.md",
+                "file": "网关/ELK/场景/1、filebeat+logstash上传日志.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,10 +96,11 @@
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "网关/场景/1、filebeat+logstash上传日志.md",
+    "网关/ELK/场景/1、filebeat+logstash上传日志.md",
+    "附件/日志/ELK/logstash/README.md",
+    "对象存储/Hbase/场景入口.md",
     "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
     "对象存储/Hbase/场景/1、开启RESTful的api，推送内容.md",
-    "对象存储/Hbase/场景入口.md",
     "KONG/场景/hbse.md",
     "KONG/场景/1、docker+kong+日志自动切割和清除.md"
   ]

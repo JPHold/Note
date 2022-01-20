@@ -2,5 +2,6 @@
   "showLineNumber": true,
   "foldIndent": true,
   "foldHeading": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "附件"
 }
