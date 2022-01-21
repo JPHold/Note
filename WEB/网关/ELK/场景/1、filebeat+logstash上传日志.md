@@ -306,10 +306,8 @@ docker run -d --network host \
 **配置说明**：
 1. 挂载要读取的日志文件
 2. 要挂载data目录
-因为filebeat需要记录待读取的文件，读到哪了，该数据记录在registry文件中：在[[附件/日志/ELK/filebeat/README]]目录/data/registry。
+因为filebeat需要记录待读取的文件，读到哪了；该数据记录在registry文件中：在[[附件/日志/ELK/filebeat/README]]目录/data/registry。
 [为了避免filebeat容器挂了后，新起容器，重新创建registry文件，导致重复收集日志](https://www.jianshu.com/p/c801ec3a64e5)
-
----
 
 * **关闭**
 脚本文件在：[[附件/日志/ELK/filebeat/README]]目录/shutdown.sh
@@ -331,3 +329,9 @@ filebeat.xml配置的output改成0.0.0.0:5044
 
 2. **logstash.conf中beat组件的filter步骤，[添加临时字段](https://my.oschina.net/iwinder/blog/4907912)，取名为type，无法生效**
 **原因**：估计是type为关键词导致的，改成operation即可
+
+# FAQ
+1. **使用[[1、docker+kong+日志自动切割和清除#配置Logrotate]]的日志切割后，需要发出通知告知filebeat容器重新打开文件吗**
+答案：不需要，
+> 关于读取的日志文件，一般会加上自动切割管理（比如将当前文件按天切割，重新命名，然后创建跟当前文件同名的文件）
+filebeat很智能，会直接读取新的文件，而不是之前的文件（句柄更新）
