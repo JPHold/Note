@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "RPC/DUBBO/1、RPC协议/优缺点.md",
+            "file": "RPC/DUBBO/FAQ.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RPC/DUBBO/1、RPC协议/优缺点.md",
+                "file": "RPC/DUBBO/FAQ.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +96,15 @@
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "RPC/DUBBO/1、RPC协议/优缺点.md",
     "RPC/DUBBO/FAQ.md",
+    "附件/Pasted image 20220215092318.png",
+    "RPC/DUBBO/1、RPC协议/优缺点.md",
     "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
     "网关/ELK/场景/1、filebeat+logstash上传日志.md",
     "附件/日志/ELK/filebeat/README.md",
     "附件/日志/ELK/logstash/README.md",
     "对象存储/Hbase/场景入口.md",
     "对象存储/Hbase/场景/1、开启RESTful的api，推送内容.md",
-    "KONG/场景/hbse.md",
-    "KONG/场景/1、docker+kong+日志自动切割和清除.md"
+    "KONG/场景/hbse.md"
   ]
 }
