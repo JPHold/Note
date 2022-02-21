@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "RPC/DUBBO/生态/Dubbo Admin/界面使用.md",
+            "file": "RPC/DUBBO/生态/Dubbo2.7/功能/动态配置.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RPC/DUBBO/生态/Dubbo Admin/界面使用.md",
+                "file": "RPC/DUBBO/生态/Dubbo2.7/功能/动态配置.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,6 +96,8 @@
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
+    "RPC/DUBBO/生态/Dubbo2.7/功能/动态配置.md",
+    "RPC/DUBBO/生态/Dubbo2.7/功能清单.md",
     "RPC/DUBBO/生态/Dubbo Admin/界面使用.md",
     "RPC/DUBBO/生态/Dubbo Admin/功能/接口文档.md",
     "RPC/DUBBO/FAQ.md",
@@ -103,8 +105,6 @@
     "RPC/DUBBO/1、RPC协议/优缺点.md",
     "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
     "网关/ELK/场景/1、filebeat+logstash上传日志.md",
-    "附件/日志/ELK/filebeat/README.md",
-    "附件/日志/ELK/logstash/README.md",
-    "对象存储/Hbase/场景入口.md"
+    "附件/日志/ELK/filebeat/README.md"
   ]
 }
