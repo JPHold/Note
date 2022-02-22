@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "RPC/DUBBO/FAQ.md",
+            "file": "RPC/DUBBO/生态/Dubbo3.0/坑.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RPC/DUBBO/FAQ.md",
+                "file": "RPC/DUBBO/生态/Dubbo3.0/坑.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +96,15 @@
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "RPC/DUBBO/FAQ.md",
+    "RPC/DUBBO/生态/Dubbo3.0/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/demo.md",
+    "RPC/DUBBO/FAQ.md",
     "RPC/DUBBO/生态/Dubbo2.7/功能/动态配置.md",
     "RPC/DUBBO/生态/Dubbo2.7/功能清单.md",
     "RPC/DUBBO/生态/Dubbo Admin/界面使用.md",
     "RPC/DUBBO/生态/Dubbo Admin/功能/接口文档.md",
     "附件/Pasted image 20220215092318.png",
-    "RPC/DUBBO/1、RPC协议/优缺点.md",
-    "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md"
+    "RPC/DUBBO/1、RPC协议/优缺点.md"
   ]
 }
