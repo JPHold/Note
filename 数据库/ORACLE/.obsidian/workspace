@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "语法/2、随机数.md",
+            "file": "语法/1、表空间、用户、存储大小.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语法/2、随机数.md",
+                "file": "语法/1、表空间、用户、存储大小.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,11 +96,11 @@
   },
   "active": "da4bbf71db4abe80",
   "lastOpenFiles": [
-    "语法/2、随机数.md",
     "语法/1、表空间、用户、存储大小.md",
-    "语法用法.md",
+    "语法/2、随机数.md",
     "注意/注意点.md",
     "数据备份/数据泵/1、RAC集群的导出方式.md",
+    "语法用法.md",
     "功能工具/1、导出表结构到Markdown格式.md",
     "数据备份/未命名.md",
     "附件/编写表结构导出markdown/表结构.pdf"
