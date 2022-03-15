@@ -26,3 +26,9 @@
 
 3. 第三次
 ![[Pasted image 20220315104826.png]]
+
+
+## 结论
+1. max-file默认为1，且最低为1
+2. 设置compress的前提是必须设置max-file，且不低于2
+![[Pasted image 20220315154806.png]]
