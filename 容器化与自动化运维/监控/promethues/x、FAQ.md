@@ -171,7 +171,7 @@ https://www.jianshu.com/p/851cae0c2c02
 
 以健康检查为例
 http://192.168.31.178:9090/-/healthy
-![[Pasted image 20211031125816.png]]
+![[Pasted image 20211031125816 1.png]]
 
 # 每个内置指标的含义
 
