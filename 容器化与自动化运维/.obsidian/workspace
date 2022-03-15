@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "监控/promethues/x、FAQ.md",
-            "mode": "source"
+            "file": "场景落地/2、已运行的容器环境，修改日志清理策略，需重启docker.md",
+            "mode": "preview"
           }
         }
       }
@@ -56,8 +56,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "监控/promethues/x、FAQ.md",
+                "file": "场景落地/2、已运行的容器环境，修改日志清理策略，需重启docker.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "监控/promethues/x、FAQ.md"
+                "file": "场景落地/2、已运行的容器环境，修改日志清理策略，需重启docker.md"
               }
             }
           }
@@ -116,15 +115,15 @@
   },
   "active": "7c3f89368a8e134e",
   "lastOpenFiles": [
+    "场景落地/2、已运行的容器环境，修改日志清理策略，需重启docker.md",
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/4、安装后可选后续步骤.md",
+    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
     "监控/promethues/x、FAQ.md",
     "Docker/最佳实践/Docker最佳实践.md",
     "Docker/最佳实践/【附属】container-best-practices/5、镜像的构建环境.md",
-    "Docker/Docker官网/Product manuals/2、Docker-Engine/4、安装后可选后续步骤.md",
-    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/1、概述.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/7、灰度发布(更新服务).md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/9、对外发布服务（route mesh）.md",
-    "Docker/生态/harbo/3、harbor控制台使用.md"
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/1、搭建和使用/9、对外发布服务（route mesh）.md"
   ]
 }
