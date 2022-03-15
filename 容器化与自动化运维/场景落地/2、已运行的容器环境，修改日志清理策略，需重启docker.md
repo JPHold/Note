@@ -32,3 +32,4 @@
 1. max-file默认为1，且最低为1
 2. 设置compress的前提是必须设置max-file，且不低于2
 ![[Pasted image 20220315154806.png]]
+` docker run --name test-log-clean-4 -d --restart always --log-opt max-size=16k --log-opt max-file=3 --log-opt compress=true tomcat`
