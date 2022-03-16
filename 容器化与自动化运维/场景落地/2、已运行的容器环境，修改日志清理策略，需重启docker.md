@@ -1,4 +1,4 @@
-# demo测试
+# 普通容器启动
 ## 三个日志文件
 * 启动测试容器；tomcat
 `docker run --name test-log-clean -d --restart always tomcat`
@@ -33,3 +33,5 @@
 2. 设置compress的前提是必须设置max-file，且不低于2
 ![[Pasted image 20220315154806.png]]
 ` docker run --name test-log-clean-4 -d --restart always --log-opt max-size=16k --log-opt max-file=3 --log-opt compress=true tomcat`
+
+# service启动
