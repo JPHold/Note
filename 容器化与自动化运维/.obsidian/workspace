@@ -116,6 +116,7 @@
   "active": "7c3f89368a8e134e",
   "lastOpenFiles": [
     "场景落地/2、已运行的容器环境，修改日志清理策略，需重启docker.md",
+    "未命名.md",
     "附件/Pasted image 20220315104826.png",
     "附件/Pasted image 20211031125816 1.png",
     "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
@@ -123,7 +124,6 @@
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/9、高级特性：scan.md",
-    "Docker/Docker官网/Product manuals/2、Docker-Engine/4、安装后可选后续步骤.md",
-    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md"
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/4、安装后可选后续步骤.md"
   ]
 }

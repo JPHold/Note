@@ -35,3 +35,8 @@
 ` docker run --name test-log-clean-4 -d --restart always --log-opt max-size=16k --log-opt max-file=3 --log-opt compress=true tomcat`
 
 # service启动
+` docker service create --replicas 1 --name uat-${JOB_NAME}-foreign-c --constraint node.labels.uat-evaluation-lv5b==yes --network=host -e TZ=Asia/Shanghai --log-opt max-size=5g --log-opt max-file=2 --log-opt compress=true local.harbor.com/library/${JOB_NAME}-foreign-c:${BUILD_ID}
+`
+**如果安装这个配置，启动service，会发现日志配置并没有生效，service和容器都没有。**
+
+**还得指定--log-driver，[[#普通容器启动]]这种方式就无需配置，默认是json-file**
