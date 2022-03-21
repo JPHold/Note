@@ -6,13 +6,27 @@
       {
         "id": "da4bbf71db4abe80",
         "type": "leaf",
+        "dimension": 54.62392108508015,
         "state": {
           "type": "markdown",
           "state": {
             "file": "数据备份/数据泵/1、RAC集群的导出方式.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "44f4a8ecc6493331"
+      },
+      {
+        "id": "8307f374841a0bf7",
+        "type": "leaf",
+        "dimension": 45.37607891491985,
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "数据备份/数据泵/1、RAC集群的导出方式.md"
+          }
+        },
+        "group": "44f4a8ecc6493331"
       }
     ],
     "direction": "vertical"
@@ -52,7 +66,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 220,
+    "collapsed": true
   },
   "right": {
     "id": "913c5547b7621b9a",
@@ -85,6 +100,16 @@
             "state": {
               "type": "calendar",
               "state": {}
+            }
+          },
+          {
+            "id": "9e359f82f26bd3d8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "数据备份/数据泵/1、RAC集群的导出方式.md"
+              }
             }
           }
         ]

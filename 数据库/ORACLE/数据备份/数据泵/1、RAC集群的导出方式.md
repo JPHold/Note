@@ -14,15 +14,17 @@
 `chmod 777 /home/oracle-backup`
 
 3. oracle服务器需设置环境变量
+> 设置oracle安装目录和实例名
 export ORACLE_HOME=/oracle/app/19.3.0/grid
 export ORACLE_SID=cdrdb
 
 4. 导出
---进入oracle命令目录
-cd /oracle/app/19.3.0/grid/bin
 
---得注意tns有配置cdrdb这个实例的连接配置（没有该文件则创建）（CDRDB就是我们的连接实例）（请讲HOST、PORT、SERVICE_NAME改成自己的）
-/oracle/app/19.3.0/grid/network/admin
+* 配置连接实例
+路径：`/oracle/app/19.3.0/grid/network/admin/tnsnames.ora`
+> （没有该文件则创建）
+> CDRDB就是我们的连接实例，请将HOST、PORT、SERVICE_NAME改成自己的
+
 ```
 CDR =
   (DESCRIPTION =
@@ -43,6 +45,9 @@ CDRDB =
   )
 ```
 
+
+* 导出脚本
+> cd /oracle/app/19.3.0/grid/bin
 ```
 #!/bin/sh
 #set -e
