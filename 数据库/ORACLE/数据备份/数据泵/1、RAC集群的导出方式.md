@@ -54,10 +54,9 @@ firstBackUpFileName=`date -d "2 day ago" +%Y-%m-%d`
 # 当天的日期
 currBackUpFileName=`date +%Y-%m-%d`
 # 需要导出的命名空间列表
-#namespaces=(RHIN_CDR CDR_EMPI CDR_ACCESS RHIN_CDR_INDEX)
-namespaces=(RHIN_CDR_INDEX)
+basic_namespaces=(RHIN_CDR CDR_EMPI CDR_ACCESS RHIN_CDR_INDEX)
 # 导出的目录
-dumpDir=/home/oracle-backup
+dumpDir=/oracle/backup
 
 echo "开始备份oracle"
 export ORACLE_HOME=/oracle/app/19.3.0/grid
@@ -67,14 +66,14 @@ export NLS_LANG=AMERICAN_AMERICA.UTF8
 
 cd ${dumpDir}
 
-for ns in ${namespaces[*]}
+for ns in ${basic_namespaces[*]}
 do
  echo "---开始删除${ns}命名空间两天前的备份文件"
- rm -f ${ns}-${firstBackUpFileName}.*
+ rm -f ${dumpDir}/${ns}-${firstBackUpFileName}.*
  echo -e "---结束删除${ns}命名空间两天前的备份文件\n"
 
  echo "---开始备份${ns}命名空间,日期：${currBackUpFileName}"
- /oracle/app/19.3.0/grid/bin/expdp ${ns}/qazCdr90#@cdrdb directory=dump_dir owner=${ns}  dumpfile=${ns}-${currBackUpFileName}.dmp    logfile=${ns}-${currBackUpFileName}.log  content=ALL
+ /oracle/app/19.3.0/grid/bin/expdp ${ns}/xxxPassword@cdrdb directory=dump_dir owner=${ns}  dumpfile=${ns}-${currBackUpFileName}.dmp    logfile=${ns}-${currBackUpFileName}.log  content=ALL compression=all
  echo -e "---结束备份${ns}命名空间\n"
 
 done
