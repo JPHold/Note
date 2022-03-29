@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "场景落地/2、已运行的容器环境，修改日志清理策略，需重启docker.md",
+            "file": "Docker/Docker官网/Product manuals/3、Docker-Compose/10、生产环境使用Compose.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "场景落地/2、已运行的容器环境，修改日志清理策略，需重启docker.md",
+                "file": "Docker/Docker官网/Product manuals/3、Docker-Compose/10、生产环境使用Compose.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "场景落地/2、已运行的容器环境，修改日志清理策略，需重启docker.md"
+                "file": "Docker/Docker官网/Product manuals/3、Docker-Compose/10、生产环境使用Compose.md"
               }
             }
           }
@@ -115,6 +115,7 @@
   },
   "active": "7c3f89368a8e134e",
   "lastOpenFiles": [
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/10、生产环境使用Compose.md",
     "场景落地/2、已运行的容器环境，修改日志清理策略，需重启docker.md",
     "未命名.md",
     "附件/Pasted image 20220315104826.png",
@@ -123,7 +124,6 @@
     "场景落地/1、jenkins+docker+harbor+swarm正式环境部署.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/6、维护Swarm管理.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
-    "Docker/Docker官网/Product manuals/2、Docker-Engine/9、高级特性：scan.md",
-    "Docker/Docker官网/Product manuals/2、Docker-Engine/4、安装后可选后续步骤.md"
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/9、高级特性：scan.md"
   ]
 }
