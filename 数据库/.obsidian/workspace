@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MYSQL/注意/注意点.md",
-            "mode": "source"
+            "file": "1、基础SQL.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MYSQL/注意/注意点.md",
+                "file": "1、基础SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MYSQL/注意/注意点.md"
+                "file": "1、基础SQL.md"
               }
             }
           }
@@ -101,14 +101,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "da4bbf71db4abe80",
   "lastOpenFiles": [
+    "1、基础SQL.md",
     "MYSQL/注意/注意点.md",
     "ORACLE/注意/注意点.md",
     "ORACLE/语法/2、随机数.md",
-    "1、基础SQL.md",
     "数据备份/数据泵/2、导入.md",
     "数据备份/数据泵/1、非集群的导出方式.md",
     "数据备份/数据泵/3、RAC集群的导出方式.md",
