@@ -3,7 +3,7 @@
 # 分页
 * **oracle**
 
-* sqlserver
+* **sqlserver**
 ```sql
 select * from (
 select t.* ROW_NUMBER() OVER(Order by xxx排序字段 ) AS RowId  from xxx (nolock) t 
@@ -11,6 +11,10 @@ select t.* ROW_NUMBER() OVER(Order by xxx排序字段 ) AS RowId  from xxx (nolo
 ```
 
 # 时间戳转日期
+* **oracle**
+`select 1650346277060/ (1000 * 60 * 60 * 24) + TO_DATE ('1970-01-01 08:00:00','YYYY-MM-DD hh24:MI:SS')`
+
+* **sqlserver**
 `select (1650346277060)/(1000*60*60*24)+ cast ('1970-01-01 07:59:59.944' as datetime)`
 
 网上的资料是'1970-01-01 08:00:00'，但发现上述结果会大一些
