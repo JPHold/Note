@@ -9,6 +9,17 @@
         "state": {
           "type": "markdown",
           "state": {
+            "file": "前端/Vue/速查.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "31db46a9c8d27ef7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
             "file": "前端/Vue/vue特性.md",
             "mode": "source"
           }
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/vue特性.md",
+                "file": "前端/Vue/速查.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +107,15 @@
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
+    "前端/Vue/速查.md",
     "前端/Vue/vue特性.md",
+    "前端/Vue/vue学习疑惑.md",
     "RPC/DUBBO/生态/Dubbo3.0/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/demo.md",
     "RPC/DUBBO/FAQ.md",
     "RPC/DUBBO/生态/Dubbo2.7/功能/动态配置.md",
     "RPC/DUBBO/生态/Dubbo2.7/功能清单.md",
-    "RPC/DUBBO/生态/Dubbo Admin/界面使用.md",
-    "RPC/DUBBO/生态/Dubbo Admin/功能/接口文档.md",
-    "附件/Pasted image 20220215092318.png"
+    "RPC/DUBBO/生态/Dubbo Admin/界面使用.md"
   ]
 }

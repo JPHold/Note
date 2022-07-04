@@ -28,8 +28,9 @@
 
 2、一般创建Vue对象，取名都是vm（ViewModel的意思，视图模型）
 
+@是v-on的简写
+:是v-bind的简写
 
-3、数据绑定，使用Mustache（{{ xxx }}）
 
 4、指令
 指令本身
