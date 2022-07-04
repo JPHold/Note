@@ -28,50 +28,10 @@
 
 2、一般创建Vue对象，取名都是vm（ViewModel的意思，视图模型）
 
-@是v-on的简写
-:是v-bind的简写
 
 
-4、指令
-指令本身
-参数
-修饰符
 
-<div id="app">
-			判断指令：<p v-if="isTrue">判断为true</p>
-			指令参数：<a v-bind:href="url">跳转url</a>
-			指令修饰符：
-			<div @click="click1">
-				<div @click="click2">
-					click me(冒泡传递点击事件)
-				</div>
-			</div>
-			<div @click="click1">
-				<div @click.stop="click2">
-					click me(阻止冒泡传递点击事件)
-				</div>
-			</div>
-		</div>
-		<script type="text/javascript">
-			var vm = new Vue({
-				el: "#app",
-				data: {
-					isTrue: true,
-					url: "http://www.baidu.com"
-				},
-				methods:{
-					click1 : function(){
-						console.log('click1......');
-					},
-					click2 : function(){
-						console.log('click2......');
-					}
-				}
-			});
-		</script>
 
-5、class与style绑定（绑定HTML class）
-分为静态绑定和动态绑定，前者用''包括className，后者不用
 
 6、内联样式
 不通过class方式，是直接在html写样式配置
