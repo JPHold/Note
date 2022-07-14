@@ -63,7 +63,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "67203b5ab81c23d6",
@@ -79,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/速查.md",
+                "file": "前端/Vue/vue特性.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +98,16 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "678ff44e99ad9fe8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "前端/Vue/vue特性.md"
+              }
+            }
           }
         ]
       }
@@ -105,10 +116,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1cc8eda01ac739ed",
+  "active": "31db46a9c8d27ef7",
   "lastOpenFiles": [
-    "前端/Vue/速查.md",
     "前端/Vue/vue特性.md",
+    "前端/Vue/速查.md",
     "前端/Vue/vue学习疑惑.md",
     "RPC/DUBBO/生态/Dubbo3.0/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/坑.md",

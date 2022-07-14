@@ -33,12 +33,6 @@
 
 
 
-6、内联样式
-不通过class方式，是直接在html写样式配置
-		 <div :style="{color:color,background:isRed?'red':'',fontSize:size}">style动态变化</div>
-而且属性名跟class方式，是不一样的
-
-
 7、条件渲染
 v-if和v-show都可以
 
