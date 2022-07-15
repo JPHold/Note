@@ -4,12 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "9af59dd710fca21c",
+        "id": "e70f3d940f809bb2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "待学习/周/2021-09(38).md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "476d7d8a4fe72ba2"
+      },
+      {
+        "id": "fd7b43f29235c124",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "待学习/周/2021-09(38).md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": false
+            }
+          }
+        },
+        "group": "476d7d8a4fe72ba2"
       }
     ],
     "direction": "vertical"
@@ -57,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270,
-    "collapsed": true
+    "width": 270
   },
   "right": {
     "id": "0861b8cb3ef26819",
@@ -74,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "待学习/周/2021-09(38).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,28 +138,38 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "待学习/周/2021-09(38).md"
+              }
+            }
+          },
+          {
+            "id": "0a6e0008a1edb096",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 303.3130798339844,
     "collapsed": true
   },
-  "active": "9af59dd710fca21c",
+  "active": "fd7b43f29235c124",
   "lastOpenFiles": [
+    "待学习/周/2021-08(32).md",
+    "待学习/周/2021-07(29).md",
+    "未命名.md",
+    "待学习/周/2022-07(28).md",
     "重点/Docker重点.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/1、概述.md",
-    "待学习/周/2021-08(32).md",
     "Docker/最佳实践/【附属】container-best-practices/7、上传镜像.md",
     "集成Docker/Dubbo/z、坑/Dubbo集成Docker的坑.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/4、安装后可选后续步骤.md",
-    "Docker/Docker官网/Product manuals/3、Docker-Compose/11、启动顺序和重连.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/x、问题.md",
-    "监控/完整部署文档.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/4、Swarm任务状态.md"
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/11、启动顺序和重连.md"
   ]
 }
