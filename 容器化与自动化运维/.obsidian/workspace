@@ -4,22 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "a134222301bf1c8f",
+        "id": "d414d65643ab0781",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "监控/完整部署文档.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "1667117995cdb49f",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -119,17 +107,17 @@
     "width": 303.3130798339844,
     "collapsed": true
   },
-  "active": "1667117995cdb49f",
+  "active": "d414d65643ab0781",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/1、概述.md",
+    "待学习/周/2021-08(32).md",
+    "Docker/最佳实践/【附属】container-best-practices/7、上传镜像.md",
+    "集成Docker/Dubbo/z、坑/Dubbo集成Docker的坑.md",
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/4、安装后可选后续步骤.md",
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/11、启动顺序和重连.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/x、问题.md",
     "监控/完整部署文档.md",
-    "监控/AlertManager/3、配置.md",
-    "监控/AlertManager/2、安装.md",
-    "监控/promethues/3、配置.md",
-    "监控/AlertManager/4、使用.md",
-    "监控/promethues/4、使用.md",
-    "监控/promethues/x、FAQ.md",
-    "监控/grafana/2、安装.md",
-    "监控/grafana/3、使用.md"
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/4、Swarm任务状态.md",
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/3、安装、更新、卸载.md"
   ]
 }
