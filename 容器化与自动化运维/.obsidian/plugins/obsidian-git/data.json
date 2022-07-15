@@ -3,6 +3,7 @@
   "autoCommitMessage": "obsidian-git自动提交: {{date}}，{{numFiles}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
+  "autoPushInterval": 0,
   "autoPullInterval": 60,
   "autoPullOnBoot": false,
   "disablePush": false,
@@ -16,5 +17,8 @@
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
   "treeStructure": false,
-  "refreshSourceControl": true
+  "refreshSourceControl": true,
+  "basePath": "",
+  "differentIntervalCommitAndPush": false,
+  "changedFilesInStatusBar": false
 }
