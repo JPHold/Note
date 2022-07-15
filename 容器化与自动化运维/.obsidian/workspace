@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "d414d65643ab0781",
+        "id": "9af59dd710fca21c",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -57,7 +57,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270
+    "width": 270,
+    "collapsed": true
   },
   "right": {
     "id": "0861b8cb3ef26819",
@@ -107,8 +108,9 @@
     "width": 303.3130798339844,
     "collapsed": true
   },
-  "active": "d414d65643ab0781",
+  "active": "9af59dd710fca21c",
   "lastOpenFiles": [
+    "重点/Docker重点.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/1、概述.md",
     "待学习/周/2021-08(32).md",
     "Docker/最佳实践/【附属】container-best-practices/7、上传镜像.md",
@@ -117,7 +119,6 @@
     "Docker/Docker官网/Product manuals/3、Docker-Compose/11、启动顺序和重连.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/x、问题.md",
     "监控/完整部署文档.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/4、Swarm任务状态.md",
-    "Docker/Docker官网/Product manuals/3、Docker-Compose/3、安装、更新、卸载.md"
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/2、集群原理/4、Swarm任务状态.md"
   ]
 }
