@@ -4,28 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "1cc8eda01ac739ed",
-        "type": "leaf",
-        "dimension": 58.98468976631749,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "前端/Vue/速查.md",
-            "mode": "source"
+        "id": "9499fb93bd39ca3b",
+        "type": "split",
+        "children": [
+          {
+            "id": "9d0175c5f7b8482f",
+            "type": "leaf",
+            "dimension": 29.585798816568047,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/Vue/vue特性.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "97e9243f344fd9f5",
+            "type": "split",
+            "dimension": 70.41420118343196,
+            "children": [
+              {
+                "id": "1cc8eda01ac739ed",
+                "type": "leaf",
+                "dimension": 80.75684380032206,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "前端/Vue/速查.md",
+                    "mode": "source"
+                  }
+                },
+                "group": "6a6a3f5091e85430"
+              },
+              {
+                "id": "e2d516a5151f878d",
+                "type": "leaf",
+                "dimension": 19.243156199677937,
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "前端/Vue/速查.md"
+                  }
+                },
+                "group": "6a6a3f5091e85430"
+              }
+            ],
+            "direction": "vertical"
           }
-        }
-      },
-      {
-        "id": "31db46a9c8d27ef7",
-        "type": "leaf",
-        "dimension": 41.01531023368251,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "前端/Vue/vue特性.md",
-            "mode": "source"
-          }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -82,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/vue特性.md",
+                "file": "前端/Vue/速查.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/vue特性.md"
+                "file": "前端/Vue/速查.md"
               }
             }
           }
@@ -118,10 +146,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "31db46a9c8d27ef7",
+  "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "前端/Vue/vue特性.md",
     "前端/Vue/速查.md",
+    "前端/Vue/vue特性.md",
     "前端/Vue/vue学习疑惑.md",
     "RPC/DUBBO/生态/Dubbo3.0/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/坑.md",
