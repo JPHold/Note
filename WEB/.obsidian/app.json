@@ -3,5 +3,6 @@
   "foldIndent": true,
   "foldHeading": true,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "附件"
+  "attachmentFolderPath": "附件",
+  "legacyEditor": false
 }
