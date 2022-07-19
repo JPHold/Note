@@ -10,7 +10,7 @@
           {
             "id": "9d0175c5f7b8482f",
             "type": "leaf",
-            "dimension": 66.61721068249258,
+            "dimension": 52.44444444444445,
             "state": {
               "type": "markdown",
               "state": {
@@ -23,7 +23,7 @@
           {
             "id": "97e9243f344fd9f5",
             "type": "split",
-            "dimension": 33.38278931750742,
+            "dimension": 47.55555555555556,
             "children": [
               {
                 "id": "1cc8eda01ac739ed",
@@ -34,7 +34,7 @@
                   "state": {
                     "file": "前端/Vue/速查.md",
                     "mode": "source",
-                    "source": false
+                    "source": true
                   }
                 },
                 "group": "6a6a3f5091e85430"
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/vue特性.md",
+                "file": "前端/Vue/速查.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/vue特性.md"
+                "file": "前端/Vue/速查.md"
               }
             }
           }
@@ -148,10 +148,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9d0175c5f7b8482f",
+  "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "前端/Vue/速查.md",
     "前端/Vue/vue特性.md",
+    "前端/Vue/速查.md",
     "前端/Vue/vue学习疑惑.md",
     "RPC/DUBBO/生态/Dubbo3.0/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/坑.md",
