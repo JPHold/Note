@@ -56,6 +56,8 @@
 
 网上是另一个词：就地复用（没有变化，就直接复用）
 
+
+```html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -109,12 +111,14 @@
 		});
 	</script>
 </html>
+```
 
 所以需要增加一个标识，标识删除的是哪个。用到:key=""，会重新排序
 
 资料：https://www.zhihu.com/question/61064119
 
 2. 注意列表循环下，如果input采用:value指令进行初始赋值,你修改了input值，在删除数组数据后，触发dom响应，修改的值会恢复成初始值
+```
 <!DOCTYPE html>
 <html>
 	<head>
@@ -169,6 +173,7 @@
 		
 	</script>
 </html>
+```
 
 
 9、事件绑定
