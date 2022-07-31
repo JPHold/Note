@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/vue特性.md",
+                "file": "前端/Vue/速查.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/vue特性.md"
+                "file": "前端/Vue/速查.md"
               }
             }
           }
@@ -158,10 +158,10 @@
       }
     ]
   },
-  "active": "9d0175c5f7b8482f",
+  "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "前端/Vue/速查.md",
     "前端/Vue/vue特性.md",
+    "前端/Vue/速查.md",
     "附件/20220731113937.gif",
     "前端/Vue/vue学习疑惑.md",
     "RPC/DUBBO/生态/Dubbo3.0/坑.md",
