@@ -4,5 +4,6 @@
   "foldHeading": true,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "附件",
-  "legacyEditor": false
+  "legacyEditor": false,
+  "promptDelete": false
 }

@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 109.52991485595703
+    "width": 281.52991485595703
   },
   "right": {
     "id": "67203b5ab81c23d6",
@@ -152,22 +152,22 @@
         "y": 638,
         "width": 713,
         "height": 497,
-        "maximize": true,
+        "maximize": false,
         "zoom": 0
       }
     ]
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "前端/Vue/vue特性.md",
+    "附件/20220731113937.gif",
     "前端/Vue/速查.md",
+    "前端/Vue/vue特性.md",
     "前端/Vue/vue学习疑惑.md",
     "RPC/DUBBO/生态/Dubbo3.0/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/demo.md",
     "RPC/DUBBO/FAQ.md",
     "RPC/DUBBO/生态/Dubbo2.7/功能/动态配置.md",
-    "RPC/DUBBO/生态/Dubbo2.7/功能清单.md",
-    "RPC/DUBBO/生态/Dubbo Admin/界面使用.md"
+    "RPC/DUBBO/生态/Dubbo2.7/功能清单.md"
   ]
 }
