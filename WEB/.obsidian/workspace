@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.52991485595703
+    "width": 175.52991485595703,
+    "collapsed": true
   },
   "right": {
     "id": "67203b5ab81c23d6",
@@ -148,20 +149,20 @@
           }
         ],
         "direction": "vertical",
-        "x": 1585,
-        "y": 638,
+        "x": 494,
+        "y": 127,
         "width": 713,
-        "height": 497,
-        "maximize": false,
+        "height": 496,
+        "maximize": true,
         "zoom": 0
       }
     ]
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "附件/20220731113937.gif",
-    "前端/Vue/速查.md",
     "前端/Vue/vue特性.md",
+    "前端/Vue/速查.md",
+    "附件/20220731113937.gif",
     "前端/Vue/vue学习疑惑.md",
     "RPC/DUBBO/生态/Dubbo3.0/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/坑.md",
