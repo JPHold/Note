@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/生态/harbo/2、配置和启动.md",
+            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Docker/生态/harbo/2、配置和启动.md"
+            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md"
           }
         },
         "group": "6137be3379b89f73"
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "scale",
+                "query": "label",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,12 +69,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 270,
-    "collapsed": true
+    "width": 270
   },
   "right": {
     "id": "0861b8cb3ef26819",
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/生态/harbo/2、配置和启动.md",
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/生态/harbo/2、配置和启动.md"
+                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md"
               }
             }
           },
@@ -135,8 +135,9 @@
     "width": 303.3130798339844,
     "collapsed": true
   },
-  "active": "8abe738877edd503",
+  "active": "085302556d4df1b0",
   "lastOpenFiles": [
+    "Docker/生态/harbo/2、配置和启动.md",
     "Docker/生态/harbo/3、harbor控制台使用.md",
     "待学习/周/2021-09(38).md",
     "待学习/周/2021-08(32).md",
@@ -145,7 +146,6 @@
     "待学习/周/2022-07(28).md",
     "重点/Docker重点.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/1、概述.md",
-    "Docker/最佳实践/【附属】container-best-practices/7、上传镜像.md",
-    "集成Docker/Dubbo/z、坑/Dubbo集成Docker的坑.md"
+    "Docker/最佳实践/【附属】container-best-practices/7、上传镜像.md"
   ]
 }
