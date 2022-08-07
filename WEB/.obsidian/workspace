@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 175.52991485595703
+    "width": 246.52991485595703
   },
   "right": {
     "id": "67203b5ab81c23d6",
@@ -162,12 +162,12 @@
     "前端/Vue/vue特性.md",
     "前端/Vue/速查.md",
     "附件/20220806180500.gif",
+    "20220731113937.gif.md",
     "附件/20220731113937.gif",
     "前端/Vue/vue学习疑惑.md",
     "RPC/DUBBO/生态/Dubbo3.0/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/demo.md",
-    "RPC/DUBBO/FAQ.md",
-    "RPC/DUBBO/生态/Dubbo2.7/功能/动态配置.md"
+    "RPC/DUBBO/FAQ.md"
   ]
 }
