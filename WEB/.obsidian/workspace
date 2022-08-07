@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端/Vue/Vue2/vue特性.md",
-            "mode": "preview",
-            "source": true
+            "file": "前端/Vue/Vue2/速查.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue2/vue特性.md",
+                "file": "前端/Vue/Vue2/速查.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue2/vue特性.md"
+                "file": "前端/Vue/Vue2/速查.md"
               }
             }
           }
@@ -105,15 +105,15 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "52b532fac1bcd43a",
+  "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "前端/Vue/Vue2/速查.md",
+    "前端/Vue/Vue2/vue学习疑惑.md",
     "前端/Vue/Vue2/vue特性.md",
+    "前端/Vue/Vue2/速查.md",
     "附件/Pasted image 20220120154631.png",
     "附件/20220806180500.gif",
     "20220731113937.gif.md",
     "附件/20220731113937.gif",
-    "前端/Vue/Vue2/vue学习疑惑.md",
     "RPC/DUBBO/生态/Dubbo3.0/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/坑.md",
     "RPC/DUBBO/生态/Dubbo2.7/demo.md"
