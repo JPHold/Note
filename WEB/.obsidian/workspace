@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端/Vue/Vue2/速查.md",
+            "file": "前端/Vue/Vue2/vue特性.md",
             "mode": "preview",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue2/速查.md",
+                "file": "前端/Vue/Vue2/vue特性.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue2/速查.md"
+                "file": "前端/Vue/Vue2/vue特性.md"
               }
             }
           }
@@ -105,41 +105,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "floating": {
-    "id": "da959c349455c12e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "62b46d94629cd659",
-        "type": "window",
-        "children": [
-          {
-            "id": "9d0175c5f7b8482f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端/Vue/Vue2/vue特性.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "direction": "vertical",
-        "x": 494,
-        "y": 127,
-        "width": 713,
-        "height": 496,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "1cc8eda01ac739ed",
+  "active": "52b532fac1bcd43a",
   "lastOpenFiles": [
-    "前端/Vue/Vue2/vue特性.md",
     "前端/Vue/Vue2/速查.md",
+    "前端/Vue/Vue2/vue特性.md",
     "附件/Pasted image 20220120154631.png",
     "附件/20220806180500.gif",
     "20220731113937.gif.md",
