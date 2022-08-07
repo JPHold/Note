@@ -4,37 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "97e9243f344fd9f5",
-        "type": "split",
-        "children": [
-          {
-            "id": "1cc8eda01ac739ed",
-            "type": "leaf",
-            "dimension": 80.75684380032206,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端/Vue/速查.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "6a6a3f5091e85430"
-          },
-          {
-            "id": "e2d516a5151f878d",
-            "type": "leaf",
-            "dimension": 19.243156199677937,
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "前端/Vue/速查.md"
-              }
-            },
-            "group": "6a6a3f5091e85430"
+        "id": "1cc8eda01ac739ed",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "前端/Vue/速查.md",
+            "mode": "source",
+            "source": true
           }
-        ],
-        "direction": "vertical"
+        }
       }
     ],
     "direction": "vertical"
