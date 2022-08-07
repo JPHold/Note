@@ -1,35 +1,4 @@
 
-1、html上输出一个变量值，如果没声明该变量，是不会响应的
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<script src="../vue.js"></script>
-	</head>
-	<body>
-		<div id="app">
-			{{ a }} -- {{ b }}
-		</div>
-	</body>
-	<script>
-		var data = {a: "hello"};
-		var vm = new Vue({
-			el: '#app',
-			data: data
-		});
-		
-		
-		
-		
-	</script>
-</html>
-
-
-2、一般创建Vue对象，取名都是vm（ViewModel的意思，视图模型）
-
-
-
 
 
 10、组件基础
