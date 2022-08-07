@@ -30,18 +30,7 @@
 
 
 
-9、事件绑定
-指令是on:xxx事件
-支持直接在指令写js、也可以调用函数
-支持修饰符，对事件类型的分类处理
 
-10、v-model双向绑定
-{{ xxx }}和v-model所在元素会同时相应，比如
-<input type="text" v-model="inputText" placeholder="text" />
-<input type="text" v-model="inputText" placeholder="text" />
-<p>{{ inputText }}</p>
-
-支持text、textarea、radio、checkbox等
 
 10、组件基础
 
