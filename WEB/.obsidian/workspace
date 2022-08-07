@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "前端/Vue/Vue2/速查.md",
-            "mode": "source",
+            "mode": "preview",
             "source": true
           }
         }
@@ -98,12 +98,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "floating": {
     "id": "da959c349455c12e",
