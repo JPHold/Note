@@ -22,7 +22,7 @@ ENV oraclePassword qazCdr90#
 ENV esUrl=192.168.0.34:9200
 ENV esUser=hiphip
 ENV esPassword=888888
-ENV driverJarPath=/usr/share/logstash/config/jar/ojdbc14-10.2.0.jar
+ENV driverJarPath=/usr/share/logstash/pipeline/jar/ojdbc8-19.7.0.0.jar
 
 ENV TZ=Asia/Shanghai
 
