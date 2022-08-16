@@ -1,5 +1,11 @@
 
-1、生命周期函数，不能使用this
+1. 生命周期函数，不能使用this
+是可以的
+```
+this.$el
+this.$data
+this.msg
+```
 
 2、v-xxx指令，是不是跟html原生，合并
 比如v-class跟class，会不会合并
