@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端/Vue/Vue2/速查.md",
+            "file": "前端/Vue/Vue2/FAQ.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue2/速查.md",
+                "file": "前端/Vue/Vue2/FAQ.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue2/速查.md"
+                "file": "前端/Vue/Vue2/FAQ.md"
               }
             }
           }
@@ -119,7 +119,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue2/vue学习疑惑.md",
+                "file": "前端/Vue/Vue2/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,20 +127,20 @@
           }
         ],
         "direction": "vertical",
-        "x": 142,
+        "x": 141,
         "y": 0,
-        "width": 1036,
+        "width": 1041,
         "height": 700,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "1cc8eda01ac739ed",
+  "active": "52b532fac1bcd43a",
   "lastOpenFiles": [
-    "前端/Vue/Vue2/vue学习疑惑.md",
-    "遗留.md",
     "前端/Vue/Vue2/速查.md",
+    "前端/Vue/Vue2/FAQ.md",
+    "遗留.md",
     "前端/Vue/Vue2/vue特性.md",
     "附件/Pasted image 20220120154631.png",
     "附件/20220806180500.gif",
