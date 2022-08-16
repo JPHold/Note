@@ -7,8 +7,47 @@ this.$data
 this.msg
 ```
 
-2、v-xxx指令，是不是跟html原生，合并
+2. v-xxx指令，是不是跟html原生，合并
 比如v-class跟class，会不会合并
+
+会合并，并且相同属性冲突时，原生的优先级高
+以v-class和class为例
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="../../vue.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<div v-bind:class="'c1'" class="c2"></div>
+		</div>
+	</body>
+	<script>
+		var app = new Vue({
+			el: '#app',
+			data: {
+				message: 'Hello Vue!',
+				name: "vue"
+			}
+		});
+	</script>
+	<style>
+		.c1 {
+			background-color: red;
+		}
+
+		.c2 {
+			width: 400px;
+			height: 100px;
+			background-color: yellow;
+		}
+	</style>
+</html>
+```
+![[Pasted image 20220816233120.png]]
 
 3、v-bind:xxx,是不是可以缩写为:xxx
 
