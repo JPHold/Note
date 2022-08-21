@@ -1,5 +1,5 @@
 
-1. 生命周期函数，不能使用this
+* **生命周期函数，不能使用this**
 是可以的
 ```
 this.$el
@@ -7,7 +7,7 @@ this.$data
 this.msg
 ```
 
-2. v-xxx指令，是不是跟html原生，合并
+* **v-xxx指令，是不是跟html原生，合并**
 比如v-class跟class，会不会合并
 
 会合并，并且相同属性冲突时，原生的优先级高
@@ -49,9 +49,22 @@ this.msg
 ```
 ![[Pasted image 20220816233120.png]]
 
-3、v-bind:xxx,是不是可以缩写为:xxx
+* **v-bind:xxx,是不是可以缩写为:xxx**
+是的
 
-4、一旦vue语法报错，会导致vue的编译功能失效
+* **v-bind和v-model的区别**
+v-bind是单向绑定，v-model是双向绑定。双向绑定是修改元素的状态会反馈到变量，变量也会反馈到元素状态
+
+以input text元素为例，绑定value属性为val1变量：`v-bind:value="val1"`
+重新输入的内容，val1变量值并没有改变；修改val1变量值，会覆盖内容
+
+以input text元素为例，绑定value属性为val1变量：`v-model:value="val1"
+重新输入的内容，val1变量值有改变；修改val1变量值，会覆盖内容
+
+
+
+* **一旦vue语法报错，会导致vue的编译功能失效**
+```html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -77,6 +90,7 @@ this.msg
 		
 	</script>
 </html>
+```
 
 5、解决列表循环下，就地复用，导致元素错乱
 input元素（未采用:value指令进行初始赋值）会有这个问题
