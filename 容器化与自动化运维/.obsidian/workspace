@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "085302556d4df1b0",
+        "id": "1162df56cacef2c0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
+            "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
             "mode": "source",
             "source": false
           }
-        },
-        "group": "6137be3379b89f73"
-      },
-      {
-        "id": "8abe738877edd503",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md"
-          }
-        },
-        "group": "6137be3379b89f73"
+        }
       }
     ],
     "direction": "vertical"
@@ -69,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
+                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md"
+                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md"
               }
             }
           },
@@ -128,15 +115,17 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 303.3130798339844,
     "collapsed": true
   },
-  "active": "085302556d4df1b0",
+  "active": "1162df56cacef2c0",
   "lastOpenFiles": [
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/2、安装前的了解.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
     "Docker/生态/harbo/2、配置和启动.md",
     "Docker/生态/harbo/3、harbor控制台使用.md",
     "待学习/周/2021-09(38).md",
@@ -144,8 +133,6 @@
     "待学习/周/2021-07(29).md",
     "未命名.md",
     "待学习/周/2022-07(28).md",
-    "重点/Docker重点.md",
-    "Docker/Docker官网/Product manuals/3、Docker-Compose/1、概述.md",
-    "Docker/最佳实践/【附属】container-best-practices/7、上传镜像.md"
+    "重点/Docker重点.md"
   ]
 }
