@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
+            "file": "Docker/生态/harbo/2、配置和启动.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
+                "file": "Docker/生态/harbo/2、配置和启动.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md"
+                "file": "Docker/生态/harbo/2、配置和启动.md"
               }
             }
           },
@@ -124,6 +124,7 @@
   },
   "active": "1162df56cacef2c0",
   "lastOpenFiles": [
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/2、安装前的了解.md",
     "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
     "Docker/生态/harbo/2、配置和启动.md",
@@ -132,7 +133,6 @@
     "待学习/周/2021-08(32).md",
     "待学习/周/2021-07(29).md",
     "未命名.md",
-    "待学习/周/2022-07(28).md",
-    "重点/Docker重点.md"
+    "待学习/周/2022-07(28).md"
   ]
 }
