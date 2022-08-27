@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:20220827174941",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,17 +105,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1cc8eda01ac739ed",
+  "active": "52b532fac1bcd43a",
   "lastOpenFiles": [
-    "前端/Vue/Vue2/指令集速查.md",
+    "未命名.md",
     "前端/Vue/Vue2/速查.md",
+    "前端/Vue/Vue2/指令集速查.md",
     "前端/Vue/Vue2/FAQ.md",
     "遗留.md",
     "前端/Vue/Vue2/vue特性.md",
     "附件/Pasted image 20220120154631.png",
     "附件/20220806180500.gif",
     "20220731113937.gif.md",
-    "附件/20220731113937.gif",
-    "RPC/DUBBO/生态/Dubbo3.0/坑.md"
+    "附件/20220731113937.gif"
   ]
 }
