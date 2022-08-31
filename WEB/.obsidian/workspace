@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.52991485595703
+    "width": 246.52991485595703,
+    "collapsed": true
   },
   "right": {
     "id": "67203b5ab81c23d6",
@@ -103,9 +104,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "52b532fac1bcd43a",
+  "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
     "前端/Vue/Vue2/指令集速查.md",
     "前端/Vue/Vue2/速查.md",
