@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "语法/2、随机数.md",
-            "mode": "preview"
+            "mode": "preview",
+            "source": false
           }
         }
       }
