@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "前端/Vue/Vue2/速查.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.52991485595703,
-    "collapsed": true
+    "width": 246.52991485595703
   },
   "right": {
     "id": "67203b5ab81c23d6",
@@ -106,11 +105,11 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1cc8eda01ac739ed",
+  "active": "52b532fac1bcd43a",
   "lastOpenFiles": [
-    "未命名.md",
-    "前端/Vue/Vue2/速查.md",
     "前端/Vue/Vue2/指令集速查.md",
+    "前端/Vue/Vue2/速查.md",
+    "未命名.md",
     "前端/Vue/Vue2/FAQ.md",
     "遗留.md",
     "前端/Vue/Vue2/vue特性.md",
