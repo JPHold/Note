@@ -103,14 +103,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "前端/Vue/Vue2/指令集速查.md",
-    "前端/Vue/Vue2/速查.md",
     "未命名.md",
+    "前端/Vue/Vue2/速查.md",
+    "前端/Vue/Vue2/指令集速查.md",
     "前端/Vue/Vue2/FAQ.md",
     "遗留.md",
     "前端/Vue/Vue2/vue特性.md",
