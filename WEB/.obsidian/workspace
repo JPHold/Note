@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.52991485595703,
-    "collapsed": true
+    "width": 246.52991485595703
   },
   "right": {
     "id": "67203b5ab81c23d6",
@@ -108,6 +107,8 @@
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
+    "前端/Vue/Vue2/基础速查.md",
+    "前端/Vue/Vue2/组件/组件速查.md",
     "前端/Vue/Vue2/速查.md",
     "前端/Vue/Vue2/指令集速查.md",
     "未命名.md",
@@ -115,8 +116,6 @@
     "遗留.md",
     "前端/Vue/Vue2/vue特性.md",
     "附件/Pasted image 20220120154631.png",
-    "附件/20220806180500.gif",
-    "20220731113937.gif.md",
-    "附件/20220731113937.gif"
+    "附件/20220806180500.gif"
   ]
 }
