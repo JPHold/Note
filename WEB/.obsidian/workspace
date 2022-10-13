@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端/Vue/Vue2/组件/组件速查.md",
+            "file": "网关/ELK/场景/1、filebeat+logstash上传日志.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue2/组件/组件速查.md",
+                "file": "网关/ELK/场景/1、filebeat+logstash上传日志.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue2/组件/组件速查.md"
+                "file": "网关/ELK/场景/1、filebeat+logstash上传日志.md"
               }
             }
           }
@@ -103,12 +103,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "1cc8eda01ac739ed",
   "lastOpenFiles": [
-    "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue2/组件/组件速查.md",
+    "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue2/速查.md",
     "前端/Vue/Vue2/指令集速查.md",
     "未命名.md",
