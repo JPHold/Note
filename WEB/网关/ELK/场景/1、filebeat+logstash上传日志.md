@@ -1,7 +1,7 @@
 [TOC]
 
 > 以kong记录请求日志，filebeat扫描日志并推送给logstash，logstash监听并异构格式，上传到es
-> 所有的配置都在[[附件/日志/ELK/logstash/README]]
+
 
 # 部署logstash
 * **拉取镜像，并重新打标签（用于上传到本地harbor，如果没有则忽略）**
@@ -14,7 +14,7 @@ docker tag docker.elastic.co/logstash/logstash:6.7.0 local.harbor.com/library/lo
 
 * **安装插件，并制作新镜像（以后要安装新插件，都修改这个Dockerfile）**
 
-Dockerfile文件在：[[附件/日志/ELK/logstash/README]]目录/build-images/Dockerfile
+Dockerfile文件在：[[附件/日志/ELK/logstash/build-images/Dockerfile]]
 ```shell
 FROM local.harbor.com/library/logstash:6.7.0
 WORKDIR /usr/share/logstash
@@ -23,14 +23,14 @@ WORKDIR /usr/share/logstash
 RUN ./bin/logstash-plugin install logstash-output-jdbc
 ```
 
-制作镜像脚本在：[[附件/日志/ELK/logstash/README]]目录/build-images/build.sh
+制作镜像脚本在：[[附件/日志/ELK/logstash/build-images/build.sh]]]]
 `docker build -t local.harbor.com/library/logstash-with-plugin:6.7.0 .`
 
 ---
 
 * 编写Dockerfile，将所需配置文件、依赖打包进去
 
-Dockerfile文件在：[[附件/日志/ELK/logstash/README]]目录/Dockerfile
+Dockerfile文件在：[[附件/日志/ELK/logstash/uat/Dockerfile]]
 ```shell
 FROM local.harbor.com/library/logstash-with-plugin:6.7.0
 WORKDIR /usr/share/logstash
@@ -62,7 +62,7 @@ ENV TZ=Asia/Shanghai
 ```
 
 
-logstash处理程序配置文件在：[[附件/日志/ELK/logstash/README]]目录/config/logstash.conf
+logstash处理程序配置文件在：[[附件/日志/ELK/logstash/uat/config/logstash.conf]]
 **通过临时字段：`add_field => { "[@metadata][type]" => "allMessages" }`或日志的特征信息，分别用不同代码去处理**
 ```shell
 input {
@@ -214,7 +214,7 @@ output {
 配置说明：
 output步骤要取当前内容的数据：使用`%{}`
 
-logstash本身配置文件在：[[附件/日志/ELK/logstash/README]]目录/config/logstash.yml
+logstash本身配置文件在：[[附件/日志/ELK/logstash/uat/config/logstash.yml]]
 ```shell
 http.host: 0.0.0.0
 xpack.monitoring.enabled: true
@@ -226,7 +226,7 @@ xpack.monitoring.elasticsearch.password: "888888"
 1. xpack的监控功能，上传到es，在kibana查看logstash的性能
 ![[Pasted image 20220120154631.png]]
 
-logstash的日志配置文件在：[[附件/日志/ELK/logstash/README]]目录/config/log4j2.properties
+logstash的日志配置文件在：[[附件/日志/ELK/logstash/uat/config/log4j2.properties]]
 ```shell
 status = error
 name = LogstashPropertiesConfig
