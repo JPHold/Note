@@ -252,7 +252,7 @@ rootLogger.appenderRef.console.ref = ${sys:ls.log.format}_console
 ---
 
 * 构建最终镜像，并启动
-脚本文件在：[[附件/日志/ELK/logstash/README]]目录/start.sh
+脚本文件在：[[附件/日志/ELK/logstash/uat/start.sh]]
 ```shell
 docker build -t local.harbor.com/library/logstash-custom:6.7.0 .
 docker run -d --network host --name logstash-6.7.0 local.harbor.com/library/logstash-custom:6.7.0
@@ -261,7 +261,7 @@ docker run -d --network host --name logstash-6.7.0 local.harbor.com/library/logs
 进入logstash容器内部，虽然能ping通es的ip，但还是无法访问，只能采用主机网络
 
 * 关闭脚本
-脚本文件在：[[附件/日志/ELK/logstash/README]]目录/shutdown.sh
+脚本文件在：[[附件/日志/ELK/logstash/uat/shutdown.sh]]
 ```shell
 docker stop logstash-6.7.0
 docker rm logstash-6.7.0
@@ -278,7 +278,7 @@ docker tag docker.elastic.co/beats/filebeat:6.7.0 local.harbor.com/library/fileb
 
 * **编写Dockerfile，构建镜像，启动**
 
-Dockerfile文件在：[[附件/日志/ELK/filebeat/README]]目录/Dockerfile
+Dockerfile文件在：[[附件/日志/ELK/filebeat/Dockerfile]]
 ```shell
 FROM local.harbor.com/library/filebeat:6.7.0
 WORKDIR /usr/share/filebeat
@@ -290,7 +290,7 @@ RUN chown root:filebeat ./filebeat.yml
 USER filebeat
 ```
 
-脚本文件在：[[附件/日志/ELK/filebeat/README]]目录/start.sh
+脚本文件在：[[附件/日志/ELK/filebeat/start.sh]]
 `docker build -t local.harbor.com/library/filebeat-custom:6.7.0 .`
 
 ```shell
@@ -306,11 +306,11 @@ docker run -d --network host \
 **配置说明**：
 1. 挂载要读取的日志文件
 2. 要挂载data目录
-因为filebeat需要记录待读取的文件，读到哪了；该数据记录在registry文件中：在[[附件/日志/ELK/filebeat/README]]目录/data/registry。
+因为filebeat需要记录待读取的文件，读到哪了；该数据记录在registry文件中：在[[附件/日志/ELK/filebeat/data/registry]]。
 [为了避免filebeat容器挂了后，新起容器，重新创建registry文件，导致重复收集日志](https://www.jianshu.com/p/c801ec3a64e5)
 
 * **关闭**
-脚本文件在：[[附件/日志/ELK/filebeat/README]]目录/shutdown.sh
+脚本文件在：[[附件/日志/ELK/filebeat/shutdown.sh]]
 ```shell
 docker stop filebeat-6.7.0
 docker rm filebeat-6.7.0
