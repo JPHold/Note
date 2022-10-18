@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "51fbea0a267bd32f",
+    "id": "7224b6586a25b786",
     "type": "split",
     "children": [
       {
-        "id": "6864281936548f3c",
+        "id": "c4e2c3bd47f1c443",
         "type": "tabs",
         "children": [
           {
-            "id": "1162df56cacef2c0",
+            "id": "7bc669ddd70f5f03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/生态/harbo/2、配置和启动.md",
+                "file": "网关/ELK/场景/1、filebeat+logstash上传日志.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bfd9e5a587c031be",
+    "id": "1aa00538f060c8ab",
     "type": "split",
     "children": [
       {
-        "id": "96c922a3b90ca3a3",
+        "id": "4485ebc4caad433e",
         "type": "tabs",
         "children": [
           {
-            "id": "8b121a4f301c4697",
+            "id": "52b532fac1bcd43a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,61 +43,53 @@
             }
           },
           {
-            "id": "fea701f631a88030",
+            "id": "9ee87233c71dcbf2",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "label",
-                "matchingCase": true,
+                "query": "file:20220827174941",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "e8161c92bf202eca",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 270
+    "width": 246.52991485595703
   },
   "right": {
-    "id": "0861b8cb3ef26819",
+    "id": "67203b5ab81c23d6",
     "type": "split",
     "children": [
       {
-        "id": "77078181c0e83c92",
+        "id": "46de8665091862b2",
         "type": "tabs",
         "children": [
           {
-            "id": "70afbc1178a94414",
+            "id": "470734765fdb48b9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/生态/harbo/2、配置和启动.md",
+                "file": "网关/ELK/场景/1、filebeat+logstash上传日志.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4567f7cf11a1bc38",
+            "id": "11fc392950fd4a71",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -105,43 +97,36 @@
             }
           },
           {
-            "id": "c9eb632b5b45044a",
+            "id": "678ff44e99ad9fe8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/生态/harbo/2、配置和启动.md"
+                "file": "网关/ELK/场景/1、filebeat+logstash上传日志.md"
               }
             }
-          },
-          {
-            "id": "0a6e0008a1edb096",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 303.3130798339844
+    "width": 300
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1162df56cacef2c0",
+  "active": "52b532fac1bcd43a",
   "lastOpenFiles": [
-    "Docker/生态/harbo/1、总体流程.md",
-    "Docker/生态/harbo/3、harbor控制台使用.md",
-    "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
-    "Docker/Docker官网/Product manuals/2、Docker-Engine/2、安装前的了解.md",
-    "Docker/生态/harbo/2、配置和启动.md",
-    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
-    "待学习/周/2021-09(38).md",
-    "待学习/周/2021-08(32).md",
-    "待学习/周/2021-07(29).md",
-    "未命名.md"
+    "附件/日志/ELK/logstash/README.md",
+    "网关/ELK/场景/1、filebeat+logstash上传日志.md",
+    "附件/日志/ELK/logstash/uat/e.md",
+    "附件/日志/ELK/logstash.md",
+    "附件/日志/ELK/filebeat/README.md",
+    "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
+    "前端/Vue/Vue2/组件/组件速查.md",
+    "前端/Vue/Vue2/基础速查.md",
+    "前端/Vue/Vue2/速查.md",
+    "前端/Vue/Vue2/指令集速查.md"
   ]
 }
