@@ -66,9 +66,6 @@ logstash处理程序配置文件在：[[附件/日志/ELK/logstash/uat/config/lo
 **通过临时字段：`add_field => { "[@metadata][type]" => "allMessages" }`或日志的特征信息，分别用不同代码去处理**
 ```shell
 input {
-   beats {
-        port => 5044
-   }
    kafka {
         bootstrap_servers => ["${kafkaUrl}"]
         group_id => "all_message_consumer"
@@ -171,15 +168,6 @@ filter{
 }
 
 output {
-  if [@metadata][operation] == "gateWayLog" {
-    #stdout { codec => rubydebug }
-    kafka {
-      bootstrap_servers => "${kafkaUrl}"
-      codec => json
-      topic_id => "all_message" #设置topic
-      message_key => "%{uuid}"
-    }
-  }
   if [@metadata][type] == "allMessages" {
    # stdout { codec => rubydebug }
     if [uuid] not in ["","drop"] {
@@ -308,7 +296,8 @@ docker run -d --network host \
 2. 要挂载data目录
 因为filebeat需要记录待读取的文件，读到哪了；该数据记录在registry文件中：在[[附件/日志/ELK/filebeat/data/registry]]。
 [为了避免filebeat容器挂了后，新起容器，重新创建registry文件，导致重复收集日志](https://www.jianshu.com/p/c801ec3a64e5)
-
+3. 新环境部署时，记得将data目录下所有东西删干净，避免无法从第一行读取
+4
 * **关闭**
 脚本文件在：[[附件/日志/ELK/filebeat/shutdown.sh]]
 ```shell
@@ -322,10 +311,7 @@ docker rm filebeat-6.7.0
 2022-01-06T02:25:03.578Z        ERROR   pipeline/output.go:121  Failed to publish events: write tcp 127.0.0.1:37020->127.0.0.1:5044: write: connection reset by peer
 ```
 
-**原因**：filebeat.xml配置的output是192.168.0.34:5044，而logstash的beat这个input插件只配置了port，ip默认为0.0.0.0
-
-**解决：**
-filebeat.xml配置的output改成0.0.0.0:5044
+**找不到解决办法，最新版也不行**
 
 2. **logstash.conf中beat组件的filter步骤，[添加临时字段](https://my.oschina.net/iwinder/blog/4907912)，取名为type，无法生效**
 **原因**：估计是type为关键词导致的，改成operation即可
