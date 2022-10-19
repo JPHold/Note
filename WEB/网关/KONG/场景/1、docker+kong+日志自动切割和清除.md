@@ -20,6 +20,15 @@ ENV KONG_ADMIN_LISTEN="0.0.0.0:8001, 0.0.0.0:8444 ssl"
 * 构建镜像：build.sh
 `docker build -t local.harbor.com/library/kong-custom:2.0.4 .`
 
+* 在你指定的目录，创建日志文件和授权
+```shell
+touch dataServer.access.log
+chmod 777 dataServer.access.log
+
+touch dataServer.body.log
+chmod 777 dataServer.body.log
+```
+
 * 启动：start.sh
 >需要挂载nginx_kong配置和日志目录
 ```shell
