@@ -50,8 +50,8 @@ docker rm kong
 
 原理：
 1. 按天自动切割，将当前文件改名成昨天日期，然后以当前日期创建新文件
-2. 只保留14天，并且会压缩文件
-3. 执行完切割步骤后，执行**重新打开日志的读操作：docker container kill kong -s USR1**：是为了确保新日志保存到新创建的文件
+2. 只保留7天，并且会压缩文件
+3. 执行完切割步骤后，执行**重新打开kong日志的写操作：docker container kill kong -s USR1**：是为了确保新日志保存到新创建的文件
 
 ```shell
 /home/kong-log/webservice.*.log {
@@ -89,7 +89,7 @@ docker rm kong
 ```shell
 /home/kong-log/webservice.*.log {
     daily
-    rotate 14
+    rotate 7
     dateext
     compress
     delaycompress
@@ -118,5 +118,7 @@ docker rm kong
 ```
 
 # 配置定时执行
+每天执行凌晨1点执行一次
+
 crontab -e，填写如下（分 时 天 月 周）
 `* 1 * * * sudo  logrotate -vf /etc/logrotate.d/kong-log-rotate`

@@ -1,6 +1,6 @@
 [TOC]
 
-> 以kong记录请求日志，filebeat扫描日志并推送给logstash，logstash监听并异构格式，上传到es
+> 以kong记录请求日志，filebeat扫描日志并推送给kafka，logstash监听kafka队列。异构格式，上传到es
 
 
 # 部署logstash
@@ -68,42 +68,15 @@ logstash处理程序配置文件在：[[附件/日志/ELK/logstash/uat/config/lo
 input {
    kafka {
         bootstrap_servers => ["${kafkaUrl}"]
-        group_id => "all_message_consumer"
+        group_id => "all_message_consumer_1"
         topics => ["all_message"]
         consumer_threads => 10
         client_id => "logstash-0-all_message"
         type => "allMessages"
     }
-   kafka {
-        bootstrap_servers => ["${kafkaUrl}"]
-        group_id => "cdrReports_consumer"
-        topics => ["logCdrStandard"]
-        consumer_threads => 5
-        client_id => "logstash-0-logCdrStandard"
-        type => "cdrReports"
-    }
 }
 
 filter{
-  if [source] == "/usr/share/filebeat/file-log/webservice.access.log"{
-    json {
-        source => "message"
-    }
-    mutate {
-        remove_field =>["@version"]
-        remove_field =>["message"]
-        remove_field =>["offset"]
-        remove_field =>["log"]
-        remove_field =>["prospector"]
-        remove_field =>["host"]
-        remove_field =>["tags"]
-        remove_field =>["beat"]
-        remove_field =>["@timestamp"]
-        remove_field =>["input"]
-        remove_field =>["source"]
-        add_field => { "[@metadata][operation]" => "gateWayLog" }
-    }
- }
  if [type] == "allMessages" {
     json {
         source => "message"
@@ -129,47 +102,15 @@ filter{
         remove_field =>["msgId"]
         remove_field =>["type"]
         add_field => { "[@metadata][type]" => "allMessages" }
+        add_field => { "[@metadata][operation]" => "gateWayLog" }
         remove_field =>["allMessages"]
     }
  }
- if [type] == "cdrReports" {
-    json {
-        source => "message"
-    }
-    mutate {
-        remove_field =>["@version"]
-        remove_field =>["@timestamp"]
-        remove_field =>["message"]
-        remove_field =>["id"]
-        remove_field =>["origin"]
-        remove_field =>["ip"]
-        remove_field =>["userId"]
-        remove_field =>["userName"]
-        remove_field =>["label"]
-        remove_field =>["loginName"]
-        remove_field =>["sessionId"]
-        remove_field =>["method"]
-        remove_field =>["arguments"]
-        remove_field =>["stackTrace"]
-        remove_field =>["processTime"]
-        remove_field =>["status"]
-        remove_field =>["createAt"]
-        remove_field =>["msgId"]
-        remove_field =>["type"]
-        add_field => { "[@metadata][type]" => "cdrReports" }
-    }
-    json {
-        source => "cycleMessage"
-    }
-    mutate {
-        remove_field =>["cycleMessage"]
-    }
- }     
 }
 
 output {
-  if [@metadata][type] == "allMessages" {
-   # stdout { codec => rubydebug }
+  if ([@metadata][type] == "allMessages") or ([@metadata][operation] == "gateWayLog") {
+    #stdout { codec => rubydebug }
     if [uuid] not in ["","drop"] {
       elasticsearch {
         hosts => ["${esUrl}"]
@@ -183,19 +124,6 @@ output {
       }
     }
    }
- if [@metadata][type] == "cdrReports" {
-        if [uuid] not in ["","null"] {
-            elasticsearch {
-                hosts => ["${esUrl}"]
-                user => "${esUser}"
-                password => "${esPassword}"
-                action => "update"
-                index => "all_message"
-                document_id => "%{uuid}"
-                doc_as_upsert => true
-            }
-        }
-    }
 }
 
 ```
