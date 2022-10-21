@@ -69,7 +69,7 @@ docker rm kong
 }
 ```
 
-[参数讲解](https://segmentfault.com/a/1190000013191786)
+[参数讲解](https://zhuanlan.zhihu.com/p/265812809)
 [部分参数讲解和配置讲解](https://blog.huoding.com/2013/04/21/246)
 [docker+nginx启动切割，并告知重新打开文件](https://www.jb51.net/article/146513.htm)
 
