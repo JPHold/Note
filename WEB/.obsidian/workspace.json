@@ -6,6 +6,7 @@
       {
         "id": "c4e2c3bd47f1c443",
         "type": "tabs",
+        "dimension": 77.55775577557755,
         "children": [
           {
             "id": "7bc669ddd70f5f03",
@@ -17,7 +18,26 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "6f224f41fdbe0a63"
+          }
+        ]
+      },
+      {
+        "id": "d9921d18a69955f4",
+        "type": "tabs",
+        "dimension": 22.442244224422442,
+        "children": [
+          {
+            "id": "82f1068e8681edfa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md"
+              }
+            },
+            "group": "6f224f41fdbe0a63"
           }
         ]
       }
@@ -72,7 +92,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7bc669ddd70f5f03",
+  "active": "82f1068e8681edfa",
   "lastOpenFiles": [
     "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
     "网关/ELK/场景/1、filebeat+logstash上传日志.md",

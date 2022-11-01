@@ -68,7 +68,7 @@ http://192.168.5.74:8000/data-server/query?uuid=111x8688-ad4c-40a7-b94e-729eb199
 | $arg_accessKey             | arg为nginx内置变量。url上的参数：?后面的参数                                                                        |
 [nginx内置变量清单](http://nginx.org/en/docs/varindex.html)
 
-4. 在你指定的目录，创建日志文件和授权
+5. 在你指定的目录，创建日志文件和授权
 ```shell
 touch dataServer.access.log
 chmod 777 dataServer.access.log
@@ -77,19 +77,19 @@ touch dataServer.body.log
 chmod 777 dataServer.body.log
 ```
 
-5. 启动：[[附件/网关/kong/start.sh]]
+6. 启动：[[附件/网关/kong/start.sh]]
 >需要挂载nginx_kong配置和日志目录
 ```shell
 docker run -d --name kong --restart=always  --link postgres:kong-database  -p 8000:8000 -p 8443:8443   -p 8001:8001  -p 8444:8444 --volume="/home/software/kong/config/nginx_kong.lua:/usr/local/sha
 re/lua/5.1/kong/templates/nginx_kong.lua" --volume="/home/kong-log/:/home/kong-log/"  local.harbor.com/library/kong-custom:2.0.4
 ```
 
-6. 查看日志：[[附件/网关/kong/log.sh]]
+7. 查看日志：[[附件/网关/kong/log.sh]]
 ```
 ./log.sh
 ```
 
-6. 关闭：[[附件/网关/kong/shutdown.sh]]
+8. 关闭：[[附件/网关/kong/shutdown.sh]]
 ```shell
 docker stop kong
 docker rm kong
@@ -98,6 +98,7 @@ docker rm kong
 # 配置Logrotate
 > Linux自带工具
 
+## 配置
 `vim /etc/logrotate.d/kong-log-rotate`
 > 第一行为你要切割的日志，支持模糊匹配（正则表达式）
 
