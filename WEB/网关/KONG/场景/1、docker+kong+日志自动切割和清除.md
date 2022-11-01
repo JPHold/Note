@@ -58,7 +58,7 @@ http://192.168.5.74:8000/data-server/query?uuid=111x8688-ad4c-40a7-b94e-729eb199
 | $arg_uuid                  | arg为nginx内置变量。url上的参数：?后面的参数                                                           |
 | $status                    | nginx内置变量：HTTP响应码                                                          |
 | $request_method            | nginx内置变量：请求方法（GET、POST、DELETE等）                                     |
-| $time_now                  | 自定义时间变量（精确到毫秒），在pre-function插件编写赋值                           |
+| $time_now                  | 自定义时间变量（精确到毫秒），在pre-function插件编写赋值。![[Pasted image 20221101114536.png]]                           |
 | $upstream_x_forwarded_host | kong内置变量：请求链路上经过的所有中转机器的IP（不包含客户端IP） 。[官方源码](https://github.com/Kong/kong/blob/f3ddf498ad029226b85261060f1a00507e059f2a/kong/runloop/handler.lua#L1513)                 |
 | $uri                       | nginx内置变量：没携带请求参数的URL。比如`/data-server/query`                       |
 | $body_bytes_sent           | nginx内置变量：nginx响应给客户端的请求体大小（不包含响应header的大小，单位为字节） |

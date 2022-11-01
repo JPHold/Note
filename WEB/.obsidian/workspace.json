@@ -67,65 +67,12 @@
   "right": {
     "id": "67203b5ab81c23d6",
     "type": "split",
-    "children": [
-      {
-        "id": "46de8665091862b2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "470734765fdb48b9",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "11fc392950fd4a71",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "678ff44e99ad9fe8",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md"
-              }
-            }
-          },
-          {
-            "id": "d3745a665ebdc1c2",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 3
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "d3745a665ebdc1c2",
+  "active": "7bc669ddd70f5f03",
   "lastOpenFiles": [
     "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
     "网关/ELK/场景/1、filebeat+logstash上传日志.md",
