@@ -1,7 +1,11 @@
 [TOC]
 
 # 部署kong，并记录日志
-* Dockerfile
+
+1. 前提
+> 需要部署postgres，创建的容器名称必须为postgres
+
+2. Dockerfile
 ```docker
 FROM kong:2.0.4
 
@@ -17,10 +21,50 @@ ENV KONG_ADMIN_ERROR_LOG=/dev/stderr
 ENV KONG_ADMIN_LISTEN="0.0.0.0:8001, 0.0.0.0:8444 ssl"
 ````
 
-* 构建镜像：build.sh
+3. 构建镜像：[[附件/网关/kong/build.sh]]
 `docker build -t local.harbor.com/library/kong-custom:2.0.4 .`
 
-* 在你指定的目录，创建日志文件和授权
+4. 配置文件：[[附件/网关/kong/config/nginx_kong.lua]]
+> 以http查询接口为例，打印访问日志和请求体信息
+
+```
+log_format grab_dataserver_access escape=json '{"uuid":"$arg_uuid", "body_id":"$arg_uuid", "head": {"Status":"$status", "Request-Method":"$request_method", "Time":"$time_now", "Host":"$upstream_x_forwarded_host", "Uri":"$uri", "Body-Bytes-Sent":"$body_bytes_sent", "Remote-Addr":"$upstream_x_forwarded_for", "Content-Type":"$content_type", "useTime":"$request_time", "token":"$arg_accessKey"}, "reports" : {"orangeapigate_report" : {"report_name" : "API网关74", "layer":"0", "isError":"false", "exception":"", "report_time" : "$time_now"}}}';
+log_format grab_dataserver_body escape=json '{"uuid":"$arg_uuid", "body":"$request_body"}';
+```
+
+> 变量解释
+
+`使用了nginx作为入口，负载两个kong实例，请求地址和请求体如下：`
+```
+http://192.168.5.74:8000/data-server/query?uuid=111x8688-ad4c-40a7-b94e-729eb199adcb&action=TO0016&accessKey=b7eef217-16be-a0b4-cc92-be7ac46b3ad9&creationTime=20221028105459
+```
+
+```json
+{
+    "isPage": true,
+    "pageNo": 1,
+    "pageSize": 10,
+    "visitTypeCode": "1",
+    "visitNo": "000921617700",
+    "visitTimes": "31"
+}
+```
+
+
+| 名称                       | 说明 |
+| -------------------------- | ---- |
+| $arg_uuid                  |      |
+| $status                    |      |
+| $request_method            |      |
+| $time_now                  |      |
+| $upstream_x_forwarded_host |      |
+| $uri                       |      |
+| $body_bytes_sent           |      |
+| $upstream_x_forwarded_for  |      |
+| $content_type              |      |
+| $request_time                           |      |
+
+4. 在你指定的目录，创建日志文件和授权
 ```shell
 touch dataServer.access.log
 chmod 777 dataServer.access.log
@@ -29,14 +73,19 @@ touch dataServer.body.log
 chmod 777 dataServer.body.log
 ```
 
-* 启动：start.sh
+5. 启动：[[附件/网关/kong/start.sh]]
 >需要挂载nginx_kong配置和日志目录
 ```shell
 docker run -d --name kong --restart=always  --link postgres:kong-database  -p 8000:8000 -p 8443:8443   -p 8001:8001  -p 8444:8444 --volume="/home/software/kong/config/nginx_kong.lua:/usr/local/sha
 re/lua/5.1/kong/templates/nginx_kong.lua" --volume="/home/kong-log/:/home/kong-log/"  local.harbor.com/library/kong-custom:2.0.4
 ```
 
-* 关闭：shutdown.sh
+6. 查看日志：[[附件/网关/kong/log.sh]]
+```
+./log.sh
+```
+
+6. 关闭：[[附件/网关/kong/shutdown.sh]]
 ```shell
 docker stop kong
 docker rm kong

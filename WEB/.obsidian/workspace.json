@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.52991485595703
+    "width": 246.52991485595703,
+    "collapsed": true
   },
   "right": {
     "id": "67203b5ab81c23d6",
@@ -105,9 +106,17 @@
                 "file": "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md"
               }
             }
+          },
+          {
+            "id": "d3745a665ebdc1c2",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -116,10 +125,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7bc669ddd70f5f03",
+  "active": "d3745a665ebdc1c2",
   "lastOpenFiles": [
-    "网关/ELK/场景/1、filebeat+logstash上传日志.md",
     "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
+    "网关/ELK/场景/1、filebeat+logstash上传日志.md",
     "附件/日志/ELK/logstash/README.md",
     "附件/日志/ELK/logstash/uat/e.md",
     "附件/日志/ELK/logstash.md",
