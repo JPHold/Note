@@ -55,17 +55,17 @@ http://192.168.5.74:8000/data-server/query?uuid=111x8688-ad4c-40a7-b94e-729eb199
 
 | 名称                       | 说明                                                                               |
 | -------------------------- | ---------------------------------------------------------------------------------- |
-| $arg_uuid                  | url上的参数：?后面的参数                                                           |
+| $arg_uuid                  | arg为nginx内置变量。url上的参数：?后面的参数                                                           |
 | $status                    | nginx内置变量：HTTP响应码                                                          |
 | $request_method            | nginx内置变量：请求方法（GET、POST、DELETE等）                                     |
 | $time_now                  | 自定义时间变量（精确到毫秒），在pre-function插件编写赋值                           |
-| $upstream_x_forwarded_host | kong内置变量：请求链路上经过的所有中转机器的IP（不包含客户端IP）                   |
+| $upstream_x_forwarded_host | kong内置变量：请求链路上经过的所有中转机器的IP（不包含客户端IP） 。[官方源码](https://github.com/Kong/kong/blob/f3ddf498ad029226b85261060f1a00507e059f2a/kong/runloop/handler.lua#L1513)                 |
 | $uri                       | nginx内置变量：没携带请求参数的URL。比如`/data-server/query`                       |
 | $body_bytes_sent           | nginx内置变量：nginx响应给客户端的请求体大小（不包含响应header的大小，单位为字节） |
 | $upstream_x_forwarded_for  | kong内置变量：请求链路上经过的所有机器的IP（包含客户端IP，以`,`隔开：`10.101.12.25, 192.168.5.74`）。[官方源码](https://github.com/Kong/kong/blob/f3ddf498ad029226b85261060f1a00507e059f2a/kong/runloop/handler.lua#L1504)                                                                 |
-| $content_type              |                                                                                    |
-| $request_time              |                                                                                    |
-| $arg_accessKey             | url上的参数                                                                        |
+| $content_type              | nginx内置变量：请求体的格式（如`application/jso`）                                                                                   |
+| $request_time              | nginx内置量：从客户端读取第一个字节数开始，到读取完的时间（单位：毫秒，可以理解为客户端接收到upstream响应的时间）                                                                                   |
+| $arg_accessKey             | arg为nginx内置变量。url上的参数：?后面的参数                                                                        |
 [nginx内置变量清单](http://nginx.org/en/docs/varindex.html)
 
 4. 在你指定的目录，创建日志文件和授权
