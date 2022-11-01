@@ -25,6 +25,8 @@ ENV KONG_ADMIN_LISTEN="0.0.0.0:8001, 0.0.0.0:8444 ssl"
 `docker build -t local.harbor.com/library/kong-custom:2.0.4 .`
 
 4. 配置文件：[[附件/网关/kong/config/nginx_kong.lua]]
+	[官方配置例子](https://github.com/Kong/kong/blob/5de2641ecd919002a935297cd8e3e7c37417721d/kong/templates/nginx_kong.lua)
+
 > 以http查询接口为例，打印访问日志和请求体信息
 
 ```
@@ -51,18 +53,20 @@ http://192.168.5.74:8000/data-server/query?uuid=111x8688-ad4c-40a7-b94e-729eb199
 ```
 
 
-| 名称                       | 说明 |
-| -------------------------- | ---- |
-| $arg_uuid                  |      |
-| $status                    |      |
-| $request_method            |      |
-| $time_now                  |      |
-| $upstream_x_forwarded_host |      |
-| $uri                       |      |
-| $body_bytes_sent           |      |
-| $upstream_x_forwarded_for  |      |
-| $content_type              |      |
-| $request_time                           |      |
+| 名称                       | 说明                                                                               |
+| -------------------------- | ---------------------------------------------------------------------------------- |
+| $arg_uuid                  | url上的参数：?后面的参数                                                           |
+| $status                    | nginx内置变量：HTTP响应码                                                          |
+| $request_method            | nginx内置变量：请求方法（GET、POST、DELETE等）                                     |
+| $time_now                  | 自定义时间变量（精确到毫秒），在pre-function插件编写赋值                           |
+| $upstream_x_forwarded_host | kong内置变量：请求链路上经过的所有中转机器的IP（不包含客户端IP）                   |
+| $uri                       | nginx内置变量：没携带请求参数的URL。比如`/data-server/query`                       |
+| $body_bytes_sent           | nginx内置变量：nginx响应给客户端的请求体大小（不包含响应header的大小，单位为字节） |
+| $upstream_x_forwarded_for  | kong内置变量：请求链路上经过的所有机器的IP（包含客户端IP，以`,`隔开：`10.101.12.25, 192.168.5.74`）。[官方源码](https://github.com/Kong/kong/blob/f3ddf498ad029226b85261060f1a00507e059f2a/kong/runloop/handler.lua#L1504)                                                                 |
+| $content_type              |                                                                                    |
+| $request_time              |                                                                                    |
+| $arg_accessKey             | url上的参数                                                                        |
+[nginx内置变量清单](http://nginx.org/en/docs/varindex.html)
 
 4. 在你指定的目录，创建日志文件和授权
 ```shell
