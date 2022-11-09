@@ -26,7 +26,7 @@
       {
         "id": "d9921d18a69955f4",
         "type": "tabs",
-        "dimension": 22.442244224422442,
+        "dimension": 22.44224422442245,
         "children": [
           {
             "id": "82f1068e8681edfa",
@@ -81,13 +81,44 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.52991485595703,
-    "collapsed": true
+    "width": 246.52991485595703
   },
   "right": {
     "id": "67203b5ab81c23d6",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "a76d2046b710203c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1e65686d4c62969",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bdb5d64f7e12eabb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
