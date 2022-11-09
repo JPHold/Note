@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1、基础SQL.md",
-                "mode": "source",
+                "file": "ORACLE/语法/1、表空间、用户、存储大小.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1、基础SQL.md",
+                "file": "ORACLE/语法/1、表空间、用户、存储大小.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1、基础SQL.md"
+                "file": "ORACLE/语法/1、表空间、用户、存储大小.md"
               }
             }
           }
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "da4bbf71db4abe80",
   "lastOpenFiles": [
