@@ -12,3 +12,4 @@ NAME => 'metadata'，下面会用到
 
 4. 修改
 	`alter_async 'objectStorage',{NAME => 'metadata',TTL => '31536000'}`
+	`alter_async 'objectStorage',{NAME => 'object',TTL => '31536000'}`
