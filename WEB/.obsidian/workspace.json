@@ -32,19 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "48ee14a19bf1b793",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "d9921d18a69955f4",
@@ -158,7 +148,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "48ee14a19bf1b793",
+  "active": "0c4ced8129b9e7cc",
   "lastOpenFiles": [
     "对象存储/Hbase/场景/1、开启RESTful的api，推送内容.md",
     "对象存储/Hbase/场景入口.md",
