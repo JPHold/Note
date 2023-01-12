@@ -32,9 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "48ee14a19bf1b793",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d9921d18a69955f4",
@@ -144,11 +154,11 @@
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "periodic-notes:Open this week": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "0c4ced8129b9e7cc",
+  "active": "48ee14a19bf1b793",
   "lastOpenFiles": [
     "对象存储/Hbase/场景/1、开启RESTful的api，推送内容.md",
     "对象存储/Hbase/场景入口.md",
