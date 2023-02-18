@@ -6,16 +6,51 @@
       {
         "id": "83f0abd860c26266",
         "type": "tabs",
+        "dimension": 68.19960861056752,
         "children": [
           {
             "id": "16842f513f9dd4aa",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.9"
+                "file": "前端/Vue/Vue2/指令集速查.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "de8cd92ebe5974f3"
+          },
+          {
+            "id": "3a4bebdc03c6ed64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/Vue/vue3/组件化/自定义组件（vue格式的单文件）.md",
+                "mode": "source",
+                "source": false
               }
             }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "50005897c8a02f19",
+        "type": "tabs",
+        "dimension": 31.800391389432487,
+        "children": [
+          {
+            "id": "0c02a4b2b8b37f12",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "前端/Vue/Vue2/指令集速查.md"
+              }
+            },
+            "group": "de8cd92ebe5974f3"
           }
         ]
       }
@@ -75,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网关/ELK/场景/1、filebeat+logstash上传日志.md",
+                "file": "前端/Vue/vue3/组件化/自定义组件（vue格式的单文件）.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网关/ELK/场景/1、filebeat+logstash上传日志.md"
+                "file": "前端/Vue/vue3/组件化/自定义组件（vue格式的单文件）.md"
               }
             }
           }
@@ -124,13 +159,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "16842f513f9dd4aa",
+  "active": "3a4bebdc03c6ed64",
   "lastOpenFiles": [
-    "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
-    "前端/Vue/Vue2/组件/组件速查.md",
-    "前端/Vue/Vue2/基础速查.md",
-    "前端/Vue/Vue2/速查.md",
     "前端/Vue/Vue2/指令集速查.md",
+    "前端/Vue/Vue2/基础速查.md",
+    "前端/Vue/Vue2/组件/组件速查.md",
+    "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
+    "前端/Vue/Vue2/速查.md",
     "未命名.md",
     "前端/Vue/Vue2/FAQ.md",
     "遗留.md",
