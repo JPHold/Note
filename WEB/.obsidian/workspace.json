@@ -6,7 +6,6 @@
       {
         "id": "83f0abd860c26266",
         "type": "tabs",
-        "dimension": 68.19960861056752,
         "children": [
           {
             "id": "16842f513f9dd4aa",
@@ -18,8 +17,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "de8cd92ebe5974f3"
+            }
           },
           {
             "id": "3a4bebdc03c6ed64",
@@ -31,26 +29,26 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "f80015a3c138ec86"
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "50005897c8a02f19",
+        "id": "b5448d45bdd5d581",
         "type": "tabs",
-        "dimension": 31.800391389432487,
         "children": [
           {
-            "id": "0c02a4b2b8b37f12",
+            "id": "469e2c25e7073bb4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue2/指令集速查.md"
+                "file": "前端/Vue/vue3/组件化/自定义组件（vue格式的单文件）.md"
               }
             },
-            "group": "de8cd92ebe5974f3"
+            "group": "f80015a3c138ec86"
           }
         ]
       }
