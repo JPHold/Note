@@ -23,9 +23,11 @@
             "id": "a0d3164f54e6efb7",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.0.0"
+                "file": "网关/ELK/场景/1、filebeat+logstash上传日志.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -130,6 +132,7 @@
   },
   "active": "a0d3164f54e6efb7",
   "lastOpenFiles": [
+    "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
     "前端/Vue/Vue2/组件/组件速查.md",
     "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue2/速查.md",
@@ -138,7 +141,6 @@
     "前端/Vue/Vue2/FAQ.md",
     "遗留.md",
     "前端/Vue/Vue2/vue特性.md",
-    "附件/Pasted image 20220120154631.png",
-    "附件/20220806180500.gif"
+    "附件/Pasted image 20220120154631.png"
   ]
 }
