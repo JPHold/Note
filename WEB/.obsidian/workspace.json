@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/vue3/基础速查.md",
+                "file": "前端/Vue/vue3/组件化/自定义组件（vue格式的单文件）.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/vue3/基础速查.md",
+                "file": "前端/Vue/vue3/组件化/自定义组件（vue格式的单文件）.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/vue3/基础速查.md"
+                "file": "前端/Vue/vue3/组件化/自定义组件（vue格式的单文件）.md"
               }
             }
           }
@@ -141,14 +141,14 @@
   },
   "active": "f357ca720f19cbe6",
   "lastOpenFiles": [
-    "前端/Vue/Vue2/基础速查.md",
+    "前端/Vue/Vue2/FAQ.md",
+    "前端/Vue/vue3/不懂.md",
     "前端/Vue/vue3/基础速查.md",
+    "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue2/指令集速查.md",
     "前端/Vue/Vue2/组件/组件速查.md",
     "().md",
-    "前端/Vue/Vue2/FAQ.md",
     "前端/Vue/vue3/组件化/自定义组件（vue格式的单文件）.md",
-    "前端/Vue/vue3/不懂.md",
     "遗留.md",
     "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md"
   ]

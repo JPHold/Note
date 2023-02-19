@@ -1,11 +1,14 @@
 [TOC]
 Single File component（简称：SFC）
 **需要使用构建工具，才能使用SFC**
+
 # script、template、style的组合方式
+
 ## 都放在一个.vue文件里
 
 ## 分开存放，再导入
 [资源导入](https://cn.vuejs.org/api/sfc-spec.html#src-imports)
+
 
 
 # API书写方式
