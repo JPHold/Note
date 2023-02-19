@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "v-model",
+                "query": "v-for",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,11 +129,11 @@
   },
   "active": "74a85562ad88a807",
   "lastOpenFiles": [
-    "().md",
+    "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue2/指令集速查.md",
+    "().md",
     "前端/Vue/Vue2/FAQ.md",
     "前端/Vue/Vue2/组件/组件速查.md",
-    "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/vue3/组件化/自定义组件（vue格式的单文件）.md",
     "前端/Vue/vue3/不懂.md",
     "遗留.md",
