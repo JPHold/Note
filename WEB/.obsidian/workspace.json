@@ -9,31 +9,6 @@
         "dimension": 77.55775577557755,
         "children": [
           {
-            "id": "7bc669ddd70f5f03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "对象存储/Hbase/场景/1、开启RESTful的api，推送内容.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "6f224f41fdbe0a63"
-          },
-          {
-            "id": "0c4ced8129b9e7cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端/Vue/Vue2/组件/组件速查.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3a2dceecf284c4fd",
             "type": "leaf",
             "state": {
@@ -45,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "d9921d18a69955f4",
@@ -59,10 +33,9 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "对象存储/Hbase/场景/1、开启RESTful的api，推送内容.md"
+                "file": "前端/Vue/临时文件（vue3）.md"
               }
-            },
-            "group": "6f224f41fdbe0a63"
+            }
           }
         ]
       }
