@@ -90,8 +90,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -149,7 +148,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "0c4ced8129b9e7cc",
+  "active": "52b532fac1bcd43a",
   "lastOpenFiles": [
     "对象存储/Hbase/场景/2、修改数据的保存周期（TTL）.md",
     "对象存储/Hbase/场景/1、开启RESTful的api，推送内容.md",
