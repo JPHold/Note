@@ -1,4 +1,5 @@
-# 纯原生js导入
+# 开发阶段
+## 纯原生js导入
 ```html
 <!DOCTYPE html>
 <html>
@@ -27,7 +28,7 @@
 
 ```
 
-# Es模块js导入
+## Es模块js导入
 **注意`<script type="module">`，指定是模块**
 ```html
 <!DOCTYPE html>
@@ -54,7 +55,7 @@
 
 ```
 
-# 导入映射表（使用别名导入）
+## 导入映射表（使用别名导入）
 在[[#Es模块js导入]]基础上，将引入的js文件，抽到全局的映射表中
 ```html
 <!DOCTYPE html>
@@ -88,3 +89,13 @@
 	</body>
 </html>
 ```
+
+**支持情况：**
+> 目前**只有基于 Chromium 的浏览器支持导入映射表**，所以我们推荐你在学习过程中使用 Chrome 或 Edge。
+
+> **如果你使用的是 Firefox 浏览器，则该功能仅在 102+ 版本中受支持，且目前需要启用 `about:config` 中的 `dom.importMaps.enabled` 选项**。
+
+> 如果你更喜欢那些还不支持导入映射表的浏览器，你可以使用 [es-module-shims](https://github.com/guybedford/es-module-shims) 来进行 polyfill。
+
+
+# 生产阶段
