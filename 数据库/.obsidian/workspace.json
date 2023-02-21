@@ -4,16 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "da4bbf71db4abe80",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "注意/注意点.md",
-            "mode": "source",
-            "source": false
+        "id": "67eb962eca63c106",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da4bbf71db4abe80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ORACLE/数据备份/数据泵/1、非集群的导出方式.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -31,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -69,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "注意/注意点.md",
+                "file": "ORACLE/数据备份/数据泵/1、非集群的导出方式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "注意/注意点.md"
+                "file": "ORACLE/数据备份/数据泵/1、非集群的导出方式.md"
               }
             }
           }
@@ -102,20 +110,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "da4bbf71db4abe80",
   "lastOpenFiles": [
+    "ORACLE/数据备份/数据泵/2、导入.md",
+    "ORACLE/数据备份/数据泵/1、非集群的导出方式.md",
+    "ORACLE/语法/1、表空间、用户、存储大小.md",
+    "1、基础SQL.md",
+    "MYSQL/注意/注意点.md",
+    "ORACLE/注意/注意点.md",
+    "ORACLE/语法/2、随机数.md",
     "数据备份/数据泵/2、导入.md",
     "数据备份/数据泵/1、非集群的导出方式.md",
-    "注意/注意点.md",
-    "语法/1、表空间、用户、存储大小.md",
-    "语法/2、随机数.md",
-    "数据备份/数据泵/3、RAC集群的导出方式.md",
-    "功能工具/1、导出表结构到Markdown格式.md",
-    "语法用法.md",
-    "数据备份/未命名.md",
-    "附件/编写表结构导出markdown/表结构.pdf"
+    "数据备份/数据泵/3、RAC集群的导出方式.md"
   ]
 }
