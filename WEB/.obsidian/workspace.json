@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/临时文件（vue3创建项目）.md",
+                "file": "前端/Vue/vue3/项目化/渐进式增强-配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/临时文件（vue3创建项目）.md",
+                "file": "前端/Vue/vue3/项目化/渐进式增强-配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/临时文件（vue3创建项目）.md"
+                "file": "前端/Vue/vue3/项目化/渐进式增强-配置.md"
               }
             }
           }
@@ -125,17 +125,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "444423dab7b3bd79",
+  "active": "52b532fac1bcd43a",
   "lastOpenFiles": [
     "前端/Vue/vue3/不懂.md",
-    "conflict-files-obsidian-git.md",
-    "前端/Vue/临时文件（vue3创建项目）.md",
+    "前端/Vue/vue3/项目化/渐进式增强-配置.md",
     "前端/Vue/临时文件（vue3）.md",
+    "前端/Vue/vue3/基础速查.md",
+    "conflict-files-obsidian-git.md",
     "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue2/指令集速查.md",
     "前端/Vue/Vue2/组件/组件速查.md",
     "对象存储/Hbase/场景/2、修改数据的保存周期（TTL）.md",
-    "对象存储/Hbase/场景/1、开启RESTful的api，推送内容.md",
-    "对象存储/Hbase/场景入口.md"
+    "对象存储/Hbase/场景/1、开启RESTful的api，推送内容.md"
   ]
 }
