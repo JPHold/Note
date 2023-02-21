@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/vue3/项目化/渐进式增强-配置.md",
+                "file": "前端/Vue/vue3/项目化/开发阶段/渐进式增强-配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/vue3/项目化/渐进式增强-配置.md",
+                "file": "前端/Vue/vue3/项目化/开发阶段/渐进式增强-配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/vue3/项目化/渐进式增强-配置.md",
+                "file": "前端/Vue/vue3/项目化/开发阶段/渐进式增强-配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/vue3/项目化/渐进式增强-配置.md"
+                "file": "前端/Vue/vue3/项目化/开发阶段/渐进式增强-配置.md"
               }
             }
           }
@@ -138,10 +138,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "3ca838bf70e1652a",
+  "active": "52b532fac1bcd43a",
   "lastOpenFiles": [
     "前端/Vue/vue3/不懂.md",
-    "前端/Vue/vue3/项目化/渐进式增强-配置.md",
+    "前端/Vue/vue3/项目化/开发阶段/渐进式增强-配置.md",
     "前端/Vue/临时文件（vue3）.md",
     "前端/Vue/vue3/基础速查.md",
     "conflict-files-obsidian-git.md",
