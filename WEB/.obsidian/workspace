@@ -103,16 +103,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "52b532fac1bcd43a",
   "lastOpenFiles": [
+<<<<<<< HEAD
+=======
     "附件/日志/ELK/logstash/README.md",
     "网关/ELK/场景/1、filebeat+logstash上传日志.md",
     "附件/日志/ELK/logstash/uat/e.md",
     "附件/日志/ELK/logstash.md",
     "附件/日志/ELK/filebeat/README.md",
     "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
+>>>>>>> dcb264fa815f58beaa9d4ac7afd1d1d1d881ec58
     "前端/Vue/Vue2/组件/组件速查.md",
     "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue2/速查.md",
