@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3ca838bf70e1652a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/Vue/vue3/项目化/渐进式增强-配置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +138,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "52b532fac1bcd43a",
+  "active": "3ca838bf70e1652a",
   "lastOpenFiles": [
     "前端/Vue/vue3/不懂.md",
     "前端/Vue/vue3/项目化/渐进式增强-配置.md",
