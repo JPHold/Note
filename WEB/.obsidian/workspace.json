@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "a581566f282bc31b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e7213e66dd91507",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/Vue/vue3/基础速查.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +144,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "9bdb691b3e3ac2eb",
+  "active": "6e7213e66dd91507",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md"
   ]
