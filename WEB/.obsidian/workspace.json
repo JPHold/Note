@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "d9921d18a69955f4",
+        "id": "9f022128de562899",
         "type": "tabs",
         "children": [
           {
-            "id": "66550559c98f5dd7",
+            "id": "4c0212022cb57004",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/Vue/Vue3/基础速查.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "13879f6e5e0047d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63f6d501238b3d4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "import",
+                "query": "v-html",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,17 +143,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "66550559c98f5dd7",
+  "active": "63f6d501238b3d4a",
   "lastOpenFiles": [
+    "v-html.md",
+    "前端/Vue/Vue3/基础速查.md",
+    "前端/Vue/Vue3/不懂.md",
+    "前端/Vue/Vue3/组件化/基础速查.md",
+    "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
+    "前端/Vue/Vue2/指令集速查.md",
+    "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue3/项目化/生产阶段/渐进式增强-配置.md",
     "前端/Vue/Vue3/项目化/开发阶段/渐进式增强-配置.md",
-    "前端/Vue/Vue3/基础速查.md",
-    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
-    "前端/Vue/Vue2/基础速查.md",
-    "前端/Vue/Vue3/不懂.md",
-    "前端/Vue/临时文件（vue3）.md",
-    "conflict-files-obsidian-git.md",
-    "前端/Vue/Vue2/指令集速查.md",
-    "前端/Vue/Vue2/组件/组件速查.md"
+    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md"
   ]
 }
