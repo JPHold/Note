@@ -14,8 +14,25 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "bbd73139af34ccc2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3e574efc11d4f616",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,6 +135,8 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2270dbcfac5f8db9",
-  "lastOpenFiles": []
+  "active": "f07e26de8367cd0d",
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md"
+  ]
 }
