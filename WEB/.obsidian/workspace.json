@@ -6,7 +6,6 @@
       {
         "id": "4caf990eeb8f8100",
         "type": "tabs",
-        "dimension": 70.86614173228347,
         "children": [
           {
             "id": "9bdb691b3e3ac2eb",
@@ -23,12 +22,11 @@
         ]
       },
       {
-        "id": "a581566f282bc31b",
+        "id": "8e81cea19839a5cc",
         "type": "tabs",
-        "dimension": 29.133858267716533,
         "children": [
           {
-            "id": "6e7213e66dd91507",
+            "id": "ad46db2b8dd6cd03",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,11 +144,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "6e7213e66dd91507",
+  "active": "ad46db2b8dd6cd03",
   "lastOpenFiles": [
     "附件/Pasted image 20230301224409.png",
     "附件/Pasted image 20230301224346.png",
     "附件/Pasted image 20230301084705.png",
+    "前端/Vue/Vue2/指令集速查.md",
+    "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
+    "未命名.canvas",
     "前端/Vue/vue3/基础速查.md",
     "reactiveccc.md",
     "conflict-files-obsidian-git.md"
