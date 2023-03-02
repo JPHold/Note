@@ -4,40 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "4caf990eeb8f8100",
+        "id": "6d3f96ae3b5b178f",
         "type": "tabs",
-        "dimension": 79.85136251032205,
         "children": [
           {
-            "id": "9bdb691b3e3ac2eb",
+            "id": "62c25b39184e225b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue2/基础速查.md",
+                "file": "前端/Vue/Vue3/基础速查.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "8ef859d0df1593c4"
+            }
           }
         ]
       },
       {
-        "id": "6d3f96ae3b5b178f",
+        "id": "701b5ea83527a2cb",
         "type": "tabs",
-        "dimension": 20.148637489677952,
         "children": [
           {
-            "id": "9f4f2daf924c42ea",
+            "id": "aad3a6b589b8dcbc",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue2/基础速查.md"
+                "file": "前端/Vue/Vue3/基础速查.md",
+                "mode": "source",
+                "source": false
               }
-            },
-            "group": "8ef859d0df1593c4"
+            }
           }
         ]
       }
@@ -77,8 +75,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue2/基础速查.md",
+                "file": "前端/Vue/Vue3/基础速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue2/基础速查.md"
+                "file": "前端/Vue/Vue3/基础速查.md"
               }
             }
           },
@@ -147,11 +144,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "9f4f2daf924c42ea",
+  "active": "aad3a6b589b8dcbc",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue2/指令集速查.md",
     "前端/Vue/Vue3/基础速查.md",
-    "未命名.canvas",
     "附件/Pasted image 20230301224409.png",
     "附件/Pasted image 20230301224346.png",
     "附件/Pasted image 20230301084705.png",
