@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4caf990eeb8f8100",
+        "id": "6d3f96ae3b5b178f",
         "type": "tabs",
-        "dimension": 70.86614173228347,
+        "dimension": 49.834983498349835,
         "children": [
           {
-            "id": "9bdb691b3e3ac2eb",
+            "id": "62c25b39184e225b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,12 +23,12 @@
         ]
       },
       {
-        "id": "a581566f282bc31b",
+        "id": "701b5ea83527a2cb",
         "type": "tabs",
-        "dimension": 29.133858267716533,
+        "dimension": 50.165016501650165,
         "children": [
           {
-            "id": "6e7213e66dd91507",
+            "id": "aad3a6b589b8dcbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "生命周期",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,14 +146,18 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "6e7213e66dd91507",
+  "active": "62c25b39184e225b",
   "lastOpenFiles": [
     "附件/Pasted image 20230304082317.png",
     "附件/Pasted image 20230302180145.png",
+    "未命名.canvas",
+    "前端/Vue/Vue2/基础速查.md",
+    "前端/Vue/Vue2/指令集速查.md",
+    "前端/Vue/Vue3/基础速查.md",
     "附件/Pasted image 20230301224409.png",
     "附件/Pasted image 20230301224346.png",
     "附件/Pasted image 20230301084705.png",
-    "前端/Vue/Vue3/基础速查.md",
+    "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
     "reactiveccc.md",
     "conflict-files-obsidian-git.md"
   ]
