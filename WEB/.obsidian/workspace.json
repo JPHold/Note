@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/组件化/未命名.md",
+                "file": "前端/Vue/Vue3/组件化/深入速查.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/组件化/未命名.md",
+                "file": "前端/Vue/Vue3/组件化/深入速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/组件化/未命名.md"
+                "file": "前端/Vue/Vue3/组件化/深入速查.md"
               }
             }
           },
@@ -149,7 +149,7 @@
   "active": "8f4fc6e4eabb07b5",
   "lastOpenFiles": [
     "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
-    "前端/Vue/Vue3/组件化/未命名.md",
+    "前端/Vue/Vue3/组件化/深入速查.md",
     "前端/Vue/Vue3/不懂.md",
     "前端/Vue/Vue3/组件化/基础速查.md",
     "前端/Vue/Vue3/基础速查.md",
