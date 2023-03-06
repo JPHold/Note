@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "backup",
+                "query": "volume",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
