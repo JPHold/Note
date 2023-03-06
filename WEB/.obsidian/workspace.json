@@ -6,7 +6,6 @@
       {
         "id": "6d3f96ae3b5b178f",
         "type": "tabs",
-        "dimension": 49.834983498349835,
         "children": [
           {
             "id": "000d3ea4f9a8f49d",
@@ -23,17 +22,16 @@
         ]
       },
       {
-        "id": "701b5ea83527a2cb",
+        "id": "327a6bf85ef07f10",
         "type": "tabs",
-        "dimension": 50.165016501650165,
         "children": [
           {
-            "id": "aad3a6b589b8dcbc",
+            "id": "189c3eef710acc40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/基础速查.md",
+                "file": "前端/Vue/Vue3/组件化/深入速查.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +144,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "000d3ea4f9a8f49d",
+  "active": "189c3eef710acc40",
   "lastOpenFiles": [
     "前端/Vue/Vue3/基础速查.md",
     "前端/Vue/Vue3/组件化/深入速查.md",
