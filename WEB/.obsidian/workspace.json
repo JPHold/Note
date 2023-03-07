@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1ced716102610c4c",
+        "id": "327a6bf85ef07f10",
         "type": "tabs",
         "children": [
           {
-            "id": "d56ba0877595dc01",
+            "id": "189c3eef710acc40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "ba6efd2d0d541433",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "32d510114f802bff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md",
-                "mode": "source",
+                "file": "前端/Vue/Vue3/基础速查.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -66,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ":is",
+                "query": "生命周期",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "53db819c362f0c41",
@@ -96,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md",
+                "file": "前端/Vue/Vue3/基础速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md"
+                "file": "前端/Vue/Vue3/基础速查.md"
               }
             }
           },
@@ -124,26 +105,18 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "5740c54279f0b4af",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "canvas:新建白板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -152,25 +125,26 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "32d510114f802bff",
+  "active": "189c3eef710acc40",
   "lastOpenFiles": [
-    "前端/Vue/Vue2/组件/组件速查.md",
     "前端/Vue/Vue3/组件化/深入速查.md",
-    "前端/Vue/Vue3/组件化/基础速查.md",
-    "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
     "前端/Vue/Vue3/基础速查.md",
-    "conflict-files-obsidian-git.md",
     "前端/Vue/Vue3/不懂.md",
-    "未命名 1.canvas",
-    "附件/Pasted image 20230304235937.png",
+    "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
     "未命名.canvas",
+    "前端/Vue/Vue3/组件化/未命名.md",
+    "附件/Pasted image 20230304235937.png",
     "附件/Pasted image 20230304194138.png",
     "附件/Pasted image 20230304084354.png",
     "附件/Pasted image 20230304082317.png",
     "附件/Pasted image 20230302180145.png",
+    "前端/Vue/Vue2/基础速查.md",
+    "前端/Vue/Vue2/指令集速查.md",
     "附件/Pasted image 20230301224409.png",
     "附件/Pasted image 20230301224346.png",
     "附件/Pasted image 20230301084705.png",
-    "reactiveccc.md"
+    "网关/KONG/场景/1、docker+kong+日志自动切割和清除.md",
+    "reactiveccc.md",
+    "conflict-files-obsidian-git.md"
   ]
 }
