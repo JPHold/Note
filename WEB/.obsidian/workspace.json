@@ -35,7 +35,25 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "26713005dcb45118"
+          }
+        ]
+      },
+      {
+        "id": "59f05021a66b7d47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d378abc7429eed68",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "前端/Vue/Vue3/组件化/深入速查.md"
+              }
+            },
+            "group": "26713005dcb45118"
           }
         ]
       }
@@ -144,8 +162,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "11444445d96efdcd",
+  "active": "d378abc7429eed68",
   "lastOpenFiles": [
+    "附件/Pasted image 20230307115215.png",
+    "附件/Pasted image 20230307114730.png",
     "附件/Pasted image 20230307095024.png",
     "前端/Vue/Vue3/基础速查.md",
     "前端/Vue/Vue3/组件化/基础速查.md",
