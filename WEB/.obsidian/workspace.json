@@ -6,7 +6,7 @@
       {
         "id": "327a6bf85ef07f10",
         "type": "tabs",
-        "dimension": 52.76872964169381,
+        "dimension": 31.37902559867878,
         "children": [
           {
             "id": "189c3eef710acc40",
@@ -25,7 +25,7 @@
       {
         "id": "7eff53030ee92be5",
         "type": "tabs",
-        "dimension": 47.23127035830618,
+        "dimension": 45.00412881915772,
         "children": [
           {
             "id": "11444445d96efdcd",
@@ -37,7 +37,26 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "4932630bec845ea5"
+          }
+        ]
+      },
+      {
+        "id": "5975f56e08173ff6",
+        "type": "tabs",
+        "dimension": 23.6168455821635,
+        "children": [
+          {
+            "id": "277bb01f0e15db43",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "前端/Vue/Vue3/组件化/深入速查.md"
+              }
+            },
+            "group": "4932630bec845ea5"
           }
         ]
       }
@@ -146,7 +165,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "11444445d96efdcd",
+  "active": "277bb01f0e15db43",
   "lastOpenFiles": [
     "附件/Pasted image 20230308100946.png",
     "附件/Pasted image 20230308100923.png",
