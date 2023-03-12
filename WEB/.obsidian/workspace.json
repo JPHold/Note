@@ -4,47 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ba6efd2d0d541433",
+        "id": "131881b4a9b79c91",
         "type": "tabs",
         "children": [
           {
-            "id": "32d510114f802bff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "856a183b7b69fe15",
+            "id": "c14add55c3e3d650",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "前端/Vue/Vue3/逻辑复用/深入速查.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "514ce1d37fcf2805",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a48e46b7a41bd605",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,8 +125,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "856a183b7b69fe15",
+  "active": "c14add55c3e3d650",
   "lastOpenFiles": [
+    "前端/Vue/Vue3/基础速查.md",
+    "前端/Vue/Vue3/组件化/基础速查.md",
     "前端/Vue/Vue3/组件化/深入速查.md",
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/逻辑复用",
@@ -167,7 +138,6 @@
     "附件/Pasted image 20230310132001.png",
     "附件/Pasted image 20230309220931.png",
     "附件/Pasted image 20230309220433.png",
-    "前端/Vue/Vue3/基础速查.md",
     "附件/Pasted image 20230309115403.png",
     "附件/Pasted image 20230309112345.png",
     "附件/Pasted image 20230309105008.png",
@@ -175,7 +145,6 @@
     "附件/Pasted image 20230308100946.png",
     "附件/Pasted image 20230308100923.png",
     "前端/Vue/Vue2/组件/组件速查.md",
-    "前端/Vue/Vue3/组件化/基础速查.md",
     "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
     "conflict-files-obsidian-git.md",
     "前端/Vue/Vue3/不懂.md",
