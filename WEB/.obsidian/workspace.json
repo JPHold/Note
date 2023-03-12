@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "show",
+                "query": "LoadingComp.vue",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +75,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -145,8 +144,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "f89708d289782348",
+  "active": "f07e26de8367cd0d",
   "lastOpenFiles": [
+    "附件/LoadingComp.vue",
     "附件/Pasted image 20230311092218.png",
     "附件/Pasted image 20230310132001.png",
     "附件/Pasted image 20230309220931.png",
@@ -159,7 +159,6 @@
     "附件/Pasted image 20230309104839.png",
     "附件/Pasted image 20230308100946.png",
     "附件/Pasted image 20230308100923.png",
-    "附件/Pasted image 20230308091825.png",
     "前端/Vue/Vue2/组件/组件速查.md",
     "前端/Vue/Vue3/组件化/基础速查.md",
     "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
