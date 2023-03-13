@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db32793372a7dc9f",
+        "id": "131881b4a9b79c91",
         "type": "tabs",
         "children": [
           {
-            "id": "c58fbefe049610a3",
+            "id": "c14add55c3e3d650",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "v-bind",
+                "query": "LoadingComp.vue",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,11 +69,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9acdbb7d25ff6592",
+        "id": "1d6d4c1a374aa8e7",
         "type": "tabs",
         "children": [
           {
-            "id": "f370e72dea6523b0",
+            "id": "93125e0b3ae2176d",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -90,7 +90,7 @@
             }
           },
           {
-            "id": "8add8e92069a18ea",
+            "id": "308c9f92ce32e153",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -100,7 +100,7 @@
             }
           },
           {
-            "id": "48547b9571c6f7b9",
+            "id": "8562f0e203c55a5f",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -111,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -125,28 +126,31 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "c58fbefe049610a3",
+  "active": "c14add55c3e3d650",
   "lastOpenFiles": [
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
+    "未命名.canvas",
     "前端/Vue/Vue3/组件化/深入速查.md",
+    "前端/Vue/Vue3/基础速查.md",
+    "前端/Vue/Vue3/组件化/基础速查.md",
+    "前端/Vue/Vue3/逻辑复用",
+    "().md",
+    "附件/LoadingComp.vue",
+    "附件/Pasted image 20230311092218.png",
     "附件/Pasted image 20230310132001.png",
     "附件/Pasted image 20230309220931.png",
     "附件/Pasted image 20230309220433.png",
-    "前端/Vue/Vue3/基础速查.md",
     "附件/Pasted image 20230309115403.png",
     "附件/Pasted image 20230309112345.png",
     "附件/Pasted image 20230309105008.png",
     "附件/Pasted image 20230309104839.png",
     "附件/Pasted image 20230308100946.png",
     "附件/Pasted image 20230308100923.png",
-    "附件/Pasted image 20230308091825.png",
     "前端/Vue/Vue2/组件/组件速查.md",
-    "前端/Vue/Vue3/组件化/基础速查.md",
     "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
     "conflict-files-obsidian-git.md",
     "前端/Vue/Vue3/不懂.md",
     "未命名 1.canvas",
-    "未命名.canvas",
     "reactiveccc.md"
   ]
 }
