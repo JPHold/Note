@@ -35,25 +35,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "d9763cdbd43dd5c4"
-          }
-        ]
-      },
-      {
-        "id": "58f5bb2fd4abbf11",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "216e3a41eebd2955",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md"
-              }
-            },
-            "group": "d9763cdbd43dd5c4"
+            }
           }
         ]
       }
@@ -120,7 +102,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "216e3a41eebd2955",
+  "active": "20471517eae018ba",
   "lastOpenFiles": [
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/插件/深入速查.md",
