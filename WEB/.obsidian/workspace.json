@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "00af367b78103797",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/Vue/Vue3/逻辑复用/深入速查.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +108,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "b7a79c1de6a79d9b",
+  "active": "00af367b78103797",
   "lastOpenFiles": [
     "前端/Vue/Vue3/插件/深入速查.md",
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
