@@ -6,7 +6,6 @@
       {
         "id": "db32793372a7dc9f",
         "type": "tabs",
-        "dimension": 64.1732283464567,
         "children": [
           {
             "id": "00af367b78103797",
@@ -23,12 +22,11 @@
         ]
       },
       {
-        "id": "200012b22db9fc65",
+        "id": "d9c8883748529445",
         "type": "tabs",
-        "dimension": 35.826771653543304,
         "children": [
           {
-            "id": "20471517eae018ba",
+            "id": "31249686021c01f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -87,49 +85,7 @@
   "right": {
     "id": "53db819c362f0c41",
     "type": "split",
-    "children": [
-      {
-        "id": "9f192e9c19b2c074",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6a94538c4048d646",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "cf248a741dc56d14",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md"
-              }
-            }
-          },
-          {
-            "id": "b8c4a37580398293",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
@@ -150,13 +106,12 @@
   "lastOpenFiles": [
     "附件/Pasted image 20230315232102.png",
     "附件/Pasted image 20230315230703.png",
-    "().md",
-    "前端/Vue/Vue3/组件化/深入速查.md",
     "附件/Pasted image 20230315163124.png",
     "附件/Pasted image 20230315163051.png",
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/插件/深入速查.md",
     "前端/Vue/Vue3/插件",
+    "前端/Vue/Vue3/组件化/深入速查.md",
     "附件/Pasted image 20230310132001.png",
     "附件/Pasted image 20230309220931.png",
     "附件/Pasted image 20230309220433.png",
