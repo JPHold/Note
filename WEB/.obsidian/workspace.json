@@ -6,6 +6,7 @@
       {
         "id": "db32793372a7dc9f",
         "type": "tabs",
+        "dimension": 64.1732283464567,
         "children": [
           {
             "id": "00af367b78103797",
@@ -24,6 +25,7 @@
       {
         "id": "200012b22db9fc65",
         "type": "tabs",
+        "dimension": 35.826771653543304,
         "children": [
           {
             "id": "20471517eae018ba",
@@ -144,7 +146,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "20471517eae018ba",
+  "active": "00af367b78103797",
   "lastOpenFiles": [
     "附件/Pasted image 20230315163124.png",
     "附件/Pasted image 20230315163051.png",
