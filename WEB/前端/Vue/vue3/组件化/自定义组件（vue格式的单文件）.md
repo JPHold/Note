@@ -1,5 +1,7 @@
 [TOC]
-Single File component（简称：SFC）
+* 利用[@vue/compiler-sfc](https://github.com/vuejs/core/tree/main/packages/compiler-sfc)预编译成标准的JavaScript和css |
+
+* Single File component（简称：SFC）
 **需要使用构建工具，才能使用SFC**
 
 # script、template、style的组合方式
