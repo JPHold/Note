@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
+                "file": "前端/Vue/Vue3/项目化/开发阶段/渐进式增强-配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
+                "file": "前端/Vue/Vue3/项目化/开发阶段/渐进式增强-配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/完整构建.md"
+                "file": "前端/Vue/Vue3/项目化/开发阶段/渐进式增强-配置.md"
               }
             }
           },
@@ -127,9 +127,9 @@
   },
   "active": "27a657c7850fb4c7",
   "lastOpenFiles": [
-    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
     "前端/Vue/Vue3/组件化/深入速查.md",
+    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
     "前端/Vue/Vue3/项目化/开发阶段/未命名",
     "前端/Vue/Vue3/组件化/基础速查.md",
