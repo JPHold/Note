@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "render",
+                "query": "20230320110624",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -128,6 +128,8 @@
   },
   "active": "27a657c7850fb4c7",
   "lastOpenFiles": [
+    "附件/Pasted image 20230320110702.png",
+    "附件/Pasted image 20230320110624.png",
     "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/渐进式增强-配置.md",
@@ -152,7 +154,6 @@
     "附件/Pasted image 20230309220433.png",
     "前端/Vue/Vue3/基础速查.md",
     "附件/Pasted image 20230309115403.png",
-    "附件/Pasted image 20230309112345.png",
     "前端/Vue/Vue2/组件/组件速查.md",
     "conflict-files-obsidian-git.md",
     "前端/Vue/Vue3/不懂.md",
