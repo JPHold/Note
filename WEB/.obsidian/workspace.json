@@ -6,7 +6,7 @@
       {
         "id": "a6ef8525b62e2e99",
         "type": "tabs",
-        "dimension": 71.31599684791175,
+        "dimension": 71.31599684791173,
         "children": [
           {
             "id": "5d625688b0f937c8",
@@ -26,7 +26,7 @@
       {
         "id": "b97701ca374c597c",
         "type": "tabs",
-        "dimension": 28.684003152088263,
+        "dimension": 28.68400315208826,
         "children": [
           {
             "id": "f9fe668f758a0814",
@@ -146,14 +146,15 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "f9fe668f758a0814",
+  "active": "5d625688b0f937c8",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
     "附件/Pasted image 20230321112017.png",
     "附件/Pasted image 20230321111733.png",
     "附件/Pasted image 20230321111546.png",
     "附件/Pasted image 20230321103536.png",
     "Pasted image 20230321103356.png.md",
-    "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
     "附件/Pasted image 20230321103356.png",
     "附件/Pasted image 20230321103319.png",
     "未命名 1.canvas",
@@ -161,8 +162,6 @@
     "附件/Pasted image 20230315163124.png",
     "附件/Pasted image 20230315230703.png",
     "附件/Pasted image 20230320110624.png",
-    "附件/Pasted image 20230318100010.png",
-    "未命名.canvas",
     "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue3/项目化/开发阶段/渐进式增强-配置.md",
     "前端/Vue/Vue3/组件化/深入速查.md",
