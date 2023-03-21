@@ -6,6 +6,7 @@
       {
         "id": "a6ef8525b62e2e99",
         "type": "tabs",
+        "dimension": 71.31599684791175,
         "children": [
           {
             "id": "5d625688b0f937c8",
@@ -17,7 +18,26 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "5f533b7de29a9369"
+          }
+        ]
+      },
+      {
+        "id": "b97701ca374c597c",
+        "type": "tabs",
+        "dimension": 28.684003152088263,
+        "children": [
+          {
+            "id": "f9fe668f758a0814",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "前端/Vue/Vue3/项目化/开发阶段/完整构建.md"
+              }
+            },
+            "group": "5f533b7de29a9369"
           }
         ]
       }
@@ -126,7 +146,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5d625688b0f937c8",
+  "active": "f9fe668f758a0814",
   "lastOpenFiles": [
     "附件/Pasted image 20230321112017.png",
     "附件/Pasted image 20230321111733.png",
