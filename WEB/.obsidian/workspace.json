@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db32793372a7dc9f",
+        "id": "a6ef8525b62e2e99",
         "type": "tabs",
         "children": [
           {
-            "id": "27a657c7850fb4c7",
+            "id": "5d625688b0f937c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "20230321102433",
+                "query": "file:20230321103319",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,9 +125,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "27a657c7850fb4c7",
+  "active": "5d625688b0f937c8",
   "lastOpenFiles": [
+    "附件/Pasted image 20230321103536.png",
+    "Pasted image 20230321103356.png.md",
     "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
+    "附件/Pasted image 20230321103356.png",
+    "附件/Pasted image 20230321103319.png",
     "未命名 1.canvas",
     "附件/Pasted image 20230320110702.png",
     "附件/Pasted image 20230315163124.png",
@@ -149,10 +153,8 @@
     "前端/Vue/Vue3/项目化/SFC",
     "前端/Vue/Vue3/项目化/生产阶段/渐进式增强-配置.md",
     "附件/Pasted image 20230315232102.png",
-    "附件/Pasted image 20230315163051.png",
     "前端/Vue/Vue3/插件/深入速查.md",
     "前端/Vue/Vue3/插件",
-    "附件/Pasted image 20230310132001.png",
     "前端/Vue/Vue3/基础速查.md",
     "前端/Vue/Vue2/组件/组件速查.md",
     "conflict-files-obsidian-git.md",
