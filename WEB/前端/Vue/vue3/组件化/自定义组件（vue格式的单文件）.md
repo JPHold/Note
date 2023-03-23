@@ -5,7 +5,7 @@
 | Single File component（简称：SFC）                                                                                  | **需要使用构建工具，才能使用SFC** |
 | 利用[@vue/compiler-sfc](https://github.com/vuejs/core/tree/main/packages/compiler-sfc)预编译成标准的JavaScript和css |                                   |
 | [语法](https://cn.vuejs.org/api/sfc-spec.html)                                                                      |                                   |
-| 除了`<template>、<script>、<style>`外，支持自定义语法块                                                                 | 跟插件相关                                   |
+| 除了`<template>、<script>、<style>`外，支持自定义语法块                                                                 | 跟插件相关，**官方的文档并没有讲解很详细，无法看到效果**                                   |
 
 
 # script、template、style的组合方式
