@@ -145,8 +145,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5d625688b0f937c8",
+  "active": "f07e26de8367cd0d",
   "lastOpenFiles": [
+    "前端/Vue/Vue-Router",
     "前端/Vue/Vue3/组件化/深入速查.md",
     "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
     "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
