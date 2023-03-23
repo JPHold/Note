@@ -2,23 +2,25 @@
 
 | 特性                                                                                                                | 描述                              |
 | ------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| Single File component（简称：SFC）                                                                                  | **需要使用构建工具，才能使用SFC** |
+| Single File component（简称：SFC）                                                                                  | **需要使用构建工具，才能使用SFC**。[语法](https://cn.vuejs.org/api/sfc-spec.html)    |
 | 利用[@vue/compiler-sfc](https://github.com/vuejs/core/tree/main/packages/compiler-sfc)预编译成标准的JavaScript和css |                                   |
-| [语法](https://cn.vuejs.org/api/sfc-spec.html)                                                                      |                                   |
-| 除了`<template>、<script>、<style>`外，支持自定义语法块                                                                 | 跟插件相关，**官方的文档并没有讲解很详细，无法看到效果**                                   |
+| 除了`<template>、<script>、<style>`外，支持自定义语法块                                                                 | [使用vite框架的插件辅助](https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue#example-for-transforming-custom-blocks)，**官方的文档并没有讲解很详细，无法看到效果**                                   |
+
+# 编写方式
+
+## script、template、style的组合方式
+
+### 都放在一个.vue文件里（不复用）
 
 
-# script、template、style的组合方式
-
-## 都放在一个.vue文件里
-
-## 分开存放，再导入
+### 分开存放，再导入（复用）
+跟以前无框架，一个个导入js、css一样
 [资源导入](https://cn.vuejs.org/api/sfc-spec.html#src-imports)
 
 
 
-# API书写方式
-## 选项式（实例-属性）
+## API书写方式
+### 选项式（实例-属性）
 基于[[#组合式（直接按以前js的书写方式）]]，只是做了层封装
 
 ```js
@@ -53,7 +55,7 @@ export default {
 </template>
 ```
 
-## 组合式（直接按以前js的书写方式）
+### 组合式（直接按以前js的书写方式）
 使用了import，将vue.js的函数导入使用
 
 ```js
@@ -79,7 +81,7 @@ onMounted(() => {
 </template>
 ```
 
-## 如何选择
+### 如何选择
 使用[[#选项式（实例-属性）]]
 1. 初学者
 2. 只是用vue当作辅助，做渐进式增强
