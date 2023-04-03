@@ -9,17 +9,16 @@
         "dimension": 80.23255813953489,
         "children": [
           {
-            "id": "7950fbd0543b7f97",
+            "id": "39bf86f414896bbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
+                "file": "前端/Vue/Vue3/项目化/开发阶段/生产部署.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "fc8e570d220c9fde"
+            }
           }
         ]
       },
@@ -34,10 +33,9 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/完整构建.md"
+                "file": "前端/Vue/Vue3/项目化/开发阶段/生产部署.md"
               }
-            },
-            "group": "fc8e570d220c9fde"
+            }
           }
         ]
       }
@@ -68,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "心智",
+                "query": "errorHandler",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +75,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
+                "file": "前端/Vue/Vue3/项目化/开发阶段/生产部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/完整构建.md"
+                "file": "前端/Vue/Vue3/项目化/开发阶段/生产部署.md"
               }
             }
           },
@@ -146,8 +143,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "f89708d289782348",
+  "active": "39bf86f414896bbc",
   "lastOpenFiles": [
+    "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
+    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
+    "前端/Vue/Vue3/项目化/开发阶段/渐进式增强-配置.md",
+    "前端/Vue/Vue3/项目化/开发阶段/生产部署.md",
+    "前端/Vue/Vue3/项目化/生产阶段/渐进式增强-配置.md",
     "附件/Pasted image 20230403192036.png",
     "附件/Pasted image 20230403191609.png",
     "附件/Pasted image 20230326110255.png",
@@ -155,7 +157,6 @@
     "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
     "前端/Vue/Vue-Router",
-    "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
     "未命名.canvas",
     "附件/Pasted image 20230321112017.png",
     "附件/Pasted image 20230321111733.png",
@@ -166,15 +167,11 @@
     "附件/Pasted image 20230321103319.png",
     "未命名 1.canvas",
     "附件/Pasted image 20230320110702.png",
-    "附件/Pasted image 20230315163124.png",
-    "前端/Vue/Vue3/项目化/开发阶段/渐进式增强-配置.md",
-    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/未命名",
     "前端/Vue/Vue3/组件化/基础速查.md",
     "前端/Vue/Vue3/项目化/SFC/深入速查.md",
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/项目化/SFC",
-    "前端/Vue/Vue3/项目化/生产阶段/渐进式增强-配置.md",
     "前端/Vue/Vue3/插件/深入速查.md",
     "前端/Vue/Vue3/插件",
     "前端/Vue/Vue3/基础速查.md",
