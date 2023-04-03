@@ -14,13 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/生产部署.md",
+                "file": "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "640c788697d00fa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "03b5e807a6894e98",
@@ -33,7 +46,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/生产部署.md"
+                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md"
               }
             }
           }
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/生产部署.md",
+                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/生产部署.md"
+                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md"
               }
             }
           },
@@ -143,12 +156,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "39bf86f414896bbc",
+  "active": "640c788697d00fa9",
   "lastOpenFiles": [
-    "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
-    "前端/Vue/Vue3/项目化/开发阶段/渐进式增强-配置.md",
-    "前端/Vue/Vue3/项目化/开发阶段/生产部署.md",
+    "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
+    "前端/Vue/Vue3/项目化/开发阶段/2、生产部署.md",
+    "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
+    "前端/Vue/Vue3/项目化/开发阶段/1、渐进式增强-配置.md",
     "前端/Vue/Vue3/项目化/生产阶段/渐进式增强-配置.md",
     "附件/Pasted image 20230403192036.png",
     "附件/Pasted image 20230403191609.png",
