@@ -6,7 +6,7 @@
       {
         "id": "a6ef8525b62e2e99",
         "type": "tabs",
-        "dimension": 70.47244094488188,
+        "dimension": 71.18110236220473,
         "children": [
           {
             "id": "5d625688b0f937c8",
@@ -18,22 +18,26 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "43d29eaa992a8d28"
           }
         ]
       },
       {
-        "id": "d4c9dbd1280b2de9",
+        "id": "9714c283e28aec35",
         "type": "tabs",
-        "dimension": 29.527559055118108,
+        "dimension": 28.818897637795278,
         "children": [
           {
-            "id": "7950fbd0543b7f97",
+            "id": "d71620e84c01398c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
+              "type": "outline",
+              "state": {
+                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md"
+              }
+            },
+            "group": "43d29eaa992a8d28"
           }
         ]
       }
@@ -142,7 +146,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5d625688b0f937c8",
+  "active": "f07e26de8367cd0d",
   "lastOpenFiles": [
     "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
     "前端/Vue/Vue3/项目化/开发阶段/2、生产部署.md",
