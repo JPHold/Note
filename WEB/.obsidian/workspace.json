@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
+                "file": "前端/Vue/Vue3/组件化/深入速查.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,7 +46,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md"
+                "file": "前端/Vue/Vue3/组件化/深入速查.md"
               }
             }
           }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
+                "file": "前端/Vue/Vue3/组件化/深入速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md"
+                "file": "前端/Vue/Vue3/组件化/深入速查.md"
               }
             }
           },
@@ -158,9 +158,10 @@
   },
   "active": "640c788697d00fa9",
   "lastOpenFiles": [
+    "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/项目化/开发阶段/4、安全.md",
-    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
+    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/2、生产部署.md",
     "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/1、渐进式增强-配置.md",
@@ -185,7 +186,6 @@
     "前端/Vue/Vue3/项目化/开发阶段/未命名",
     "前端/Vue/Vue3/组件化/基础速查.md",
     "前端/Vue/Vue3/项目化/SFC/深入速查.md",
-    "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/项目化/SFC",
     "前端/Vue/Vue3/插件/深入速查.md",
     "前端/Vue/Vue3/插件",
