@@ -4,29 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "d4c9dbd1280b2de9",
+        "id": "a6ef8525b62e2e99",
         "type": "tabs",
-        "dimension": 80.23255813953489,
+        "dimension": 71.18110236220473,
         "children": [
           {
-            "id": "39bf86f414896bbc",
+            "id": "5d625688b0f937c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
+                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "43d29eaa992a8d28"
           },
           {
-            "id": "640c788697d00fa9",
+            "id": "1864d40e01aebccb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md",
+                "file": "前端/Vue/Vue3/基础速查.md",
                 "mode": "source",
                 "source": false
               }
@@ -36,19 +37,20 @@
         "currentTab": 1
       },
       {
-        "id": "03b5e807a6894e98",
+        "id": "9714c283e28aec35",
         "type": "tabs",
-        "dimension": 19.767441860465116,
+        "dimension": 28.818897637795274,
         "children": [
           {
-            "id": "d7af48543f83d7bc",
+            "id": "d71620e84c01398c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md"
+                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md"
               }
-            }
+            },
+            "group": "43d29eaa992a8d28"
           }
         ]
       }
@@ -79,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "errorHandler",
+                "query": "SSR",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md",
+                "file": "前端/Vue/Vue3/基础速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md"
+                "file": "前端/Vue/Vue3/基础速查.md"
               }
             }
           },
@@ -156,18 +158,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "640c788697d00fa9",
+  "active": "1864d40e01aebccb",
   "lastOpenFiles": [
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/项目化/开发阶段/4、安全.md",
     "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
-    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/2、生产部署.md",
-    "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
-    "前端/Vue/Vue3/项目化/开发阶段/1、渐进式增强-配置.md",
-    "前端/Vue/Vue3/项目化/生产阶段/渐进式增强-配置.md",
+    "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
     "附件/Pasted image 20230403192036.png",
     "附件/Pasted image 20230403191609.png",
+    "前端/Vue/Vue3/项目化/开发阶段/1、渐进式增强-配置.md",
+    "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
     "附件/Pasted image 20230326110255.png",
     "前端/Vue/Vue3/组件化/深入速查.md",
     "前端/Vue/Vue2/基础速查.md",
@@ -183,10 +184,13 @@
     "附件/Pasted image 20230321103319.png",
     "未命名 1.canvas",
     "附件/Pasted image 20230320110702.png",
+    "前端/Vue/Vue3/项目化/开发阶段/渐进式增强-配置.md",
+    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/未命名",
     "前端/Vue/Vue3/组件化/基础速查.md",
     "前端/Vue/Vue3/项目化/SFC/深入速查.md",
     "前端/Vue/Vue3/项目化/SFC",
+    "前端/Vue/Vue3/项目化/生产阶段/渐进式增强-配置.md",
     "前端/Vue/Vue3/插件/深入速查.md",
     "前端/Vue/Vue3/插件",
     "前端/Vue/Vue3/基础速查.md",
