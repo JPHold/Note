@@ -11,28 +11,8 @@
             "id": "5d625688b0f937c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "8926bc13c5227b09",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8c486ea85e8cc48c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "前端/Vue/Vue3/组件化/深入速查.md"
-              }
+              "state": {}
             }
           },
           {
@@ -141,13 +118,16 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5d625688b0f937c8",
+  "active": "f07e26de8367cd0d",
   "lastOpenFiles": [
+    "附件/vue/Drawing 2023-04-13 23.08.47.excalidraw.md",
+    "附件/vue/未命名.canvas",
+    "前端/Vue/Vue3/组件化/深入速查.md",
+    "附件/vue",
     "前端/Vue/Vue3/响应式/深入速查.md",
     "前端/Vue/Vue3/原理/渲染深入速查.md",
     "前端/Vue/Vue3/原理/响应深入速查.md",
     "前端/Vue/Vue3/原理",
-    "前端/Vue/Vue3/组件化/深入速查.md",
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/响应式",
     "前端/Vue/Vue3/项目化/开发阶段/4、安全.md",
@@ -184,7 +164,6 @@
     "前端/Vue/Vue3/插件",
     "前端/Vue/Vue2/组件/组件速查.md",
     "conflict-files-obsidian-git.md",
-    "前端/Vue/Vue3/不懂.md",
-    "reactiveccc.md"
+    "前端/Vue/Vue3/不懂.md"
   ]
 }
