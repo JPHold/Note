@@ -4,17 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d4c9dbd1280b2de9",
+        "id": "a6ef8525b62e2e99",
         "type": "tabs",
-        "dimension": 80.23255813953489,
         "children": [
           {
-            "id": "6e8cb86bd6941ed1",
+            "id": "5d625688b0f937c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
+                "file": "前端/Vue/Vue3/组件化/深入速查.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,17 +22,16 @@
         ]
       },
       {
-        "id": "03b5e807a6894e98",
+        "id": "8926bc13c5227b09",
         "type": "tabs",
-        "dimension": 19.767441860465116,
         "children": [
           {
-            "id": "d7af48543f83d7bc",
+            "id": "8c486ea85e8cc48c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md"
+                "file": "前端/Vue/Vue3/组件化/深入速查.md"
               }
             }
           }
@@ -66,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "虚拟DOM",
+                "query": "调试",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
+                "file": "前端/Vue/Vue3/组件化/深入速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md"
+                "file": "前端/Vue/Vue3/组件化/深入速查.md"
               }
             }
           },
@@ -143,22 +141,24 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "6e8cb86bd6941ed1",
+  "active": "5d625688b0f937c8",
   "lastOpenFiles": [
-    "前端/Vue/Vue3/原理/响应深入速查.md",
+    "前端/Vue/Vue3/响应式/深入速查.md",
     "前端/Vue/Vue3/原理/渲染深入速查.md",
-    "前端/Vue/Vue3/组件化/深入速查.md",
+    "前端/Vue/Vue3/原理/响应深入速查.md",
     "前端/Vue/Vue3/原理",
+    "前端/Vue/Vue3/组件化/深入速查.md",
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
+    "前端/Vue/Vue3/响应式",
     "前端/Vue/Vue3/项目化/开发阶段/4、安全.md",
     "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
-    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/2、生产部署.md",
-    "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
-    "前端/Vue/Vue3/项目化/开发阶段/1、渐进式增强-配置.md",
-    "前端/Vue/Vue3/项目化/生产阶段/渐进式增强-配置.md",
+    "前端/Vue/Vue3/基础速查.md",
+    "前端/Vue/Vue3/项目化/开发阶段/完整构建.md",
     "附件/Pasted image 20230403192036.png",
     "附件/Pasted image 20230403191609.png",
+    "前端/Vue/Vue3/项目化/开发阶段/1、渐进式增强-配置.md",
+    "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
     "附件/Pasted image 20230326110255.png",
     "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
@@ -173,13 +173,15 @@
     "附件/Pasted image 20230321103319.png",
     "未命名 1.canvas",
     "附件/Pasted image 20230320110702.png",
+    "前端/Vue/Vue3/项目化/开发阶段/渐进式增强-配置.md",
+    "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/未命名",
     "前端/Vue/Vue3/组件化/基础速查.md",
     "前端/Vue/Vue3/项目化/SFC/深入速查.md",
     "前端/Vue/Vue3/项目化/SFC",
+    "前端/Vue/Vue3/项目化/生产阶段/渐进式增强-配置.md",
     "前端/Vue/Vue3/插件/深入速查.md",
     "前端/Vue/Vue3/插件",
-    "前端/Vue/Vue3/基础速查.md",
     "前端/Vue/Vue2/组件/组件速查.md",
     "conflict-files-obsidian-git.md",
     "前端/Vue/Vue3/不懂.md",
