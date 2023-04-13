@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/原理/响应深入速查.md",
+                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/原理/响应深入速查.md"
+                "file": "前端/Vue/Vue3/原理/渲染深入速查.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/原理/响应深入速查.md",
+                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/原理/响应深入速查.md"
+                "file": "前端/Vue/Vue3/原理/渲染深入速查.md"
               }
             }
           },
@@ -145,8 +145,8 @@
   },
   "active": "6e8cb86bd6941ed1",
   "lastOpenFiles": [
-    "前端/Vue/Vue3/原理/渲染深入速查.md",
     "前端/Vue/Vue3/原理/响应深入速查.md",
+    "前端/Vue/Vue3/原理/渲染深入速查.md",
     "前端/Vue/Vue3/组件化/深入速查.md",
     "前端/Vue/Vue3/原理",
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
