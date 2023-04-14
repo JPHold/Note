@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue2/基础速查.md",
-                "mode": "preview",
+                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -70,8 +70,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue2/基础速查.md",
+                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue2/基础速查.md"
+                "file": "前端/Vue/Vue3/原理/渲染深入速查.md"
               }
             }
           },
@@ -141,7 +140,11 @@
   },
   "active": "0b6fba2b7f3b5fbf",
   "lastOpenFiles": [
+    "附件/Pasted image 20230414110608.png",
+    "附件/Pasted image 20230414110515.png",
+    "未命名.md",
     "前端/Vue/Vue3/原理/渲染深入速查.md",
+    "前端/Vue/Vue2/基础速查.md",
     "附件/vue/渲染流程.excalidraw.md",
     "附件/Pasted Image 20230414101855_946.png",
     "附件/vue/111.md",
@@ -160,7 +163,6 @@
     "附件/Pasted image 20230403192036.png",
     "附件/Pasted image 20230403191609.png",
     "附件/Pasted image 20230326110255.png",
-    "前端/Vue/Vue2/基础速查.md",
     "前端/Vue/Vue3/组件化/自定义组件（vue格式的单文件）.md",
     "前端/Vue/Vue-Router",
     "未命名.canvas",
@@ -170,7 +172,6 @@
     "附件/Pasted image 20230321103536.png",
     "Pasted image 20230321103356.png.md",
     "附件/Pasted image 20230321103356.png",
-    "附件/Pasted image 20230321103319.png",
     "未命名 1.canvas",
     "前端/Vue/Vue3/项目化/开发阶段/未命名",
     "前端/Vue/Vue3/组件化/基础速查.md",
