@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "d4c9dbd1280b2de9",
-        "type": "tabs",
-        "dimension": 80.23255813953489,
-        "children": [
-          {
-            "id": "6e8cb86bd6941ed1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "03b5e807a6894e98",
         "type": "tabs",
-        "dimension": 19.767441860465116,
         "children": [
           {
             "id": "d7af48543f83d7bc",
@@ -33,11 +13,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md"
+                "file": "附件/vue/111.md"
+              }
+            }
+          },
+          {
+            "id": "cecc85d135fe3616",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "附件/vue/111.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
+                "file": "附件/vue/111.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md"
+                "file": "附件/vue/111.md"
               }
             }
           },
@@ -143,12 +134,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "6e8cb86bd6941ed1",
+  "active": "f07e26de8367cd0d",
   "lastOpenFiles": [
-    "附件/vue/Drawing 2023-04-13 23.08.47.excalidraw.md",
+    "附件/vue/111.md",
+    "前端/Vue/Vue3/原理/渲染深入速查.md",
     "附件/vue",
     "前端/Vue/Vue3/原理/响应深入速查.md",
-    "前端/Vue/Vue3/原理/渲染深入速查.md",
     "前端/Vue/Vue3/组件化/深入速查.md",
     "前端/Vue/Vue3/原理",
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
