@@ -29,10 +29,28 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "c3816d25b594ffa2"
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "fe2f2d72506478c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6099c00da04d2c9f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "前端/Vue/Vue3/原理/渲染深入速查.md"
+              }
+            },
+            "group": "c3816d25b594ffa2"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,7 +156,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "0b6fba2b7f3b5fbf",
+  "active": "6099c00da04d2c9f",
   "lastOpenFiles": [
     "附件/Pasted image 20230414190050.png",
     "conflict-files-obsidian-git.md",
