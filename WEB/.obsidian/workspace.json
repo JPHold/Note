@@ -32,8 +32,7 @@
             },
             "group": "c3816d25b594ffa2"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "fe2f2d72506478c5",
@@ -79,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "render",
+                "query": "declaring-render-function",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +155,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "6099c00da04d2c9f",
+  "active": "f07e26de8367cd0d",
   "lastOpenFiles": [
     "附件/Pasted image 20230414190050.png",
     "conflict-files-obsidian-git.md",
