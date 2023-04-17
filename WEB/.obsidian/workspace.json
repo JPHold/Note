@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2a9b62c0ba2e07ea",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
             "id": "0b6fba2b7f3b5fbf",
             "type": "leaf",
             "state": {
@@ -72,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -93,7 +77,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,9 +92,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "未命名.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -141,7 +122,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2a9b62c0ba2e07ea",
+  "active": "f07e26de8367cd0d",
   "lastOpenFiles": [
     "前端/Vue/Vue3/组件化/深入速查.md",
     "未命名.canvas",
