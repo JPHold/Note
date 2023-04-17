@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
+                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
+                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md"
+                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md"
               }
             }
           },
@@ -144,9 +143,9 @@
   },
   "active": "29b5257f5fcd5068",
   "lastOpenFiles": [
+    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
     "Docker/Docker官网/Product manuals/2、Docker-Engine/4、安装后可选后续步骤.md",
-    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
     "Docker/最佳实践/Docker最佳实践.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/5、环境变量.md",
     "Docker/Docker官网/Product manuals/3、Docker-Compose/4、入门demo.md",
