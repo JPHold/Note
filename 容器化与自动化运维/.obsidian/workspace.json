@@ -122,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -140,7 +141,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "29b5257f5fcd5068",
+  "active": "c9eb632b5b45044a",
   "lastOpenFiles": [
     "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
     "Docker/最佳实践/Docker最佳实践.md",
