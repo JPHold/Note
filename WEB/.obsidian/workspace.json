@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
-                "mode": "source",
+                "file": "前端/Vue/Vue3/组件化/深入速查.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -29,25 +29,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "c3816d25b594ffa2"
-          }
-        ]
-      },
-      {
-        "id": "fe2f2d72506478c5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6099c00da04d2c9f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md"
-              }
-            },
-            "group": "c3816d25b594ffa2"
+            }
           }
         ]
       }
@@ -78,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "declaring-render-function",
+                "query": "Web Components",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -107,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
+                "file": "前端/Vue/Vue3/组件化/深入速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md"
+                "file": "前端/Vue/Vue3/组件化/深入速查.md"
               }
             }
           },
@@ -155,11 +138,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "f07e26de8367cd0d",
+  "active": "2a9b62c0ba2e07ea",
   "lastOpenFiles": [
+    "前端/Vue/Vue3/原理/渲染深入速查.md",
     "附件/Pasted image 20230414190050.png",
     "conflict-files-obsidian-git.md",
-    "前端/Vue/Vue3/原理/渲染深入速查.md",
     "附件/Pasted image 20230414110608.png",
     "附件/Pasted image 20230414110515.png",
     "未命名.md",
@@ -188,7 +171,6 @@
     "附件/Pasted image 20230321112017.png",
     "附件/Pasted image 20230321111733.png",
     "附件/Pasted image 20230321111546.png",
-    "附件/Pasted image 20230321103536.png",
     "Pasted image 20230321103356.png.md",
     "未命名 1.canvas",
     "前端/Vue/Vue3/项目化/开发阶段/未命名",
