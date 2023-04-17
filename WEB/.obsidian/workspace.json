@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
+                "file": "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b670fd9d084acd01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/Vue/Vue3/组件化/与Web Components集成.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac9a2822fe3ae879",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/Vue/Vue3/项目化/优化阶段/动画技巧.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -90,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md",
+                "file": "前端/Vue/Vue3/项目化/优化阶段/动画技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/原理/渲染深入速查.md"
+                "file": "前端/Vue/Vue3/项目化/优化阶段/动画技巧.md"
               }
             }
           },
@@ -138,11 +162,15 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "f07e26de8367cd0d",
+  "active": "ac9a2822fe3ae879",
   "lastOpenFiles": [
+    "前端/Vue/Vue3/组件化/与Web Components集成.md",
+    "前端/Vue/Vue3/项目化/优化阶段/动画技巧.md",
+    "前端/Vue/Vue3/项目化/优化阶段",
+    "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
+    "前端/Vue/Vue3/原理/渲染深入速查.md",
     "附件/Pasted image 20230414190050.png",
     "conflict-files-obsidian-git.md",
-    "前端/Vue/Vue3/原理/渲染深入速查.md",
     "附件/Pasted image 20230414110608.png",
     "附件/Pasted image 20230414110515.png",
     "未命名.md",
@@ -156,7 +184,6 @@
     "前端/Vue/Vue3/原理",
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/项目化/开发阶段/4、安全.md",
-    "前端/Vue/Vue3/项目化/开发阶段/3、性能优化.md",
     "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/2、生产部署.md",
     "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
@@ -171,7 +198,6 @@
     "附件/Pasted image 20230321112017.png",
     "附件/Pasted image 20230321111733.png",
     "附件/Pasted image 20230321111546.png",
-    "附件/Pasted image 20230321103536.png",
     "Pasted image 20230321103356.png.md",
     "未命名 1.canvas",
     "前端/Vue/Vue3/项目化/开发阶段/未命名",
@@ -182,7 +208,6 @@
     "前端/Vue/Vue3/插件",
     "前端/Vue/Vue3/基础速查.md",
     "前端/Vue/Vue2/组件/组件速查.md",
-    "前端/Vue/Vue3/不懂.md",
-    "reactiveccc.md"
+    "前端/Vue/Vue3/不懂.md"
   ]
 }
