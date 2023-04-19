@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
+                "file": "前端/Vue/Vue3/逻辑复用/深入速查.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
+                "file": "前端/Vue/Vue3/逻辑复用/深入速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md"
+                "file": "前端/Vue/Vue3/逻辑复用/深入速查.md"
               }
             }
           },
@@ -128,6 +128,8 @@
   },
   "active": "ac9a2822fe3ae879",
   "lastOpenFiles": [
+    "前端/Vue/Vue3/原理/响应深入速查.md",
+    "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
     "前端/Vue/Vue3/组件化/深入速查.md",
     "前端/Vue/Vue3/项目化/优化阶段/动画技巧.md",
     "前端/Vue/Vue3/组件化/与Web Components集成.md",
@@ -144,13 +146,11 @@
     "附件/Pasted Image 20230414101855_946.png",
     "附件/vue/111.md",
     "附件/vue",
-    "前端/Vue/Vue3/原理/响应深入速查.md",
     "前端/Vue/Vue3/原理",
     "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/项目化/开发阶段/4、安全.md",
     "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/2、生产部署.md",
-    "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/1、渐进式增强-配置.md",
     "前端/Vue/Vue3/项目化/生产阶段/渐进式增强-配置.md",
     "附件/Pasted image 20230403192036.png",
