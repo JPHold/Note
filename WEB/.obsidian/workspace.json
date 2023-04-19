@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/Vue3/逻辑复用/深入速查.md",
-                "mode": "source",
+                "file": "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "状态管理",
+                "query": "volar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/Vue3/逻辑复用/深入速查.md",
+                "file": "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/Vue3/逻辑复用/深入速查.md"
+                "file": "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md"
               }
             }
           },
@@ -128,6 +128,7 @@
   },
   "active": "ac9a2822fe3ae879",
   "lastOpenFiles": [
+    "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/原理/响应深入速查.md",
     "前端/Vue/Vue3/项目化/开发阶段/1、完整构建.md",
     "前端/Vue/Vue3/组件化/深入速查.md",
@@ -147,7 +148,6 @@
     "附件/vue/111.md",
     "附件/vue",
     "前端/Vue/Vue3/原理",
-    "前端/Vue/Vue3/逻辑复用/深入速查.md",
     "前端/Vue/Vue3/项目化/开发阶段/4、安全.md",
     "前端/Vue/Vue3/项目化/生产阶段/完整构建.md",
     "前端/Vue/Vue3/项目化/开发阶段/2、生产部署.md",
