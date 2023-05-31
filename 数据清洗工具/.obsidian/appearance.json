@@ -1,5 +1,6 @@
 {
   "baseFontSize": 18,
   "translucency": false,
-  "cssTheme": "Cybertron"
+  "cssTheme": "Cybertron",
+  "accentColor": ""
 }

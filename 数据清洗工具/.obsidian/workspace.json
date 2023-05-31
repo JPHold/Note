@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "51fbea0a267bd32f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e552385c6366e2c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fee4a6310f58dca4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bfd9e5a587c031be",
+    "type": "split",
+    "children": [
+      {
+        "id": "96c922a3b90ca3a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b121a4f301c4697",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fea701f631a88030",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "file:20210825183433",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7f602666783b45e2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e8161c92bf202eca",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 378.5042724609375
+  },
+  "right": {
+    "id": "0861b8cb3ef26819",
+    "type": "split",
+    "children": [
+      {
+        "id": "77078181c0e83c92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70afbc1178a94414",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "4567f7cf11a1bc38",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "c9eb632b5b45044a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ddb41c4ef8c2b5a1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "48a551153577392d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "08f584cdd2d15827",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "165ae935b1c963c0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.3130798339844,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "random-note:开始漫游笔记": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open this week": false
+    }
+  },
+  "active": "8b121a4f301c4697",
+  "lastOpenFiles": [
+    "附件/未命名/docker部署",
+    "附件/未命名",
+    "附件/未命名/docker部署/kettle.tar.gz",
+    "附件/HiromuHota pentaho-kettle/docker部署/simple-jndi/jdbc.properties",
+    "附件/HiromuHota pentaho-kettle/docker部署/lib/sqljdbc4-4.0.jar",
+    "附件/HiromuHota pentaho-kettle/docker部署/lib/ojdbc8.jar",
+    "附件/HiromuHota pentaho-kettle/docker部署/stop.sh",
+    "附件/HiromuHota pentaho-kettle/docker部署/start.sh",
+    "附件/HiromuHota pentaho-kettle/docker部署/simple-jndi",
+    "附件/HiromuHota pentaho-kettle/docker部署/save",
+    "附件/HiromuHota pentaho-kettle/docker部署/lib",
+    "ETL/KETTLE/Pentaho Server/未命名.md",
+    "ETL/KETTLE/Pentaho Data Integration/1、使用指南/1、资源库.md",
+    "ETL/KETTLE/扩展/web/HiromuHota pentaho-kettle/指南.md",
+    "ETL/KETTLE/扩展/HiromuHota pentaho-kettle(web)/未命名.md",
+    "ETL/KETTLE/Pentaho Data Integration/1、使用指南/未命名.md",
+    "ETL/KETTLE/Pentaho Data Integration/未命名.md",
+    "ETL/扩展/remote-manager-carte/2、指南.md",
+    "ETL/深入/1、源码编译.md",
+    "ETL/扩展/HiromuHota pentaho-kettle(web)/x、研究原理.md",
+    "待学习/周/2021-08(34).md"
+  ]
+}

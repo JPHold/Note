@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "cdb0465d3a23f6a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "1abe6dcbe4465e66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebe6b05c3b986e4e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3920c023249ed1d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "b17907e096f1fab7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5622339e485b706f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d21b833b232e32a4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f7d0803012004714",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "a609aa2b72ec6471",
+    "type": "split",
+    "children": [
+      {
+        "id": "6123be1259776897",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e3745790024ab9a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d8093d4710e6b7f1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4339efdc52532d51",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "672b68c39c635dec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "5622339e485b706f",
+  "lastOpenFiles": [
+    "KETTLE/深入/1、源码编译.md",
+    "KETTLE/扩展/HiromuHota pentaho-kettle(web)/1、概述.md",
+    "KETTLE/扩展/HiromuHota pentaho-kettle(web)/指南.md",
+    "KETTLE/扩展/HiromuHota pentaho-kettle(web)/x、研究原理.md",
+    "KETTLE/Pentaho Server/未命名.md",
+    "KETTLE/Pentaho Data Integration/1、使用指南/1、资源库.md"
+  ]
+}
