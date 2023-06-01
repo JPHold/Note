@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "51fbea0a267bd32f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3fb7d8097b08a26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29b5257f5fcd5068",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bfd9e5a587c031be",
+    "type": "split",
+    "children": [
+      {
+        "id": "96c922a3b90ca3a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b121a4f301c4697",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fea701f631a88030",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "开机启动",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e8161c92bf202eca",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270
+  },
+  "right": {
+    "id": "0861b8cb3ef26819",
+    "type": "split",
+    "children": [
+      {
+        "id": "77078181c0e83c92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70afbc1178a94414",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "4567f7cf11a1bc38",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c9eb632b5b45044a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md"
+              }
+            }
+          },
+          {
+            "id": "0a6e0008a1edb096",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.3130798339844
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "random-note:开始漫游笔记": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open this week": false
+    }
+  },
+  "active": "29b5257f5fcd5068",
+  "lastOpenFiles": [
+    "Docker/最佳实践/【附属】container-best-practices/【附属】容器最佳实践.md",
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/4、安装后可选后续步骤.md",
+    "Docker/最佳实践/Docker最佳实践.md",
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/5、环境变量.md",
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/4、入门demo.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理应用数据/6、在容器中存储数据/3、OverlayFS存储驱动程序.md",
+    "Docker/Docker官网/Product manuals/3、Docker-Compose/1、概述.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理应用数据/6、在容器中存储数据/2、选择驱动程序.md",
+    "重点/Docker重点.md",
+    "重点/Docker特性.md",
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/2、安装前的了解.md",
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/8、高级特性：Context.md",
+    "Docker/Docker官网/Product manuals/2、Docker-Engine/9、高级特性：scan.md",
+    "监控/promethues/x、FAQ.md",
+    "Docker/最佳实践/【附属】container-best-practices/4、创建镜像.md",
+    "Docker/生态/harbo/2、配置和启动.md",
+    "Docker/生态/harbo/1、总体流程.md",
+    "Docker/生态/harbo/3、harbor控制台使用.md",
+    "Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
+    "待学习/周/2021-09(38).md",
+    "待学习/周/2021-08(32).md",
+    "待学习/周/2021-07(29).md",
+    "未命名.md"
+  ]
+}

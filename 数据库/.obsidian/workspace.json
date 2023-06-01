@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cbae1fa5d82a8aed",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.4"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +143,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "da4bbf71db4abe80",
+  "active": "cbae1fa5d82a8aed",
   "lastOpenFiles": [
     "ORACLE/数据备份/数据泵/3、RAC集群的导出方式.md",
     "ORACLE/注意/注意点.md",
