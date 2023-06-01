@@ -11,12 +11,8 @@
             "id": "29b5257f5fcd5068",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -64,6 +60,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "8d045365ae0beef6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,9 +112,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Docker/Docker官网/Product manuals/2、Docker-Engine/3、每个发行版的安装.md"
-              }
+              "state": {}
             }
           },
           {
