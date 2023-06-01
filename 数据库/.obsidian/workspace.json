@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ORACLE/数据备份/数据泵/1、非集群的导出方式.md",
-                "mode": "preview",
+                "file": "ORACLE/数据备份/数据泵/2、导入.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ORACLE/数据备份/数据泵/1、非集群的导出方式.md",
+                "file": "ORACLE/数据备份/数据泵/2、导入.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,16 +105,17 @@
             }
           },
           {
-            "id": "9e359f82f26bd3d8",
+            "id": "6499860fc3dcfb05",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "ORACLE/数据备份/数据泵/1、非集群的导出方式.md"
+                "file": "ORACLE/数据备份/数据泵/2、导入.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -126,17 +127,20 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "da4bbf71db4abe80",
   "lastOpenFiles": [
+    "ORACLE/数据备份/数据泵/3、RAC集群的导出方式.md",
+    "ORACLE/注意/注意点.md",
     "ORACLE/数据备份/数据泵/2、导入.md",
     "ORACLE/数据备份/数据泵/1、非集群的导出方式.md",
     "ORACLE/语法/1、表空间、用户、存储大小.md",
     "1、基础SQL.md",
     "MYSQL/注意/注意点.md",
-    "ORACLE/注意/注意点.md",
     "ORACLE/语法/2、随机数.md",
     "数据备份/数据泵/2、导入.md",
     "数据备份/数据泵/1、非集群的导出方式.md",
