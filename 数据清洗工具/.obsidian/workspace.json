@@ -14,8 +14,19 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "7c6b24a026cc8140",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,6 +77,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "57b61c6ea79e5a08",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -167,7 +186,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "8b121a4f301c4697",
+  "active": "7c6b24a026cc8140",
   "lastOpenFiles": [
     "附件/未命名/docker部署",
     "附件/未命名",
