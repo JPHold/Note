@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ORACLE/数据备份/数据泵/2、导入.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbae1fa5d82a8aed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ORACLE/数据备份/数据泵/1、非集群的导出方式.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,6 +68,14 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "69983404653e06a9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -97,7 +118,7 @@
             }
           },
           {
-            "id": "9e359f82f26bd3d8",
+            "id": "6499860fc3dcfb05",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -106,20 +127,33 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "da4bbf71db4abe80",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open this week": false
+    }
+  },
+  "active": "cbae1fa5d82a8aed",
   "lastOpenFiles": [
     "ORACLE/数据备份/数据泵/2、导入.md",
+    "ORACLE/数据备份/数据泵/3、RAC集群的导出方式.md",
+    "ORACLE/注意/注意点.md",
     "ORACLE/数据备份/数据泵/1、非集群的导出方式.md",
     "ORACLE/语法/1、表空间、用户、存储大小.md",
     "1、基础SQL.md",
     "MYSQL/注意/注意点.md",
-    "ORACLE/注意/注意点.md",
     "ORACLE/语法/2、随机数.md",
     "数据备份/数据泵/2、导入.md",
     "数据备份/数据泵/1、非集群的导出方式.md",
