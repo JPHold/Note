@@ -11,8 +11,12 @@
             "id": "fee4a6310f58dca4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ETL/KETTLE/扩展/web/HiromuHota pentaho-kettle/x、研究原理.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -97,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ETL/KETTLE/扩展/web/HiromuHota pentaho-kettle/x、研究原理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ETL/KETTLE/扩展/web/HiromuHota pentaho-kettle/x、研究原理.md"
+              }
             }
           },
           {
@@ -175,7 +182,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "8b121a4f301c4697",
+  "active": "fee4a6310f58dca4",
   "lastOpenFiles": [
     "附件/未命名/docker部署",
     "附件/未命名",
