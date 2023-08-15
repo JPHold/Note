@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "容器化与自动化运维/Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
+                "file": "容器化与自动化运维/Docker/生态/harbo/1、总体流程.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "label",
+                "query": "curr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "容器化与自动化运维/Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
+                "file": "容器化与自动化运维/Docker/生态/harbo/1、总体流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,8 +113,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "795ccd67397e9a02",
+  "active": "7a2712b35b4e9320",
   "lastOpenFiles": [
+    "容器化与自动化运维/Docker/生态/harbo/2、配置和启动.md",
+    "容器化与自动化运维/场景落地/1、jenkins+docker+harbor+swarm正式环境部署.md",
+    "容器化与自动化运维/工具/完整DevOps.md",
+    "容器化与自动化运维/Docker/最佳实践/Docker最佳实践.md",
+    "容器化与自动化运维/场景落地/2、已运行的容器环境，修改日志清理策略，需重启docker.md",
+    "容器化与自动化运维/Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
     "数据库/ORACLE/数据备份/数据泵/2、导入.md"
   ]
 }
