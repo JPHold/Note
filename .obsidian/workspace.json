@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/ORACLE/数据备份/数据泵/2、导入.md",
+                "file": "容器化与自动化运维/Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/ORACLE/数据备份/数据泵/2、导入.md",
+                "file": "容器化与自动化运维/Docker/Docker官网/Guides/生产环境使用/管理容器/8、伸缩应用/3、其它文档/1、管理集群节点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +113,8 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "7a2712b35b4e9320",
-  "lastOpenFiles": []
+  "active": "795ccd67397e9a02",
+  "lastOpenFiles": [
+    "数据库/ORACLE/数据备份/数据泵/2、导入.md"
+  ]
 }
